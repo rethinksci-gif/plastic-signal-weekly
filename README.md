@@ -8,6 +8,18 @@ It tracks eight decision-focused pillars: market and business trends, sustainabl
 
 Each signal is translated into four editorial blocks: what changed, why it matters, practical implication, and a proportionate next action.
 
+## Sources and editorial selection
+
+Sixteen feeds combine direct publisher content with focused seven-day searches:
+
+- PlasticsToday: materials, applications, manufacturing and business; full article extraction when accessible.
+- Resource Recycling: recycled-material markets, policy and operations; full feed articles.
+- European Bioplastics: association announcements and policy positions, attributed to the association.
+- Nature polymer subject feed: original research abstracts and publication links.
+- Twelve targeted Google News searches: design, PCR, recycling, performance, emerging materials, resin markets, EU/US/China regulation, research, suppliers and industrialization. Official EU and US regulatory domains receive dedicated searches.
+
+Feeds were checked on 27 September 2026. Selection requires a relevance score of at least 5/10, keeps up to five items per pillar and 24 overall, and removes repeated coverage of the same event. The category is assigned from article content. Every issue begins with up to five takeaways from distinct covered pillars. Missing evidence is not filled in to reach a quota; resin prices require a sourced grade, region, unit and date.
+
 ## Run locally
 
 ```bash
@@ -25,4 +37,4 @@ uv run horizon --hours 168
 
 The scheduled GitHub Action runs every Sunday at 06:00 UTC, generates an English weekly brief from the previous 168 hours, and publishes the archive to GitHub Pages.
 
-基于 [Horizon](https://github.com/Thysrael/Horizon) 构建（MIT License）。
+Based on [Horizon](https://github.com/Thysrael/Horizon) and [AIM4R](https://github.com/rethinksci-gif/AIM4R) (MIT License).

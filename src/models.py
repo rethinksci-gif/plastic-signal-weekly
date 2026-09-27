@@ -62,6 +62,11 @@ class ContentAnalysis(BaseModel):
     reason: str
     summary: str
     tags: List[str] = Field(default_factory=list)
+    category: Optional[Literal[
+        "market-business", "sustainable-materials", "recycling-tech",
+        "material-performance", "future-materials", "supply-chain",
+        "regulation-compliance", "research-patents"
+    ]] = None
 
 
 class ArtifactSource(BaseModel):

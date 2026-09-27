@@ -13,3 +13,7 @@ Evaluate whether an item helps a materials, product, procurement, sustainability
 # Evaluation guidance
 
 Reward source quality, recency, quantified evidence, readiness level, scale, economics, regulatory certainty, and an explicit comparison baseline. Distinguish lab results from pilots, pilots from commercial plants, announced capacity from operating output, targets from audited results, and proposed rules from adopted law. Do not reward novelty by itself. Use three to five specific tags, including the polymer, process, geography, or regulation when known.
+
+The weekly audience also needs useful incremental developments. Score a concrete, relevant development with adequate supporting content at 5–6 even if it is early-stage or limited in scale. Do not require every item to be a breakthrough. Do not give a passing score solely to meet a quantity target; off-topic material, vague promotion and unsupported headlines remain below 5. If only a headline is supplied, do not infer technical results or commercial readiness.
+
+Assign exactly one `category` based on the central subject, ignoring the feed's default category: market-business (demand, design and value), sustainable-materials (PCR, bio-based materials and economics), recycling-tech (recycling and sorting processes), material-performance (properties and qualification), future-materials (emerging materials, AI and industrialization), supply-chain (capacity, sourcing, investment and suppliers), regulation-compliance (legislation and standards), or research-patents (original papers and patents).

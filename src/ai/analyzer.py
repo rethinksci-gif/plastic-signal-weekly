@@ -186,6 +186,10 @@ class ContentAnalyzer:
 
         if item.processing:
             item.processing.analysis = result
+            if profile.id == "plastic-intelligence" and result.category:
+                # General industry feeds cover several pillars: route by the
+                # article's subject rather than the feed's fallback category.
+                item.metadata["category"] = result.category
 
     @classmethod
     def _validate_analysis_response(

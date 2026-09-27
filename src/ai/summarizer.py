@@ -122,9 +122,11 @@ class DailySummarizer:
         self,
         profile_names: Optional[Dict[str, Dict[str, str]]] = None,
         profile_order: Optional[List[str]] = None,
+        category_names: Optional[Dict[str, str]] = None,
     ):
         self.profile_names = profile_names or {}
         self.profile_order = profile_order or []
+        self.category_names = category_names or {}
 
     @staticmethod
     def _profile_id(item: ContentItem) -> str:
@@ -149,13 +151,17 @@ class DailySummarizer:
     ) -> DailySummaryView:
         grouped_items: Dict[str, List[ContentItem]] = {}
         for item in items:
-            grouped_items.setdefault(self._profile_id(item), []).append(item)
+            group_id = self._profile_id(item)
+            if self.category_names:
+                group_id = item.metadata.get("category") or "other"
+            grouped_items.setdefault(group_id, []).append(item)
 
         ordered_groups = list(grouped_items.items())
-        if self.profile_order:
+        group_order = list(self.category_names) if self.category_names else self.profile_order
+        if group_order:
             order = {
                 profile_id: index
-                for index, profile_id in enumerate(self.profile_order)
+                for index, profile_id in enumerate(group_order)
             }
             ordered_groups = sorted(
                 ordered_groups,
@@ -195,7 +201,7 @@ class DailySummarizer:
                 SummaryGroupView(
                     profile_id=profile_id,
                     name=normalize_language(
-                        self.profile_name(profile_id, language), language
+                        self.category_names.get(profile_id, self.profile_name(profile_id, language)), language
                     ),
                     items=view_items,
                 )
@@ -241,6 +247,20 @@ class DailySummarizer:
         toc_sections = []
         body_sections = []
         view = self.build_view(items, language)
+        if self.category_names and language == "en":
+            # One leading signal per pillar keeps the overview broad. Reuse
+            # analyzed evidence rather than generating unsupported new claims.
+            leads = sorted(
+                (group.items[0] for group in view.groups),
+                key=lambda entry: float(entry.score) if entry.score != "?" else -1,
+                reverse=True,
+            )[:5]
+            header += "## Executive summary\n\n"
+            for lead in leads:
+                analysis = lead.item.processing.analysis if lead.item.processing else None
+                takeaway = analysis.summary if analysis else lead.title
+                header += f"- [{_escape_markdown(lead.title)}](#{lead.anchor_id}) — {_escape_markdown(takeaway)}\n"
+            header += "\n## In this issue\n\n"
         for group in view.groups:
             profile_name = _escape_markdown(group.name)
             if language == "zh":

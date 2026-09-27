@@ -171,13 +171,12 @@ class RSSScraper(BaseScraper):
         Returns:
             str: Extracted text content
         """
-        # Try different content fields
+        # Prefer the full article over a teaser when both are provided.
+        full_content = [part.get("value", "") for part in entry.get("content", [])]
+        if any(full_content):
+            return max(full_content, key=len)
         if "summary" in entry:
-            return entry.summary
+            return entry["summary"]
         if "description" in entry:
-            return entry.description
-        if "content" in entry and entry.content:
-            # content is usually a list
-            return entry.content[0].get("value", "")
-
+            return entry["description"]
         return ""

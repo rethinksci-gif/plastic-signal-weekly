@@ -297,6 +297,7 @@ class HorizonOrchestrator:
                 summarizer = DailySummarizer(
                     profile_names=self.profiles.names,
                     profile_order=self.config.digest.profile_order,
+                    category_names={key: group.name or key for key, group in self.config.digest.category_groups.items()},
                 )
                 summary = await summarizer.generate_summary(important_items, today, len(all_items), language=lang)
 

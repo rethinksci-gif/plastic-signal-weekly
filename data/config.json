@@ -1,34 +1,257 @@
 {
-  "ai": {"provider":"deepseek","provider_chain":null,"model":"deepseek-v4-flash","base_url":"https://api.deepseek.com","api_key_env":"DEEPSEEK_API_KEY","temperature":0.2,"max_tokens":8192,"throttle_sec":1,"analysis_concurrency":3,"enrichment_concurrency":2,"languages":["en"],"azure_endpoint_env":null,"api_version":null},
+  "ai": {
+    "provider": "deepseek",
+    "provider_chain": null,
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "temperature": 0.2,
+    "max_tokens": 8192,
+    "throttle_sec": 1,
+    "analysis_concurrency": 5,
+    "enrichment_concurrency": 2,
+    "languages": [
+      "en"
+    ],
+    "azure_endpoint_env": null,
+    "api_version": null
+  },
   "sources": {
     "github": [],
-    "hackernews": {"enabled":false,"fetch_top_stories":30,"min_score":100,"category":null,"profile":null},
+    "hackernews": {
+      "enabled": false,
+      "fetch_top_stories": 30,
+      "min_score": 100,
+      "category": null,
+      "profile": null
+    },
     "rss": [
-      {"name":"Market & Customer Value","url":"https://news.google.com/rss/search?q=%28plastics+market+OR+plastic+product+design+OR+recycled+plastic+consumer%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"market-business","profile":"plastic-intelligence"},
-      {"name":"Sustainable Materials","url":"https://news.google.com/rss/search?q=%28PCR+cost+OR+bio-based+polymer+OR+recyclate+virgin+resin+OR+lightweighting+plastics%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"sustainable-materials","profile":"plastic-intelligence"},
-      {"name":"Recycling Technology","url":"https://news.google.com/rss/search?q=%28mechanical+recycling+OR+chemical+recycling+OR+dissolution+recycling+OR+solvent-based+recycling%29+plastics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"recycling-tech","profile":"plastic-intelligence"},
-      {"name":"Material Performance","url":"https://news.google.com/rss/search?q=%28food-contact+recycled+plastic+OR+recycled+PP+OR+recycled+HDPE+OR+polymer+odor+UV+durability%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"material-performance","profile":"plastic-intelligence"},
-      {"name":"Future Materials","url":"https://news.google.com/rss/search?q=%28AI+materials+development+OR+smart+polymer+OR+self-healing+polymer+OR+renewable+feedstock+plastic%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"future-materials","profile":"plastic-intelligence"},
-      {"name":"Supply Chain & Feedstocks","url":"https://news.google.com/rss/search?q=%28resin+price+OR+recycled+plastic+supply+OR+plastic+sorting+technology+OR+polymer+supplier+acquisition%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"supply-chain","profile":"plastic-intelligence"},
-      {"name":"Regulation & Compliance","url":"https://news.google.com/rss/search?q=%28EU+PPWR+OR+ESPR+plastics+OR+Digital+Product+Passport+plastics+OR+PFAS+plastics+OR+ISCC+PLUS%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"regulation-compliance","profile":"plastic-intelligence"},
-      {"name":"Polymer Research","url":"https://rss.arxiv.org/rss/cond-mat.soft","enabled":true,"category":"research-patents","profile":"plastic-intelligence"},
-      {"name":"Plastics Research Search","url":"https://news.google.com/rss/search?q=%28polymer+degradation+OR+microplastic+release+OR+polymer+additives+OR+design+for+recycling%29+research+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"research-patents","profile":"plastic-intelligence"},
-      {"name":"Startups & Investment","url":"https://news.google.com/rss/search?q=%28plastic+innovation+startup+OR+recycling+startup+OR+biopolymer+funding+OR+chemical+recycling+investment%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"supply-chain","profile":"plastic-intelligence"}
+      {
+        "name": "PlasticsToday — industry and materials",
+        "url": "https://www.plasticstoday.com/rss.xml",
+        "category": "market-business",
+        "content_extractor": "trafilatura",
+        "enabled": true,
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "Resource Recycling — markets and policy",
+        "url": "https://www.resource-recycling.com/feed/",
+        "category": "supply-chain",
+        "enabled": true,
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "European Bioplastics — industry association",
+        "url": "https://www.european-bioplastics.org/feed/",
+        "category": "sustainable-materials",
+        "enabled": true,
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "Nature — polymer research",
+        "url": "https://www.nature.com/subjects/polymers.rss",
+        "category": "research-patents",
+        "enabled": true,
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "Customer value and product design",
+        "url": "https://news.google.com/rss/search?q=(%22recycled%20plastic%22%20design%20OR%20%22plastic%20packaging%22%20innovation)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "market-business",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "PCR and renewable materials",
+        "url": "https://news.google.com/rss/search?q=(%22recycled%20polypropylene%22%20OR%20%22recycled%20polyethylene%22%20OR%20%22bio-based%20polymer%22%20OR%20bioplastics)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "sustainable-materials",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "Recycling processes",
+        "url": "https://news.google.com/rss/search?q=(%22plastic%20recycling%22%20technology%20OR%20%22chemical%20recycling%22%20OR%20%22dissolution%20recycling%22)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "recycling-tech",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "Food contact and qualification",
+        "url": "https://news.google.com/rss/search?q=(%22food%20contact%22%20recycled%20OR%20%22recycled%20plastics%22%20additives%20OR%20%22polymer%22%20durability)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "material-performance",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "Emerging polymers and materials AI",
+        "url": "https://news.google.com/rss/search?q=(%22self-healing%20polymer%22%20OR%20%22AI%22%20%22polymer%22%20OR%20%22renewable%20feedstock%22%20plastics)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "future-materials",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "Resin markets and feedstock",
+        "url": "https://news.google.com/rss/search?q=(%22polypropylene%22%20prices%20OR%20%22polyethylene%22%20prices%20OR%20%22recycled%20PET%22%20supply%20OR%20%22plastic%20sorting%22)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "supply-chain",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "EU regulatory sources",
+        "url": "https://news.google.com/rss/search?q=((site%3Aeuropa.eu%20OR%20site%3Aecha.europa.eu)%20(plastics%20OR%20PPWR%20OR%20packaging%20OR%20PFAS))%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "regulation-compliance",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "US regulatory sources",
+        "url": "https://news.google.com/rss/search?q=((site%3Afda.gov%20OR%20site%3Aepa.gov%20OR%20site%3Aca.gov)%20(recycled%20plastics%20OR%20packaging%20OR%20EPR))%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "regulation-compliance",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "China plastics and packaging rules",
+        "url": "https://news.google.com/rss/search?q=(%22China%22%20%22plastics%22%20regulation%20OR%20%22China%22%20%22food%20contact%22)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "regulation-compliance",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "Polymer research and recycling evidence",
+        "url": "https://news.google.com/rss/search?q=(%22polymer%20recycling%22%20research%20OR%20%22microplastic%20release%22%20OR%20%22plastic%20degradation%22%20study)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "research-patents",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "Supplier and investment announcements",
+        "url": "https://news.google.com/rss/search?q=(%22recycling%20plant%22%20plastics%20OR%20%22biopolymer%22%20investment%20OR%20%22polymer%22%20partnership)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "supply-chain",
+        "profile": "plastic-intelligence"
+      },
+      {
+        "name": "Scale-up and faster validation",
+        "url": "https://news.google.com/rss/search?q=(%22injection%20molding%22%20simulation%20OR%20%22polymer%22%20%22digital%20twin%22%20OR%20%22plastic%22%20%22material%20qualification%22)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "future-materials",
+        "profile": "plastic-intelligence"
+      }
     ],
-    "reddit":{"enabled":false,"subreddits":[],"users":[],"fetch_comments":0},"telegram":{"enabled":false,"channels":[]},"twitter":null,"openbb":null,
-    "ossinsight":{"enabled":false,"period":"past_week","languages":["All"],"keywords":[],"min_stars":20,"max_items":10,"category":null,"profile":null},"gdelt":null,"google_news":null
+    "reddit": {
+      "enabled": false,
+      "subreddits": [],
+      "users": [],
+      "fetch_comments": 0
+    },
+    "telegram": {
+      "enabled": false,
+      "channels": []
+    },
+    "twitter": null,
+    "openbb": null,
+    "ossinsight": {
+      "enabled": false,
+      "period": "past_week",
+      "languages": [
+        "All"
+      ],
+      "keywords": [],
+      "min_stars": 20,
+      "max_items": 10,
+      "category": null,
+      "profile": null
+    },
+    "gdelt": null,
+    "google_news": null
   },
-  "collection":{"time_window_hours":168},
-  "digest":{"max_items":40,"category_groups":{
-    "market-business":{"name":"Market & Business Trends","limit":5,"categories":["market-business"]},
-    "sustainable-materials":{"name":"Sustainable Materials","limit":5,"categories":["sustainable-materials"]},
-    "recycling-tech":{"name":"Recycling Technologies","limit":5,"categories":["recycling-tech"]},
-    "material-performance":{"name":"Material Performance","limit":5,"categories":["material-performance"]},
-    "future-materials":{"name":"Future Materials & Emerging Technologies","limit":5,"categories":["future-materials"]},
-    "supply-chain":{"name":"Supply Chain & Feedstock Intelligence","limit":5,"categories":["supply-chain"]},
-    "regulation-compliance":{"name":"Regulations & Compliance","limit":5,"categories":["regulation-compliance"]},
-    "research-patents":{"name":"Research Papers & Patents","limit":5,"categories":["research-patents"]}
-  },"default_group":"other","default_group_limit":1,"profile_order":["plastic-intelligence"]},
-  "processing":{"profiles_dir":"profiles","default_profile":"plastic-intelligence","profile_settings":{"plastic-intelligence":{"threshold":6.0,"topic_dedup":true}}},
-  "display":{"icon_style":"emoji"},"extractors":{},"email":null,"webhook":{"enabled":false}
+  "collection": {
+    "time_window_hours": 168
+  },
+  "digest": {
+    "max_items": 24,
+    "category_groups": {
+      "market-business": {
+        "name": "Market & Business Trends",
+        "limit": 5,
+        "categories": [
+          "market-business"
+        ]
+      },
+      "sustainable-materials": {
+        "name": "Sustainable Materials",
+        "limit": 5,
+        "categories": [
+          "sustainable-materials"
+        ]
+      },
+      "recycling-tech": {
+        "name": "Recycling Technologies",
+        "limit": 5,
+        "categories": [
+          "recycling-tech"
+        ]
+      },
+      "material-performance": {
+        "name": "Material Performance",
+        "limit": 5,
+        "categories": [
+          "material-performance"
+        ]
+      },
+      "future-materials": {
+        "name": "Future Materials & Emerging Technologies",
+        "limit": 5,
+        "categories": [
+          "future-materials"
+        ]
+      },
+      "supply-chain": {
+        "name": "Supply Chain & Feedstock Intelligence",
+        "limit": 5,
+        "categories": [
+          "supply-chain"
+        ]
+      },
+      "regulation-compliance": {
+        "name": "Regulations & Compliance",
+        "limit": 5,
+        "categories": [
+          "regulation-compliance"
+        ]
+      },
+      "research-patents": {
+        "name": "Research Papers & Patents",
+        "limit": 5,
+        "categories": [
+          "research-patents"
+        ]
+      }
+    },
+    "default_group": "other",
+    "default_group_limit": 1,
+    "profile_order": [
+      "plastic-intelligence"
+    ]
+  },
+  "processing": {
+    "profiles_dir": "profiles",
+    "default_profile": "plastic-intelligence",
+    "profile_settings": {
+      "plastic-intelligence": {
+        "threshold": 5,
+        "topic_dedup": true
+      }
+    }
+  },
+  "display": {
+    "icon_style": "emoji"
+  },
+  "extractors": {},
+  "email": null,
+  "webhook": {
+    "enabled": false
+  }
 }

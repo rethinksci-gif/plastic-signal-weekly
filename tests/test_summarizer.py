@@ -60,6 +60,23 @@ def _make_item(idx: int) -> ContentItem:
     return item
 
 
+def test_weekly_pillars_and_executive_summary_preserve_sources():
+    items = [_make_item(1), _make_item(2)]
+    items[0].metadata["category"] = "research-patents"
+    items[1].metadata["category"] = "supply-chain"
+    summarizer = DailySummarizer(category_names={
+        "supply-chain": "Supply Chain & Feedstock Intelligence",
+        "research-patents": "Research Papers & Patents",
+    })
+    result = _run_async(summarizer.generate_summary(items, "2026-09-27", 12))
+    assert "## Executive summary" in result
+    assert result.index("## Supply Chain") < result.index("## Research Papers")
+    assert "(#item-research-patents-1)" in result
+    assert '<a id="item-research-patents-1"></a>' in result
+    assert "https://example.com/items/1" in result
+    assert "Summary for item 1." in result
+
+
 def test_generate_webhook_overview_lists_items_without_full_details():
     summarizer = DailySummarizer()
     items = [_make_item(1), _make_item(2)]
@@ -178,7 +195,7 @@ def test_generate_summary_groups_items_by_profile_with_heading_hierarchy():
         )
     )
 
-    assert result.count("# Horizon Daily") == 1
+    assert result.count("# Plastic Signal Weekly") == 1
     assert "## Technology News" in result
     assert "## Technology Blog" in result
     assert "### [Important Item 1]" in result

@@ -94,3 +94,11 @@ def test_unknown_extractor_name_ignored() -> None:
 
     assert len(items) == 1
     assert items[0].content == "Short summary from feed."
+
+
+def test_full_feed_article_is_preferred_over_teaser() -> None:
+    scraper = RSSScraper([], AsyncMock())
+    entry = {"summary": "A teaser.", "content": [{"value": "Full article with the actual evidence and limitations."}]}
+    assert scraper._extract_content(entry) == entry["content"][0]["value"]
+    entry["content"] = [{"value": ""}]
+    assert scraper._extract_content(entry) == "A teaser."

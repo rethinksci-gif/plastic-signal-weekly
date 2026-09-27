@@ -13,6 +13,9 @@ ANALYSIS_RULES = f"""You are a content curator evaluating an item under the supp
 
 
 def analysis_system_prompt(profile: LoadedProfile) -> str:
+    category_field = ''
+    if profile.id == "plastic-intelligence":
+        category_field = '\n  "category": "<one of: market-business, sustainable-materials, recycling-tech, material-performance, future-materials, supply-chain, regulation-compliance, research-patents>",'
     return f"""{ANALYSIS_RULES}
 
 # Profile policy
@@ -22,7 +25,7 @@ def analysis_system_prompt(profile: LoadedProfile) -> str:
 # Output contract
 
 Return valid JSON only:
-{{
+{{{category_field}
   "score": <number from 0 to 10>,
   "reason": "<concise explanation>",
   "summary": "<one-sentence summary>",
