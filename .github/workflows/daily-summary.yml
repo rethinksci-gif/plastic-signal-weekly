@@ -4,6 +4,9 @@ on:
   schedule:
     # GitHub scheduled workflows use UTC. Publish every Sunday at 06:00 UTC.
     - cron: '0 6 * * 0'
+  push:
+    # One-time bootstrap trigger. Normal content/code pushes do not run the AI pipeline.
+    paths: ['.github/first-run']
   workflow_dispatch:      # Allow manual trigger
 
 jobs:
