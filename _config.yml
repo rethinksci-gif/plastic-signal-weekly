@@ -1,0 +1,23 @@
+theme: jekyll-theme-cayman
+title: Plastic Signal Weekly
+description: Decision-ready intelligence for the plastics value chain
+baseurl: "/plastic-signal-weekly"
+url: "https://rethinksci-gif.github.io"
+
+# Build settings
+markdown: kramdown
+future: true # Allow future posts to be published
+plugins:
+  - jekyll-feed
+feed:
+  path: feed.xml
+exclude:
+  - ".github"
+  - "node_modules"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
