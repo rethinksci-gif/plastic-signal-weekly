@@ -47,6 +47,7 @@ data/mcp-runs/
 data/x_cookies_*.json
 
 docs/_posts/*.md
+!docs/_posts/2026-09-27-plastic-signal-issue-zero.md
 
 # Logs
 logs/*.log

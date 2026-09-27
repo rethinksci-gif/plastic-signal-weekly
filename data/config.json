@@ -1,251 +1,34 @@
 {
-  "ai": {
-    "provider": "deepseek",
-    "provider_chain": null,
-    "model": "deepseek-v4-flash",
-    "base_url": null,
-    "api_key_env": "DEEPSEEK_API_KEY",
-    "temperature": 0.3,
-    "max_tokens": 8192,
-    "throttle_sec": 0.0,
-    "analysis_concurrency": 2,
-    "enrichment_concurrency": 1,
-    "languages": [
-      "zh"
-    ],
-    "azure_endpoint_env": null,
-    "api_version": null
-  },
+  "ai": {"provider":"deepseek","provider_chain":null,"model":"deepseek-v4-flash","base_url":"https://api.deepseek.com","api_key_env":"DEEPSEEK_API_KEY","temperature":0.2,"max_tokens":8192,"throttle_sec":1,"analysis_concurrency":3,"enrichment_concurrency":2,"languages":["en"],"azure_endpoint_env":null,"api_version":null},
   "sources": {
     "github": [],
-    "hackernews": {
-      "enabled": false,
-      "fetch_top_stories": 30,
-      "min_score": 100,
-      "category": null,
-      "profile": null
-    },
+    "hackernews": {"enabled":false,"fetch_top_stories":30,"min_score":100,"category":null,"profile":null},
     "rss": [
-      {
-        "name": "arXiv Robotics",
-        "url": "https://rss.arxiv.org/rss/cs.RO",
-        "enabled": true,
-        "category": "embodied-ai",
-        "profile": "tech-blog"
-      },
-      {
-        "name": "IEEE Spectrum Robotics",
-        "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
-        "enabled": true,
-        "category": "embodied-ai",
-        "profile": null
-      },
-      {
-        "name": "News: Embodied AI",
-        "url": "https://news.google.com/rss/search?q=%22embodied+AI%22+OR+%22humanoid+robot%22+OR+%22vision-language-action%22+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "enabled": true,
-        "category": "embodied-ai",
-        "profile": null
-      },
-      {
-        "name": "arXiv Materials Science",
-        "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
-        "enabled": true,
-        "category": "mat-informatics",
-        "profile": "tech-blog"
-      },
-      {
-        "name": "News: Materials Informatics",
-        "url": "https://news.google.com/rss/search?q=%22materials+informatics%22+OR+%22self-driving+lab%22+OR+%22AI+materials+discovery%22+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "enabled": true,
-        "category": "mat-informatics",
-        "profile": null
-      },
-      {
-        "name": "arXiv Soft Matter",
-        "url": "https://rss.arxiv.org/rss/cond-mat.soft",
-        "enabled": true,
-        "category": "polymer-circular",
-        "profile": "tech-blog"
-      },
-      {
-        "name": "News: Circular Polymers",
-        "url": "https://news.google.com/rss/search?q=%22recycled+polypropylene%22+OR+%22chemical+recycling%22+OR+%22circular+polymer%22+OR+%22post-consumer+resin%22+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "enabled": true,
-        "category": "polymer-circular",
-        "profile": null
-      },
-      {
-        "name": "The Robot Report",
-        "url": "https://www.therobotreport.com/feed/",
-        "enabled": true,
-        "category": "manufacturing-ai",
-        "profile": null
-      },
-      {
-        "name": "News: Manufacturing AI",
-        "url": "https://news.google.com/rss/search?q=%22smart+manufacturing%22+AI+OR+%22additive+manufacturing%22+machine+learning+OR+%22industrial+automation%22+AI+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "enabled": true,
-        "category": "manufacturing-ai",
-        "profile": null
-      },
-      {
-        "name": "Robohub",
-        "url": "https://robohub.org/feed/",
-        "enabled": true,
-        "category": "manipulation",
-        "profile": null
-      },
-      {
-        "name": "News: Robot Manipulation",
-        "url": "https://news.google.com/rss/search?q=%22robotic+manipulation%22+OR+%22dexterous+grasping%22+OR+%22tactile+sensing%22+robot+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "enabled": true,
-        "category": "manipulation",
-        "profile": null
-      },
-      {
-        "name": "News: Material Foundation Models",
-        "url": "https://news.google.com/rss/search?q=%22foundation+model%22+materials+OR+%22interatomic+potential%22+OR+MatterGen+OR+%22Materials+Project%22+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "enabled": true,
-        "category": "mat-foundation",
-        "profile": null
-      },
-      {
-        "name": "arXiv ML for Science",
-        "url": "https://rss.arxiv.org/rss/physics.comp-ph",
-        "enabled": true,
-        "category": "mat-foundation",
-        "profile": "tech-blog"
-      }
+      {"name":"Market & Customer Value","url":"https://news.google.com/rss/search?q=%28plastics+market+OR+plastic+product+design+OR+recycled+plastic+consumer%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"market-business","profile":"plastic-intelligence"},
+      {"name":"Sustainable Materials","url":"https://news.google.com/rss/search?q=%28PCR+cost+OR+bio-based+polymer+OR+recyclate+virgin+resin+OR+lightweighting+plastics%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"sustainable-materials","profile":"plastic-intelligence"},
+      {"name":"Recycling Technology","url":"https://news.google.com/rss/search?q=%28mechanical+recycling+OR+chemical+recycling+OR+dissolution+recycling+OR+solvent-based+recycling%29+plastics+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"recycling-tech","profile":"plastic-intelligence"},
+      {"name":"Material Performance","url":"https://news.google.com/rss/search?q=%28food-contact+recycled+plastic+OR+recycled+PP+OR+recycled+HDPE+OR+polymer+odor+UV+durability%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"material-performance","profile":"plastic-intelligence"},
+      {"name":"Future Materials","url":"https://news.google.com/rss/search?q=%28AI+materials+development+OR+smart+polymer+OR+self-healing+polymer+OR+renewable+feedstock+plastic%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"future-materials","profile":"plastic-intelligence"},
+      {"name":"Supply Chain & Feedstocks","url":"https://news.google.com/rss/search?q=%28resin+price+OR+recycled+plastic+supply+OR+plastic+sorting+technology+OR+polymer+supplier+acquisition%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"supply-chain","profile":"plastic-intelligence"},
+      {"name":"Regulation & Compliance","url":"https://news.google.com/rss/search?q=%28EU+PPWR+OR+ESPR+plastics+OR+Digital+Product+Passport+plastics+OR+PFAS+plastics+OR+ISCC+PLUS%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"regulation-compliance","profile":"plastic-intelligence"},
+      {"name":"Polymer Research","url":"https://rss.arxiv.org/rss/cond-mat.soft","enabled":true,"category":"research-patents","profile":"plastic-intelligence"},
+      {"name":"Plastics Research Search","url":"https://news.google.com/rss/search?q=%28polymer+degradation+OR+microplastic+release+OR+polymer+additives+OR+design+for+recycling%29+research+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"research-patents","profile":"plastic-intelligence"},
+      {"name":"Startups & Investment","url":"https://news.google.com/rss/search?q=%28plastic+innovation+startup+OR+recycling+startup+OR+biopolymer+funding+OR+chemical+recycling+investment%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen","enabled":true,"category":"supply-chain","profile":"plastic-intelligence"}
     ],
-    "reddit": {
-      "enabled": true,
-      "subreddits": [
-        {
-          "subreddit": "robotics",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 20,
-          "category": "embodied-ai",
-          "profile": null
-        }
-      ],
-      "users": [],
-      "fetch_comments": 8
-    },
-    "telegram": {
-      "enabled": false,
-      "channels": []
-    },
-    "twitter": null,
-    "openbb": null,
-    "ossinsight": {
-      "enabled": true,
-      "period": "past_24_hours",
-      "languages": [
-        "All",
-        "Python"
-      ],
-      "keywords": [
-        "robot",
-        "material",
-        "molecul",
-        "chemistry",
-        "simulation",
-        "embodied",
-        "manipulation"
-      ],
-      "min_stars": 20,
-      "max_items": 15,
-      "category": "mat-foundation",
-      "profile": null
-    },
-    "gdelt": null,
-    "google_news": null
+    "reddit":{"enabled":false,"subreddits":[],"users":[],"fetch_comments":0},"telegram":{"enabled":false,"channels":[]},"twitter":null,"openbb":null,
+    "ossinsight":{"enabled":false,"period":"past_week","languages":["All"],"keywords":[],"min_stars":20,"max_items":10,"category":null,"profile":null},"gdelt":null,"google_news":null
   },
-  "collection": {
-    "time_window_hours": 168
-  },
-  "digest": {
-    "max_items": 36,
-    "category_groups": {
-      "embodied-ai": {
-        "name": "Embodied AI",
-        "limit": 8,
-        "categories": [
-          "embodied-ai"
-        ]
-      },
-      "mat-informatics": {
-        "name": "Material Informatics",
-        "limit": 6,
-        "categories": [
-          "mat-informatics"
-        ]
-      },
-      "polymer-circular": {
-        "name": "Polymer & Circular Materials",
-        "limit": 6,
-        "categories": [
-          "polymer-circular"
-        ]
-      },
-      "manufacturing-ai": {
-        "name": "Manufacturing AI",
-        "limit": 6,
-        "categories": [
-          "manufacturing-ai"
-        ]
-      },
-      "manipulation": {
-        "name": "Robot Manipulation",
-        "limit": 6,
-        "categories": [
-          "manipulation"
-        ]
-      },
-      "mat-foundation": {
-        "name": "Material Data & Foundation Models",
-        "limit": 6,
-        "categories": [
-          "mat-foundation"
-        ]
-      }
-    },
-    "default_group": "other",
-    "default_group_limit": 2,
-    "profile_order": [
-      "tech-news",
-      "tech-blog",
-      "finance-news"
-    ]
-  },
-  "processing": {
-    "profiles_dir": "profiles",
-    "default_profile": "tech-news",
-    "profile_settings": {
-      "tech-news": {
-        "threshold": 6.0,
-        "topic_dedup": true
-      },
-      "tech-blog": {
-        "threshold": 6.5,
-        "topic_dedup": true
-      },
-      "finance-news": {
-        "threshold": 7.0,
-        "topic_dedup": true
-      }
-    }
-  },
-  "display": {
-    "icon_style": "emoji"
-  },
-  "extractors": {},
-  "email": null,
-  "webhook": {
-    "enabled": false
-  }
+  "collection":{"time_window_hours":168},
+  "digest":{"max_items":40,"category_groups":{
+    "market-business":{"name":"Market & Business Trends","limit":5,"categories":["market-business"]},
+    "sustainable-materials":{"name":"Sustainable Materials","limit":5,"categories":["sustainable-materials"]},
+    "recycling-tech":{"name":"Recycling Technologies","limit":5,"categories":["recycling-tech"]},
+    "material-performance":{"name":"Material Performance","limit":5,"categories":["material-performance"]},
+    "future-materials":{"name":"Future Materials & Emerging Technologies","limit":5,"categories":["future-materials"]},
+    "supply-chain":{"name":"Supply Chain & Feedstock Intelligence","limit":5,"categories":["supply-chain"]},
+    "regulation-compliance":{"name":"Regulations & Compliance","limit":5,"categories":["regulation-compliance"]},
+    "research-patents":{"name":"Research Papers & Patents","limit":5,"categories":["research-patents"]}
+  },"default_group":"other","default_group_limit":1,"profile_order":["plastic-intelligence"]},
+  "processing":{"profiles_dir":"profiles","default_profile":"plastic-intelligence","profile_settings":{"plastic-intelligence":{"threshold":6.0,"topic_dedup":true}}},
+  "display":{"icon_style":"emoji"},"extractors":{},"email":null,"webhook":{"enabled":false}
 }

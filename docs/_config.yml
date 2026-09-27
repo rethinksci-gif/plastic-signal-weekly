@@ -1,8 +1,8 @@
 theme: jekyll-theme-cayman
-title: 我的具身智能日报
-description: 机器人 · 具身智能 · 材料前沿
-baseurl: "/AIM4R" # the subpath of your site, e.g. /blog
-url: "https://rethinksci-gif.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: Plastic Signal Weekly
+description: Decision-ready intelligence for the plastics value chain
+baseurl: "/plastic-signal-weekly"
+url: "https://rethinksci-gif.github.io"
 
 # Build settings
 markdown: kramdown

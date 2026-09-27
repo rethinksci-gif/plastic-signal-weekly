@@ -1,10 +1,9 @@
-name: Daily Horizon Summary
+name: Plastic Signal Weekly
 
 on:
   schedule:
-    # GitHub scheduled workflows use UTC. 20:00 UTC is 04:00 Asia/Shanghai;
-    # this intentionally runs early to offset the observed schedule delay.
-    - cron: '0 23 * * 0'
+    # GitHub scheduled workflows use UTC. Publish every Sunday at 06:00 UTC.
+    - cron: '0 6 * * 0'
   workflow_dispatch:      # Allow manual trigger
 
 jobs:
@@ -33,7 +32,7 @@ jobs:
       - name: Prepare GitHub Actions config
         run: cp data/config.github.json data/config.json
 
-      - name: Run Horizon
+      - name: Build weekly plastics intelligence brief
         env:
           # Map secrets to environment variables expected by config.json
           # Modify these based on your data/config.github.json provider settings
@@ -42,7 +41,7 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           LWN_KEY: ${{ secrets.LWN_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: uv run horizon --hours 24
+        run: uv run horizon --hours 168
 
       - name: Set current date as environment variable
         run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
@@ -53,6 +52,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           keep_files: true  # Keep existing summaries on gh-pages branch
-          commit_message: "📝 Daily Summary: ${{ env.DATE }}"
+          commit_message: "🧪 Plastic Signal Weekly: ${{ env.DATE }}"
           publish_branch: gh-pages
           enable_jekyll: true

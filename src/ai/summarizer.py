@@ -49,17 +49,17 @@ def _pangu(text: str) -> str:
 
 LABELS = {
     "en": {
-        "header": "Horizon Daily",
+        "header": "Plastic Signal Weekly",
         "source": "Source",
         "background": "Background",
         "discussion": "Discussion",
         "references": "References",
         "tags": "Tags",
-        "selected_items": "From {total} items, {selected} important content pieces were selected",
-        "empty_analyzed": "Analyzed {total} items, but none met the importance threshold.",
+        "selected_items": "From {total} signals, {selected} decision-relevant items were selected",
+        "empty_analyzed": "Analyzed {total} signals, but none met the decision-relevance threshold.",
         "empty_body": (
-            "No significant developments today. This might indicate:\n"
-            "- A quiet day in your tracked sources\n"
+            "No significant developments this week. This might indicate:\n"
+            "- A quiet week in your tracked sources\n"
             "- The AI score threshold is too high\n"
             "- Your information sources need expansion\n\n"
             "Consider:\n"
@@ -69,7 +69,7 @@ LABELS = {
         ),
     },
     "zh": {
-        "header": "Horizon 每日速递",
+        "header": "塑料产业情报周报",
         "source": "来源",
         "background": "背景",
         "discussion": "社区讨论",

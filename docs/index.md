@@ -1,52 +1,71 @@
 ---
 layout: default
-title: 我的具身智能日报
+title: Plastic Signal Weekly
 ---
 
-# Horizon
+<section class="signal-hero">
+  <div class="eyebrow"><span class="live-dot"></span> WEEKLY MATERIAL INTELLIGENCE</div>
+  <h1>See the shift<br><em>before it scales.</em></h1>
+  <p class="hero-copy">A decision brief for people building the next generation of plastic products. Markets, materials, regulation and research—filtered for consequence, not volume.</p>
+  <div class="hero-actions">
+    <a class="primary-action" href="#latest">Read the latest issue <span>→</span></a>
+    <a class="text-action" href="{{ '/feed-en.xml' | relative_url }}">Subscribe via RSS</a>
+  </div>
+  <div class="edition-stamp"><strong>WEEK 39</strong><span>8 intelligence pillars</span><span>~7 min read</span></div>
+</section>
 
-<div id="lang-zh" class="lang-section" markdown="1">
+<section class="signal-bar" aria-label="Newsletter promise">
+  <span>NO HYPE</span><i></i><span>SOURCE-LED</span><i></i><span>DECISION-READY</span><i></i><span>EVERY MONDAY</span>
+</section>
 
-每日自动聚合机器人、具身智能与材料方向的前沿信息。
+<section class="editorial-intro">
+  <div class="section-number">01 / THE BRIEF</div>
+  <div>
+    <h2>Not more plastics news.<br>Better signals.</h2>
+    <p>Every item answers four questions: <strong>What changed?</strong> Why does it matter? What is the practical implication? What should a team examine next?</p>
+  </div>
+</section>
 
+<section class="pillar-section">
+  <div class="section-number">02 / SIGNAL MAP</div>
+  <div class="pillar-grid">
+    <article><b>01</b><h3>Market &<br>Business</h3><p>Demand, customer value, design and differentiation.</p></article>
+    <article><b>02</b><h3>Sustainable<br>Materials</h3><p>PCR economics, bio-based feedstocks and efficiency.</p></article>
+    <article><b>03</b><h3>Recycling<br>Technology</h3><p>Mechanical, chemical, dissolution and sorting.</p></article>
+    <article><b>04</b><h3>Material<br>Performance</h3><p>Food contact, durability, additives and qualification.</p></article>
+    <article><b>05</b><h3>Future<br>Materials</h3><p>AI discovery, smart polymers and renewable carbon.</p></article>
+    <article><b>06</b><h3>Supply &<br>Feedstocks</h3><p>Pricing, availability, traceability and supplier moves.</p></article>
+    <article><b>07</b><h3>Regulation &<br>Compliance</h3><p>PPWR, ESPR, REACH, PFAS, EPR and standards.</p></article>
+    <article><b>08</b><h3>Research &<br>Patents</h3><p>Evidence that can survive the jump from lab to line.</p></article>
+  </div>
+</section>
 
+<section id="latest" class="latest-section">
+  <div class="section-number">03 / LATEST</div>
+  <div class="latest-header"><h2>The weekly file</h2><p>Markets to molecules, in one scan.</p></div>
+  <div class="issue-list">
+    {% assign plastic_posts = site.posts | where: "newsletter", "plastics" %}
+    {% for post in plastic_posts limit:12 %}
+      <a class="issue-row" href="{{ post.url | relative_url }}">
+        <span class="issue-date">{{ post.date | date: "%d %b %Y" }}</span>
+        <span class="issue-title">{{ post.title }}</span>
+        <span class="issue-arrow">↗</span>
+      </a>
+    {% else %}
+      <div class="issue-empty"><strong>First issue is being assembled.</strong><span>The automation is configured and ready for its first weekly run.</span></div>
+    {% endfor %}
+  </div>
+</section>
 
-## 每日速递 <a class="rss-icon" href="{{ '/feed-zh.xml' | relative_url }}" aria-label="订阅中文"><svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"/></svg></a>
+<section class="method-section">
+  <div class="section-number">04 / METHOD</div>
+  <div class="method-copy"><h2>Forty signals in.<br>Five decisions out.</h2></div>
+  <ol>
+    <li><b>01</b><span><strong>Collect</strong>News, papers, regulatory sources and supplier announcements.</span></li>
+    <li><b>02</b><span><strong>Challenge</strong>Separate evidence from claims, pilots from commercial reality.</span></li>
+    <li><b>03</b><span><strong>Translate</strong>Connect each signal to cost, performance, compliance or growth.</span></li>
+    <li><b>04</b><span><strong>Act</strong>Close with one proportionate next step for the relevant team.</span></li>
+  </ol>
+</section>
 
-<ul>
-  {% assign zh_posts = site.posts | where: "lang", "zh" %}
-  {% for post in zh_posts limit:20 %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }}</a>
-    </li>
-  {% else %}
-    <li><em>暂无内容</em></li>
-  {% endfor %}
-</ul>
-
-</div>
-
-<div id="lang-en" class="lang-section" markdown="1">
-
-Welcome to [Horizon](https://github.com/thysrael/Horizon), an AI-driven information aggregation system.
-
-## Documentation
-
-- [Configuration Guide](configuration) — AI providers, information sources, filtering, and environment variable substitution
-- [Source Scrapers](scrapers) — How Horizon collects content from GitHub, Hacker News, RSS, and Reddit
-- [Scoring System](scoring) — AI-based content analysis and the 0-10 scoring scale
-
-## Daily Digest <a class="rss-icon" href="{{ '/feed-en.xml' | relative_url }}" aria-label="Subscribe English"><svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"/></svg></a>
-
-<ul>
-  {% assign en_posts = site.posts | where: "lang", "en" %}
-  {% for post in en_posts limit:20 %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }}</a>
-    </li>
-  {% else %}
-    <li><em>No posts yet</em></li>
-  {% endfor %}
-</ul>
-
-</div>
+<footer class="signal-footer"><span>PLASTIC SIGNAL WEEKLY</span><span>Built for materials decisions, not attention.</span></footer>
