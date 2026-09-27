@@ -61,6 +61,7 @@ class ContentAnalysis(BaseModel):
     score: Optional[float] = Field(default=None, ge=0, le=10, allow_inf_nan=False)
     reason: str
     summary: str
+    plastics_relevant: Optional[bool] = None
     tags: List[str] = Field(default_factory=list)
     category: Optional[Literal[
         "market-business", "sustainable-materials", "recycling-tech",

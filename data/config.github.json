@@ -50,6 +50,7 @@
       },
       {
         "name": "Nature — polymer research",
+        "content_extractor": "trafilatura",
         "url": "https://www.nature.com/subjects/polymers.rss",
         "category": "research-patents",
         "enabled": true,

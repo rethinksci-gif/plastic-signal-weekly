@@ -15,10 +15,10 @@ Sixteen feeds combine direct publisher content with focused seven-day searches:
 - PlasticsToday: materials, applications, manufacturing and business; full article extraction when accessible.
 - Resource Recycling: recycled-material markets, policy and operations; full feed articles.
 - European Bioplastics: association announcements and policy positions, attributed to the association.
-- Nature polymer subject feed: original research abstracts and publication links.
+- Nature polymer subject feed: publication links with original article and abstract extraction when accessible.
 - Twelve targeted Google News searches: design, PCR, recycling, performance, emerging materials, resin markets, EU/US/China regulation, research, suppliers and industrialization. Official EU and US regulatory domains receive dedicated searches.
 
-Feeds were checked on 27 September 2026. Selection requires a relevance score of at least 5/10, keeps up to five items per pillar and 24 overall, and removes repeated coverage of the same event. The category is assigned from article content. Every issue begins with up to five takeaways from distinct covered pillars. Missing evidence is not filled in to reach a quota; resin prices require a sourced grade, region, unit and date.
+Feeds were checked on 27 September 2026. Selection requires explicit plastics relevance and a score of at least 5/10, keeps up to five items per pillar and 24 overall, and removes repeated coverage of the same event. General metals, battery and e-scrap stories do not qualify without a substantive plastics connection in the source. The category is assigned from article content. Every issue begins with up to five takeaways from distinct covered pillars. Missing evidence is not filled in to reach a quota; resin prices require a sourced grade, region, unit and date.
 
 ## Run locally
 

@@ -185,6 +185,9 @@ class ContentAnalyzer:
             return
 
         if item.processing:
+            if profile.id == "plastic-intelligence" and result.plastics_relevant is not True:
+                result.score = 0
+                result.reason = "No confirmed direct plastics relevance. " + result.reason
             item.processing.analysis = result
             if profile.id == "plastic-intelligence" and result.category:
                 # General industry feeds cover several pillars: route by the

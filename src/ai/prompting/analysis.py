@@ -15,7 +15,7 @@ ANALYSIS_RULES = f"""You are a content curator evaluating an item under the supp
 def analysis_system_prompt(profile: LoadedProfile) -> str:
     category_field = ''
     if profile.id == "plastic-intelligence":
-        category_field = '\n  "category": "<one of: market-business, sustainable-materials, recycling-tech, material-performance, future-materials, supply-chain, regulation-compliance, research-patents>",'
+        category_field = '\n  "plastics_relevant": <true only if the source explicitly concerns plastics, polymers, plastic packaging, or their processing/value chain>,\n  "category": "<one of: market-business, sustainable-materials, recycling-tech, material-performance, future-materials, supply-chain, regulation-compliance, research-patents>",'
     return f"""{ANALYSIS_RULES}
 
 # Profile policy

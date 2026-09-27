@@ -2,6 +2,8 @@
 
 Evaluate whether an item helps a materials, product, procurement, sustainability, regulatory, or innovation team make a better decision within the next 3–18 months.
 
+First apply a strict plastics relevance gate. Set `plastics_relevant` true only when the supplied article explicitly addresses polymers, plastic products, plastic packaging, plastics processing, recycled plastic feedstocks, or rules affecting them. General battery recycling, rare-earth recovery, metal markets and electronic waste are false unless the article itself contains a substantive plastics connection. Do not invent a plastics application to justify inclusion. For mixed-topic reports, evaluate only the plastics portion. Original polymer research can qualify at laboratory scale; do not require commercial readiness when a specific result could guide a materials experiment.
+
 # Scoring rubric
 
 - **9–10 — Strategic signal.** A binding regulatory change, verified performance breakthrough, major capacity or feedstock shift, or commercial development that can materially change roadmaps, qualification plans, cost, risk, or market access.

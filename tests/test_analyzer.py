@@ -31,7 +31,7 @@ def _make_item(item_id: str) -> ContentItem:
 def test_plastics_analysis_routes_by_article_subject():
     async def complete(**kwargs):
         assert '"category"' in kwargs["system"]
-        return json.dumps({"score": 7, "reason": "New regulation", "summary": "A packaging rule changed.", "category": "regulation-compliance", "tags": ["packaging"]})
+        return json.dumps({"score": 7, "reason": "New regulation", "summary": "A packaging rule changed.", "plastics_relevant": True, "category": "regulation-compliance", "tags": ["packaging"]})
 
     item = _make_item("rss:plastics:1")
     item.profile = "plastic-intelligence"
@@ -40,6 +40,18 @@ def test_plastics_analysis_routes_by_article_subject():
     asyncio.run(analyzer._analyze_item(item))
     assert item.metadata["category"] == "regulation-compliance"
     assert item.processing.analysis.score == 7
+
+
+@pytest.mark.parametrize("relevance", [False, None])
+def test_plastics_analysis_rejects_unconfirmed_relevance(relevance):
+    async def complete(**kwargs):
+        return json.dumps({"score": 8, "reason": "Rare earth recovery", "summary": "A metal recovery result.", "plastics_relevant": relevance})
+
+    item = _make_item("rss:metals:1")
+    item.profile = "plastic-intelligence"
+    analyzer = ContentAnalyzer(SimpleNamespace(complete=complete), PROFILES)
+    asyncio.run(analyzer._analyze_item(item))
+    assert item.processing.analysis.score == 0
 
 
 def test_analyze_batch_does_not_sleep_by_default(monkeypatch):

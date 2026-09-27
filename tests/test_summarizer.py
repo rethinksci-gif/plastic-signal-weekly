@@ -60,6 +60,11 @@ def _make_item(idx: int) -> ContentItem:
     return item
 
 
+def test_apostrophes_remain_readable_in_rendered_markdown():
+    from src.ai.summarizer import _escape_markdown
+    assert _escape_markdown("Company's results") == "Company's results"
+
+
 def test_weekly_pillars_and_executive_summary_preserve_sources():
     items = [_make_item(1), _make_item(2)]
     items[0].metadata["category"] = "research-patents"
