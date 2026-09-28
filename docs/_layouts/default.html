@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    {% include head-custom.html %}
+  </head>
+  <body class="{% if page.page_kind == 'home' %}home-page{% else %}reading-page{% endif %}">
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-masthead">
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Plastic Signal Weekly home"><span class="brand-mark" aria-hidden="true">P<span>↗</span></span><span>PLASTIC SIGNAL<span class="wordmark-sub">WEEKLY / MATERIAL INTELLIGENCE</span></span></a>
+      <nav aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#latest">Latest</a>
+        <a href="{{ '/' | relative_url }}#coverage">Coverage</a>
+        <a href="{{ '/feed-en.xml' | relative_url }}">RSS ↗</a>
+      </nav>
+      <details class="reading-settings">
+        <summary>Reading <span aria-hidden="true">Aa</span></summary>
+        <div class="settings-panel">
+          <label for="theme-setting">Appearance</label>
+          <select id="theme-setting"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select>
+          <label for="size-setting">Text size</label>
+          <select id="size-setting"><option value="standard">Standard</option><option value="large">Large</option></select>
+        </div>
+      </details>
+    </header>
+    <main id="content" class="main-content" tabindex="-1">
+      {% if page.page_kind == 'home' %}
+        {{ content }}
+      {% else %}
+        <div class="article-shell">
+          <aside class="article-sidebar" aria-label="Article navigation">
+            <a class="back-link" href="{{ '/' | relative_url }}#latest">← All issues</a>
+            <nav class="article-toc" aria-label="On this page" hidden><p class="section-number">IN THIS ISSUE</p><ol></ol></nav>
+          </aside>
+          <article class="article-body">
+            <header class="article-heading"><p class="eyebrow">PLASTIC SIGNAL / {% if page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d %B %Y' }}</time>{% else %}REFERENCE{% endif %}</p><h1>{{ page.title }}</h1></header>
+            <div class="article-content">{{ content }}</div>
+            <a class="back-link article-end" href="{{ '/' | relative_url }}#latest">← Explore all issues</a>
+          </article>
+        </div>
+      {% endif %}
+    </main>
+    <footer class="signal-footer"><a href="{{ '/' | relative_url }}">PLASTIC SIGNAL WEEKLY</a><span>Built for materials decisions.</span><a href="{{ '/feed-en.xml' | relative_url }}">Subscribe via RSS ↗</a></footer>
+  </body>
+</html>
