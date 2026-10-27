@@ -285,7 +285,7 @@ def momentum(counts_by_week: dict[str, Counter], weeks: list[str], window: int =
     totals = {w: sum(counts_by_week[w].values()) or 1 for w in weeks}
     rows = []
     names = set().union(*(counts_by_week[w].keys() for w in weeks))
-    for name in names:
+    for name in sorted(names):
         r = sum(counts_by_week[w][name] for w in recent)
         e = sum(counts_by_week[w][name] for w in earlier)
         if r + e < 2:
@@ -293,7 +293,7 @@ def momentum(counts_by_week: dict[str, Counter], weeks: list[str], window: int =
         r_share = r / sum(totals[w] for w in recent)
         e_share = e / sum(totals[w] for w in earlier)
         rows.append({"name": name, "recent": r, "earlier": e, "delta": round(r_share - e_share, 4)})
-    rows.sort(key=lambda x: (-x["delta"], -x["recent"]))
+    rows.sort(key=lambda x: (-x["delta"], -x["recent"], x["name"]))
     return rows
 
 

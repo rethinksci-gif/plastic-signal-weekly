@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T18:46:50Z",
+ "generated_at": "2026-10-27T18:53:27Z",
  "weeks": [
   "2026-09-27",
   "2026-10-04",
@@ -486,13 +486,13 @@
     "delta": -0.036
    },
    {
-    "name": "Trade, tariffs & duties",
+    "name": "Bans & chemical restrictions",
     "recent": 0,
     "earlier": 4,
     "delta": -0.036
    },
    {
-    "name": "Bans & chemical restrictions",
+    "name": "Trade, tariffs & duties",
     "recent": 0,
     "earlier": 4,
     "delta": -0.036
@@ -815,13 +815,13 @@
    "delta": 0.0294
   },
   {
-   "name": "producer responsibility",
+   "name": "polyethylene",
    "recent": 2,
    "earlier": 0,
    "delta": 0.0143
   },
   {
-   "name": "polyethylene",
+   "name": "producer responsibility",
    "recent": 2,
    "earlier": 0,
    "delta": 0.0143
@@ -833,13 +833,13 @@
    "delta": 0.0102
   },
   {
-   "name": "recycled content",
+   "name": "mechanical recycling",
    "recent": 2,
    "earlier": 1,
    "delta": 0.0102
   },
   {
-   "name": "mechanical recycling",
+   "name": "recycled content",
    "recent": 2,
    "earlier": 1,
    "delta": 0.0102
@@ -851,19 +851,19 @@
    "delta": 0.0091
   },
   {
-   "name": "bioplastics",
+   "name": "European Commission",
+   "recent": 1,
+   "earlier": 1,
+   "delta": 0.003
+  },
+  {
+   "name": "M&A",
    "recent": 1,
    "earlier": 1,
    "delta": 0.003
   },
   {
    "name": "MRF",
-   "recent": 1,
-   "earlier": 1,
-   "delta": 0.003
-  },
-  {
-   "name": "thermoplastic composites",
    "recent": 1,
    "earlier": 1,
    "delta": 0.003
@@ -877,13 +877,13 @@
    "delta": -0.0175
   },
   {
-   "name": "chemical recycling",
+   "name": "automotive",
    "recent": 0,
    "earlier": 3,
    "delta": -0.0123
   },
   {
-   "name": "automotive",
+   "name": "chemical recycling",
    "recent": 0,
    "earlier": 3,
    "delta": -0.0123
@@ -895,13 +895,13 @@
    "delta": -0.0123
   },
   {
-   "name": "recycling",
+   "name": "Horizon Europe",
    "recent": 0,
    "earlier": 2,
    "delta": -0.0082
   },
   {
-   "name": "capacity",
+   "name": "austria",
    "recent": 0,
    "earlier": 2,
    "delta": -0.0082
