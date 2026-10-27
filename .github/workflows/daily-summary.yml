@@ -46,6 +46,15 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: uv run horizon --hours 168
 
+      - name: Rebuild trend dashboard data
+        # Published issues live on gh-pages, so pull them in and merge with this run's new issue.
+        run: |
+          mkdir -p /tmp/published
+          if git fetch --depth 1 origin gh-pages; then
+            git archive FETCH_HEAD _posts | tar -x -C /tmp/published || echo "No published posts yet"
+          fi
+          python scripts/build_trends.py --posts /tmp/published/_posts --posts docs/_posts --out docs/data/trends.json
+
       - name: Set current date as environment variable
         run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
