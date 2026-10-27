@@ -1,0 +1,84 @@
+---
+layout: default
+page_kind: home
+title: Signal Trends
+description: What has been moving across every Plastic Signal Weekly issue — drivers, polymers, regions and evidence quality.
+---
+<link rel="stylesheet" href="{{ '/assets/css/trends.css' | relative_url }}">
+
+<section class="trend-hero">
+  <div class="eyebrow"><span class="live-dot"></span> SIGNAL TRENDS / ACROSS ALL ISSUES</div>
+  <h1>What keeps<br><em>showing up.</em></h1>
+  <p class="hero-copy">Every decision-relevant item from every weekly issue, counted by driver, polymer, pillar and region. One item is an anecdote; the same driver five weeks running is a signal.</p>
+  <p class="trend-caveat" id="trend-caveat" hidden></p>
+</section>
+
+<section class="trend-kpis" aria-label="Totals" id="trend-kpis"></section>
+
+<section class="trend-section" id="moving">
+  <div class="section-number">01 / WHAT'S MOVING</div>
+  <div class="trend-head">
+    <h2>Rising and cooling</h2>
+    <p id="moving-note">Share of items in the latest two issues versus the issues before.</p>
+  </div>
+  <div class="momentum-grid" id="momentum"></div>
+</section>
+
+<section class="trend-section trend-alt" id="heatmap-section">
+  <div class="section-number">02 / WEEK BY WEEK</div>
+  <div class="trend-head">
+    <h2>Where the signals cluster</h2>
+    <div class="lens-switch" role="tablist" aria-label="Choose a lens" id="lens-switch">
+      <button role="tab" data-lens="drivers" aria-selected="true">Drivers</button>
+      <button role="tab" data-lens="polymers" aria-selected="false">Polymers</button>
+      <button role="tab" data-lens="pillars" aria-selected="false">Pillars</button>
+      <button role="tab" data-lens="regions" aria-selected="false">Regions</button>
+    </div>
+  </div>
+  <p class="trend-sub">Items per issue. Stronger colour means more. Select a row to see its items below.</p>
+  <div class="heatmap-wrap"><table class="heatmap" id="heatmap"></table></div>
+  <div class="heat-legend" aria-hidden="true"><span>0</span><i></i><i></i><i></i><i></i><i></i><span id="heat-max">max</span></div>
+</section>
+
+<section class="trend-section trend-split">
+  <div>
+    <div class="section-number">03 / GEOGRAPHY</div>
+    <h2>Where it is happening</h2>
+    <p class="trend-sub">Items that name a country or region. One item can name several.</p>
+    <div class="bar-list" id="regions"></div>
+  </div>
+  <div>
+    <div class="section-number">04 / EVIDENCE POSTURE</div>
+    <h2>What we told readers to do next</h2>
+    <p class="trend-sub" id="action-note">The closing action on each item, grouped.</p>
+    <div class="bar-list" id="actions"></div>
+  </div>
+</section>
+
+<section class="trend-section trend-alt" id="high-signal">
+  <div class="section-number">05 / HIGH SIGNAL</div>
+  <div class="trend-head"><h2>Scored 6 and above</h2><p>The items the scoring judged most decision-relevant.</p></div>
+  <div class="signal-cards" id="high-cards"></div>
+</section>
+
+<section class="trend-section" id="explorer">
+  <div class="section-number">06 / EXPLORE</div>
+  <div class="trend-head">
+    <h2>Every item</h2>
+    <p><span id="explorer-count"></span></p>
+  </div>
+  <div class="explorer-bar">
+    <label class="visually-hidden" for="explorer-search">Search items</label>
+    <input id="explorer-search" type="search" placeholder="Search titles, sources, tags…" autocomplete="off">
+    <div class="active-filter" id="active-filter" hidden><span></span><button type="button" aria-label="Clear filter">×</button></div>
+  </div>
+  <ol class="item-list" id="item-list"></ol>
+</section>
+
+<section class="trend-section trend-method">
+  <div class="section-number">METHOD</div>
+  <p>Built from the published issues each time a new one goes out. Drivers, polymers and regions come from a fixed keyword list matched against each item's title, summary and tags (the AI-written tags alone are too varied to count reliably). Momentum compares each theme's share of items, so a quiet week does not read as a decline. <span id="generated"></span></p>
+</section>
+
+<div class="trend-tip" id="trend-tip" role="status" hidden></div>
+<script src="{{ '/assets/js/trends.js' | relative_url }}" data-src="{{ '/data/trends.json' | relative_url }}" data-base="{{ '/' | relative_url }}" defer></script>

@@ -1,0 +1,4079 @@
+{
+ "generated_at": "2026-10-27T18:53:27Z",
+ "weeks": [
+  "2026-09-27",
+  "2026-10-04",
+  "2026-10-11",
+  "2026-10-18",
+  "2026-10-25"
+ ],
+ "issues": [
+  {
+   "date": "2026-09-27",
+   "title": "Plastic Signal Weekly — 2026-09-27",
+   "url": "2026/09/27/summary-en.html",
+   "signals_seen": 277,
+   "items_kept": 16
+  },
+  {
+   "date": "2026-10-04",
+   "title": "Plastic Signal Weekly — 2026-10-04",
+   "url": "2026/10/04/summary-en.html",
+   "signals_seen": 252,
+   "items_kept": 21
+  },
+  {
+   "date": "2026-10-11",
+   "title": "Plastic Signal Weekly — 2026-10-11",
+   "url": "2026/10/11/summary-en.html",
+   "signals_seen": 243,
+   "items_kept": 18
+  },
+  {
+   "date": "2026-10-18",
+   "title": "Plastic Signal Weekly — 2026-10-18",
+   "url": "2026/10/18/summary-en.html",
+   "signals_seen": 43,
+   "items_kept": 12
+  },
+  {
+   "date": "2026-10-25",
+   "title": "Plastic Signal Weekly — 2026-10-25",
+   "url": "2026/10/25/summary-en.html",
+   "signals_seen": 280,
+   "items_kept": 20
+  }
+ ],
+ "totals": {
+  "issues": 5,
+  "items": 87,
+  "signals_seen": 1095,
+  "sources": 9,
+  "avg_score": 5.24,
+  "high_signal": 15
+ },
+ "pillars": [
+  {
+   "name": "Market & Business",
+   "by_week": [
+    2,
+    1,
+    2,
+    3,
+    1
+   ]
+  },
+  {
+   "name": "Sustainable Materials",
+   "by_week": [
+    0,
+    2,
+    3,
+    0,
+    3
+   ]
+  },
+  {
+   "name": "Recycling Technologies",
+   "by_week": [
+    1,
+    4,
+    4,
+    3,
+    5
+   ]
+  },
+  {
+   "name": "Supply Chain & Feedstock",
+   "by_week": [
+    5,
+    5,
+    5,
+    3,
+    5
+   ]
+  },
+  {
+   "name": "Regulations & Compliance",
+   "by_week": [
+    5,
+    5,
+    2,
+    1,
+    5
+   ]
+  },
+  {
+   "name": "Research & Patents",
+   "by_week": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "Material Performance",
+   "by_week": [
+    3,
+    2,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "name": "Future Materials",
+   "by_week": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "polymers": [
+  {
+   "name": "PET / polyester",
+   "count": 12,
+   "by_week": [
+    1,
+    3,
+    4,
+    2,
+    2
+   ],
+   "avg_score": 5.42,
+   "share": 0.138
+  },
+  {
+   "name": "Polyethylene (PE/HDPE/LDPE)",
+   "count": 10,
+   "by_week": [
+    0,
+    3,
+    3,
+    1,
+    3
+   ],
+   "avg_score": 5.8,
+   "share": 0.115
+  },
+  {
+   "name": "Polypropylene (PP)",
+   "count": 6,
+   "by_week": [
+    0,
+    2,
+    3,
+    0,
+    1
+   ],
+   "avg_score": 5.5,
+   "share": 0.069
+  },
+  {
+   "name": "Engineering & high-performance",
+   "count": 5,
+   "by_week": [
+    2,
+    2,
+    0,
+    0,
+    1
+   ],
+   "avg_score": 5.2,
+   "share": 0.057
+  },
+  {
+   "name": "Bio-based & biodegradable",
+   "count": 4,
+   "by_week": [
+    1,
+    0,
+    1,
+    0,
+    2
+   ],
+   "avg_score": 5.25,
+   "share": 0.046
+  },
+  {
+   "name": "PVC",
+   "count": 3,
+   "by_week": [
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "avg_score": 5.0,
+   "share": 0.034
+  }
+ ],
+ "drivers": [
+  {
+   "name": "Capacity moves & investment",
+   "count": 34,
+   "by_week": [
+    6,
+    6,
+    8,
+    8,
+    6
+   ],
+   "avg_score": 5.24,
+   "share": 0.391
+  },
+  {
+   "name": "Resin prices & feedstock",
+   "count": 20,
+   "by_week": [
+    3,
+    4,
+    4,
+    4,
+    5
+   ],
+   "avg_score": 5.35,
+   "share": 0.23
+  },
+  {
+   "name": "Recycled content & claims",
+   "count": 17,
+   "by_week": [
+    2,
+    6,
+    2,
+    2,
+    5
+   ],
+   "avg_score": 5.47,
+   "share": 0.195
+  },
+  {
+   "name": "M&A & partnerships",
+   "count": 12,
+   "by_week": [
+    4,
+    1,
+    2,
+    1,
+    4
+   ],
+   "avg_score": 5.0,
+   "share": 0.138
+  },
+  {
+   "name": "EPR & packaging law",
+   "count": 10,
+   "by_week": [
+    3,
+    2,
+    2,
+    1,
+    2
+   ],
+   "avg_score": 5.7,
+   "share": 0.115
+  },
+  {
+   "name": "Chemical & enzymatic recycling",
+   "count": 7,
+   "by_week": [
+    1,
+    2,
+    1,
+    1,
+    2
+   ],
+   "avg_score": 5.29,
+   "share": 0.08
+  },
+  {
+   "name": "AI & digital",
+   "count": 7,
+   "by_week": [
+    3,
+    1,
+    2,
+    1,
+    0
+   ],
+   "avg_score": 5.14,
+   "share": 0.08
+  },
+  {
+   "name": "Medical & healthcare",
+   "count": 6,
+   "by_week": [
+    0,
+    0,
+    2,
+    1,
+    3
+   ],
+   "avg_score": 5.17,
+   "share": 0.069
+  },
+  {
+   "name": "Textiles",
+   "count": 6,
+   "by_week": [
+    0,
+    2,
+    2,
+    1,
+    1
+   ],
+   "avg_score": 5.67,
+   "share": 0.069
+  },
+  {
+   "name": "Trade, tariffs & duties",
+   "count": 4,
+   "by_week": [
+    1,
+    2,
+    1,
+    0,
+    0
+   ],
+   "avg_score": 5.5,
+   "share": 0.046
+  },
+  {
+   "name": "Mechanical recycling",
+   "count": 4,
+   "by_week": [
+    0,
+    0,
+    1,
+    1,
+    2
+   ],
+   "avg_score": 5.5,
+   "share": 0.046
+  },
+  {
+   "name": "Bans & chemical restrictions",
+   "count": 4,
+   "by_week": [
+    0,
+    3,
+    1,
+    0,
+    0
+   ],
+   "avg_score": 5.0,
+   "share": 0.046
+  },
+  {
+   "name": "Automotive & EV",
+   "count": 4,
+   "by_week": [
+    2,
+    1,
+    1,
+    0,
+    0
+   ],
+   "avg_score": 5.0,
+   "share": 0.046
+  }
+ ],
+ "theme_momentum": {
+  "Polymer": [
+   {
+    "name": "Bio-based & biodegradable",
+    "recent": 2,
+    "earlier": 2,
+    "delta": 0.0132
+   },
+   {
+    "name": "Polyethylene (PE/HDPE/LDPE)",
+    "recent": 4,
+    "earlier": 6,
+    "delta": 0.0084
+   },
+   {
+    "name": "PVC",
+    "recent": 1,
+    "earlier": 2,
+    "delta": -0.0024
+   },
+   {
+    "name": "PET / polyester",
+    "recent": 4,
+    "earlier": 8,
+    "delta": -0.0096
+   },
+   {
+    "name": "Engineering & high-performance",
+    "recent": 1,
+    "earlier": 4,
+    "delta": -0.0204
+   },
+   {
+    "name": "Polypropylene (PP)",
+    "recent": 1,
+    "earlier": 5,
+    "delta": -0.0294
+   }
+  ],
+  "Driver": [
+   {
+    "name": "Medical & healthcare",
+    "recent": 4,
+    "earlier": 2,
+    "delta": 0.0445
+   },
+   {
+    "name": "Resin prices & feedstock",
+    "recent": 9,
+    "earlier": 11,
+    "delta": 0.0415
+   },
+   {
+    "name": "Capacity moves & investment",
+    "recent": 14,
+    "earlier": 20,
+    "delta": 0.0386
+   },
+   {
+    "name": "Mechanical recycling",
+    "recent": 3,
+    "earlier": 1,
+    "delta": 0.0379
+   },
+   {
+    "name": "Recycled content & claims",
+    "recent": 7,
+    "earlier": 10,
+    "delta": 0.0193
+   },
+   {
+    "name": "M&A & partnerships",
+    "recent": 5,
+    "earlier": 7,
+    "delta": 0.0151
+   },
+   {
+    "name": "Chemical & enzymatic recycling",
+    "recent": 3,
+    "earlier": 4,
+    "delta": 0.0108
+   },
+   {
+    "name": "Textiles",
+    "recent": 2,
+    "earlier": 4,
+    "delta": -0.0048
+   },
+   {
+    "name": "EPR & packaging law",
+    "recent": 3,
+    "earlier": 7,
+    "delta": -0.0162
+   },
+   {
+    "name": "Automotive & EV",
+    "recent": 0,
+    "earlier": 4,
+    "delta": -0.036
+   },
+   {
+    "name": "Bans & chemical restrictions",
+    "recent": 0,
+    "earlier": 4,
+    "delta": -0.036
+   },
+   {
+    "name": "Trade, tariffs & duties",
+    "recent": 0,
+    "earlier": 4,
+    "delta": -0.036
+   },
+   {
+    "name": "AI & digital",
+    "recent": 1,
+    "earlier": 6,
+    "delta": -0.0384
+   }
+  ]
+ },
+ "top_tags": [
+  {
+   "name": "packaging",
+   "count": 12,
+   "issues": 5,
+   "by_week": [
+    2,
+    1,
+    2,
+    2,
+    5
+   ]
+  },
+  {
+   "name": "capacity expansion",
+   "count": 9,
+   "issues": 5,
+   "by_week": [
+    2,
+    2,
+    2,
+    1,
+    2
+   ]
+  },
+  {
+   "name": "injection molding",
+   "count": 7,
+   "issues": 4,
+   "by_week": [
+    4,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "name": "plastic packaging",
+   "count": 7,
+   "issues": 4,
+   "by_week": [
+    1,
+    3,
+    1,
+    0,
+    2
+   ]
+  },
+  {
+   "name": "PET",
+   "count": 6,
+   "issues": 4,
+   "by_week": [
+    1,
+    0,
+    2,
+    2,
+    1
+   ]
+  },
+  {
+   "name": "EPR",
+   "count": 6,
+   "issues": 3,
+   "by_week": [
+    2,
+    0,
+    2,
+    0,
+    2
+   ]
+  },
+  {
+   "name": "recycled plastics",
+   "count": 4,
+   "issues": 3,
+   "by_week": [
+    0,
+    2,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "chemical recycling",
+   "count": 3,
+   "issues": 2,
+   "by_week": [
+    1,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "plastics recycling",
+   "count": 3,
+   "issues": 3,
+   "by_week": [
+    1,
+    1,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "automotive",
+   "count": 3,
+   "issues": 2,
+   "by_week": [
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "rPET",
+   "count": 3,
+   "issues": 2,
+   "by_week": [
+    1,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "HDPE",
+   "count": 3,
+   "issues": 2,
+   "by_week": [
+    0,
+    2,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "recycled content",
+   "count": 3,
+   "issues": 3,
+   "by_week": [
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "polypropylene",
+   "count": 3,
+   "issues": 3,
+   "by_week": [
+    0,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "enzymatic recycling",
+   "count": 3,
+   "issues": 3,
+   "by_week": [
+    0,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "mechanical recycling",
+   "count": 3,
+   "issues": 3,
+   "by_week": [
+    0,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "material qualification",
+   "count": 2,
+   "issues": 2,
+   "by_week": [
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "investment",
+   "count": 2,
+   "issues": 2,
+   "by_week": [
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "capacity investment",
+   "count": 2,
+   "issues": 2,
+   "by_week": [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "M&A",
+   "count": 2,
+   "issues": 2,
+   "by_week": [
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "name": "plastics policy",
+   "count": 2,
+   "issues": 2,
+   "by_week": [
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "toray",
+   "count": 2,
+   "issues": 2,
+   "by_week": [
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "capacity",
+   "count": 2,
+   "issues": 2,
+   "by_week": [
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "recycling",
+   "count": 2,
+   "issues": 2,
+   "by_week": [
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "microplastics",
+   "count": 2,
+   "issues": 1,
+   "by_week": [
+    0,
+    2,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "rising_tags": [
+  {
+   "name": "packaging",
+   "recent": 7,
+   "earlier": 5,
+   "delta": 0.0294
+  },
+  {
+   "name": "polyethylene",
+   "recent": 2,
+   "earlier": 0,
+   "delta": 0.0143
+  },
+  {
+   "name": "producer responsibility",
+   "recent": 2,
+   "earlier": 0,
+   "delta": 0.0143
+  },
+  {
+   "name": "enzymatic recycling",
+   "recent": 2,
+   "earlier": 1,
+   "delta": 0.0102
+  },
+  {
+   "name": "mechanical recycling",
+   "recent": 2,
+   "earlier": 1,
+   "delta": 0.0102
+  },
+  {
+   "name": "recycled content",
+   "recent": 2,
+   "earlier": 1,
+   "delta": 0.0102
+  },
+  {
+   "name": "PET",
+   "recent": 3,
+   "earlier": 3,
+   "delta": 0.0091
+  },
+  {
+   "name": "European Commission",
+   "recent": 1,
+   "earlier": 1,
+   "delta": 0.003
+  },
+  {
+   "name": "M&A",
+   "recent": 1,
+   "earlier": 1,
+   "delta": 0.003
+  },
+  {
+   "name": "MRF",
+   "recent": 1,
+   "earlier": 1,
+   "delta": 0.003
+  }
+ ],
+ "cooling_tags": [
+  {
+   "name": "injection molding",
+   "recent": 1,
+   "earlier": 6,
+   "delta": -0.0175
+  },
+  {
+   "name": "automotive",
+   "recent": 0,
+   "earlier": 3,
+   "delta": -0.0123
+  },
+  {
+   "name": "chemical recycling",
+   "recent": 0,
+   "earlier": 3,
+   "delta": -0.0123
+  },
+  {
+   "name": "rPET",
+   "recent": 0,
+   "earlier": 3,
+   "delta": -0.0123
+  },
+  {
+   "name": "Horizon Europe",
+   "recent": 0,
+   "earlier": 2,
+   "delta": -0.0082
+  },
+  {
+   "name": "austria",
+   "recent": 0,
+   "earlier": 2,
+   "delta": -0.0082
+  }
+ ],
+ "pillar_momentum": [
+  {
+   "name": "Recycling Technologies",
+   "recent": 8,
+   "earlier": 9,
+   "delta": 0.0864
+  },
+  {
+   "name": "Market & Business",
+   "recent": 4,
+   "earlier": 5,
+   "delta": 0.0341
+  },
+  {
+   "name": "Research & Patents",
+   "recent": 2,
+   "earlier": 2,
+   "delta": 0.0261
+  },
+  {
+   "name": "Sustainable Materials",
+   "recent": 3,
+   "earlier": 5,
+   "delta": 0.0028
+  },
+  {
+   "name": "Supply Chain & Feedstock",
+   "recent": 8,
+   "earlier": 15,
+   "delta": -0.0227
+  },
+  {
+   "name": "Regulations & Compliance",
+   "recent": 6,
+   "earlier": 12,
+   "delta": -0.0307
+  },
+  {
+   "name": "Material Performance",
+   "recent": 1,
+   "earlier": 6,
+   "delta": -0.0778
+  }
+ ],
+ "regions": [
+  {
+   "name": "United States",
+   "count": 39,
+   "by_week": [
+    6,
+    9,
+    9,
+    7,
+    8
+   ]
+  },
+  {
+   "name": "European Union",
+   "count": 11,
+   "by_week": [
+    2,
+    3,
+    3,
+    0,
+    3
+   ]
+  },
+  {
+   "name": "Other Europe",
+   "count": 5,
+   "by_week": [
+    1,
+    2,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "Mexico & Latin America",
+   "count": 4,
+   "by_week": [
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "Italy",
+   "count": 4,
+   "by_week": [
+    0,
+    2,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "Germany",
+   "count": 3,
+   "by_week": [
+    1,
+    0,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "India & South Asia",
+   "count": 3,
+   "by_week": [
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "name": "Japan & Korea",
+   "count": 3,
+   "by_week": [
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "UK",
+   "count": 2,
+   "by_week": [
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "France",
+   "count": 2,
+   "by_week": [
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "Australia & NZ",
+   "count": 2,
+   "by_week": [
+    0,
+    1,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "Middle East",
+   "count": 2,
+   "by_week": [
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "name": "PlasticsToday",
+   "count": 47
+  },
+  {
+   "name": "Resource Recycling",
+   "count": 14
+  },
+  {
+   "name": "Recycling processes",
+   "count": 7
+  },
+  {
+   "name": "Customer value and product design",
+   "count": 6
+  },
+  {
+   "name": "EU regulatory sources",
+   "count": 4
+  },
+  {
+   "name": "Emerging polymers and materials AI",
+   "count": 3
+  },
+  {
+   "name": "PCR and renewable materials",
+   "count": 3
+  },
+  {
+   "name": "European Bioplastics",
+   "count": 2
+  },
+  {
+   "name": "Resin markets and feedstock",
+   "count": 1
+  }
+ ],
+ "actions": [
+  {
+   "name": "Request evidence",
+   "count": 45
+  },
+  {
+   "name": "Track",
+   "count": 27
+  },
+  {
+   "name": "Verify",
+   "count": 7
+  },
+  {
+   "name": "Other",
+   "count": 4
+  },
+  {
+   "name": "Qualify / decide",
+   "count": 2
+  }
+ ],
+ "high_signal": [
+  {
+   "issue": "2026-09-27",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 1,
+   "title": "US lawmakers press USTR on PET imports, RPET capacity",
+   "url": "https://resource-recycling.com/plastics/2026/09/25/us-lawmakers-urge-protection-of-domestic-rpet/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-09-25",
+   "summary": "Five US representatives sent a September 2026 letter asking USTR Jamieson Greer to weigh domestic RPET in Section 301 reviews of foreign structural excess capacity, citing industry data that over a quarter of US PET recycling capacity was lost in 12 months and seven of about 30 reclaimers closed. They seek review of Vietnam, Malaysia, Indonesia, India, Thailand and South Korea, possible remedies under HTS 3907.61, 3907.69 and 3907.99.50, and better traceability of recycled-content and origin claims. Bale prices hit a record low of 1.44 cents/lb in April 2026 (RecyclingMarkets.Net).",
+   "tags": [
+    "rPET",
+    "PET",
+    "section 301",
+    "trade remedies",
+    "US"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Trade, tariffs & duties",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "United States",
+    "India & South Asia",
+    "Japan & Korea"
+   ],
+   "next_action": "Track whether USTR opens or widens a Section 301 proceeding and whether an RPET-specific HTSUS breakout advances; verify origin and food-grade documentation for imported recycled-content resin.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 2,
+   "title": "NAW appeals Oregon EPR ruling to Ninth Circuit",
+   "url": "https://resource-recycling.com/policy-now/2026/09/25/naw-appeals-oregon-epr-ruling/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-09-25",
+   "summary": "The National Association of Wholesaler-Distributors (NAW) filed a Sept. 24 notice of appeal with the Ninth Circuit, challenging Judge Michael H. Simon's Aug. 27 ruling upholding Oregon's 2021 Recycling Modernization Act (SB 582), which levies producer fees on packaging including plastics. The appeal raises dormant Commerce Clause and due process theories; Simon dissolved the preliminary injunction shielding NAW members since February, so Oregon continues implementing the law.",
+   "tags": [
+    "EPR",
+    "packaging",
+    "Oregon SB 582",
+    "dormant Commerce Clause",
+    "US"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track the Nebraska v. Heller injunction hearing set for January 2027, which may yield a California ruling before the Ninth Circuit decides; confirm CAA fee schedules and membership terms applying to your packaging.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 1,
+   "title": "ADS recycled HDPE share falls to 38% as Georgia capacity ramps",
+   "url": "https://resource-recycling.com/plastics/2026/10/01/ads-flexing-new-recycling-capacity-against-resin-spikes/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-01",
+   "summary": "Advanced Drainage Systems (ADS) bought 388 million pounds of recycled plastic in fiscal 2026, 38% of resin purchases, down from 540 million pounds and 46% in fiscal 2025—the lowest share in five years, per its sustainability report. ADS targets 1 billion pounds annually by fiscal 2032 and says it is pivoting back toward recycled resin after a $30 million Cordele, Georgia, recycling expansion ramped in June, citing volatile virgin polyolefin pricing linked to supply constraints from the US-Israel war in Iran.",
+   "tags": [
+    "HDPE",
+    "recycled content",
+    "recycled plastics",
+    "pipe",
+    "georgia"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "",
+   "action": null
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 1,
+   "title": "Italy Packaging Decree Becomes Law; Single-Use Plastics Details Absent",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQWlZqdC1IbzNwYjNUd1RLanlJY3ZKdzU4cjJfWnlSUXFGdTloVDhhOE40S1BSZE5LU2x0U2Z0OGpZYTc2dU9MaGpCajQzTl9ZQmFOQzZITXVrcWdaYUN3N0NfWHRCLU9fQ3Y0RUNsdFF2VkE5ZUJZLWgyLXpvMmxicHFXTE9UMmZTQV9pTy05bHE1emJLQzMxZ0NkeWZFMEhnZDlFLUhkd3VHVXQ2aWVIelBPUFNzQ2d6WUg4N1RJS3NQTFdqTGJqM195R1ZjQm02bXpiRlE4eDhiUUdLWS1CNTdmdjlvV0IzXzU3WkJicXJHRGlnWDlob1hTaFNjdS1wa3c?oc=5",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "PCR and renewable materials",
+   "published": "2026-10-01",
+   "summary": "Il Sole 24 ORE reports that Italy's Packaging Decree received final approval from the Chamber of Deputies and is now law, with changes affecting single-use plastics. The supplied material contains only the headline and link; the specific measures, affected material grades, scope, transition periods and application dates are absent from it. No effective date or implementation timeline can be verified from what was provided.",
+   "tags": [
+    "single use plastics",
+    "packaging decree",
+    "Italy",
+    "regulatory compliance"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "Italy"
+   ],
+   "next_action": "Obtain the enacted decree text or its official gazette publication to confirm scope, definitions and application dates, and compare those against current packaging specifications before any change is scoped.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 1,
+   "title": "Dow signals PE price momentum into 2027",
+   "url": "https://resource-recycling.com/plastics/2026/10/23/dow-bullish-on-pe-pricing-into-27/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-23",
+   "summary": "On its Oct. 22 Q3 call, Dow said polyethylene pricing momentum should extend into 2027, citing higher feedstock costs, tighter inventories and war-related production constraints. Dow cited a cumulative 12 cents/lb in nominated October–November PE contract increases, a 5 cents/lb September contract rise and a 6 cents/lb weekly spot rise; ACC September data it cited showed inventory down 5 days of supply and 400 million lb.",
+   "tags": [
+    "polyethylene",
+    "PE pricing",
+    "feedstock costs",
+    "packaging",
+    "North America"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track ACC inventory data and confirm whether October–November PE nominations settle with suppliers.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "Triton, TenCate to turn retired turf HDPE into composite rail ties",
+   "url": "https://resource-recycling.com/plastics/2026/10/20/triton-to-make-rail-ties-from-artificial-turf/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-20",
+   "summary": "Missouri-based Triton Group and turf maker TenCate will convert HDPE recovered from retired artificial turf into post-consumer resin for glass-fiber-reinforced composite rail ties, Plastics Recycling Update reports. Triton plans a dedicated line for up to 350,000 lb/month, targeting an April 2027 start; full utilization implies up to 21 million lb over five years, about 600–800 fields and enough material for 300,000-plus ties. TenCate strips sand and rubber infill before baling; Triton says residual rubber, sand and backing are removed before pelletization.",
+   "tags": [
+    "HDPE",
+    "post consumer resin",
+    "artificial turf",
+    "composite railroad ties",
+    "mechanical recycling",
+    "US"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Driver: Recycled content & claims",
+    "Driver: Mechanical recycling",
+    "Driver: Textiles"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Ask Triton for the PCR pellet specification and a sample, and verify the AREMA standard compliance and major-US-railroad approvals cited in its statement.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "Lego to invest $400M in Monterrey injection-molding expansion",
+   "url": "https://www.plasticstoday.com/injection-molding/lego-invests-400m-in-mexico-factory-expansion",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-25",
+   "summary": "Lego Group announced more than $400 million to expand its Monterrey, Mexico injection-molding plant, adding 62,000 square meters and 1,300 jobs by 2029, according to PlasticsToday. The supplied material gives no resin grades, machine tonnage, output capacity, or sustainability specifications.",
+   "tags": [
+    "injection molding",
+    "lego",
+    "Mexico",
+    "capacity expansion",
+    "investment"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "Mexico & Latin America"
+   ],
+   "next_action": "Track Lego procurement notices and any published specifications for the Monterrey site, and validate capacity and job figures against later company or regional disclosures.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 3,
+   "title": "Newsom vetoes SB 1180, leaving SB 54 fund rules undefined",
+   "url": "https://resource-recycling.com/policy-now/2026/09/24/newsom-signs-battery-epr-expansion-vetoes-sb-54-fund-bill/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-09-24",
+   "summary": "California Gov. Gavin Newsom vetoed SB 1180 on Sept. 20, 2026; it would have set spending rules for the $5 billion Plastic Pollution Mitigation Fund (PPMF) created under SB 54. Statute still requires the producer responsibility organization (PRO) to pay $500 million per year into the PPMF from Jan. 1, 2027 to Jan. 1, 2037, with up to $150 million collectible from plastic manufacturers. Newsom said the bill \"risks complicating implementation.\"",
+   "tags": [
+    "EPR",
+    "SB 54",
+    "California",
+    "plastic packaging",
+    "Plastic Pollution Mitigation Fund"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track CalRecycle's SB 54 implementation, the litigation over the final regulations, and whether a successor spending-rules bill is introduced before payments begin in 2027.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "Toray claims first solvent-based PPS recycling process",
+   "url": "https://www.plasticstoday.com/materials/toray-develops-first-solvent-based-pps-recycling-technology",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-30",
+   "summary": "The PlasticsToday item reports that Toray Industries announced what it calls an industry-first solvent-based process for recovering polyphenylene sulfide (PPS) from waste while maintaining molecular weight, with possible greenhouse gas reductions. The supplied material omits scale, pilot or commercial readiness, economics, recovery rates, and quantified GHG data, leaving the claim as early-stage.",
+   "tags": [
+    "PPS",
+    "solvent based recycling",
+    "chemical recycling",
+    "toray",
+    "materials recovery"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: Recycled content & claims",
+    "Driver: Chemical & enzymatic recycling"
+   ],
+   "regions": [
+    "Japan & Korea"
+   ],
+   "next_action": "Ask Toray for pilot versus commercial scale, recovery rate, molecular-weight retention data, GHG accounting boundaries, and sample availability.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 2,
+   "title": "Reju Plans Three Textile-to-Textile RPET Plants, First Due 2028–29",
+   "url": "https://resource-recycling.com/recycling/2026/10/01/rejus-patrik-frisk-on-the-promise-of-textile-to-textile-recycling/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-01",
+   "summary": "Reju, a Paris-based textile-to-textile chemical recycler wholly owned by Technip Energies, plans three commercial polyester plants — Sittard (Netherlands), Rochester (New York) and Lacq (France) — after opening a Frankfurt demo plant in October 2024. CEO Patrik Frisk says the first is expected by end-2028 or into 2029, taking in about 60,000 tons of textile waste a year (roughly 300 million garments) to produce about 40,000 tons of RPET via glycolysis to the rBHET monomer. Pricing is not specified; Frisk says it will cost more than virgin and mechanical polyester.",
+   "tags": [
+    "chemical recycling",
+    "polyester",
+    "textile to textile",
+    "rPET",
+    "capacity"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Chemical & enzymatic recycling",
+    "Driver: Textiles"
+   ],
+   "regions": [
+    "United States",
+    "France",
+    "Other Europe"
+   ],
+   "next_action": "Track permitting and offtake announcements for Sittard and Rochester, and request fiber specification and sample data for qualification; the claimed 50 percent CO2 reduction versus oil-based polyester is a company statement that would need independent verification.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "Borouge starts €100M specialty polypropylene compounding plant in Austria",
+   "url": "https://www.plasticstoday.com/compounding/borouge-opens-105m-polypropylene-facility-in-austria",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-28",
+   "summary": "Borouge International has begun commercial operations at its specialty polypropylene (PP) compounding facility in Schwechat, Austria, following a $105 million (€100 million) investment, per the supplied report. The supplied excerpt gives no nameplate capacity, grade portfolio, start-up date, or target applications. A linked ChemAnalyst headline frames the plant as boosting \"circular\" PP supply, but no supporting detail appears in the supplied material.",
+   "tags": [
+    "polypropylene",
+    "compounding",
+    "capacity investment",
+    "austria"
+   ],
+   "themes": [
+    "Polymer: Polypropylene (PP)",
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "Other Europe",
+    "Middle East"
+   ],
+   "next_action": "Ask Borouge for the Schwechat grade slate, nameplate capacity and any recycled-content certification, and check fit against current specifications before substituting.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 1,
+   "title": "Five Horizon Europe projects map biodegradable packaging evidence streams",
+   "url": "https://www.european-bioplastics.org/bioplastic-packaging-design-safe-sustainable-and-recyclable-white-paper/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "European Bioplastics",
+   "published": "2026-10-07",
+   "summary": "The European Bioplastics booklet (V2) records a 1 December 2025 Berlin workshop, a side event to the EBC 2025 conference, covering five Horizon Europe-funded 2025 projects: E-OILE', BioPackMan, UPCYCLE, GRECO and Be-UP. Planned work spans polymer scale-up, additives and catalysts, life cycle and techno-economic assessment, pilot production, and biodegradability testing in landfill, compost, soil, freshwater and marine conditions. No results, performance or cost data appear; parity claims versus PP, PE and PET are stated as objectives, not outcomes.",
+   "tags": [
+    "bioplastics",
+    "biodegradable polymers",
+    "packaging",
+    "Horizon Europe",
+    "LCA/TEA",
+    "EU"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: Polypropylene (PP)",
+    "Polymer: PET / polyester",
+    "Polymer: Bio-based & biodegradable",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Track the five projects' Zenodo and CORDIS records for published deliverables, and request samples once pilot materials are released.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "Panel: U.S. recycling access tracks wealth, not plastic waste generation",
+   "url": "https://resource-recycling.com/recycling/2026/10/07/improving-recycling-access-for-underserved-communities/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-07",
+   "summary": "At the Northeast Recycling Council conference (Plainsboro, New Jersey), University at Buffalo's John Atkinson presented a Nature Communications Sustainability study — first author Zeinab Mousania — analyzing 84,000 Census tracts and 130 million buildings: plastic packaging waste generation is stable across socioeconomic groups, but communities near MRFs are 30–55% wealthier and 14–19% more college-educated. Ramsey County, Minnesota used CDC's EJI Explorer to tier grants, raising one community's funding from $1,500 to over $20,000. WasteZero estimates ~15% of U.S. communities are \"recycling deserts,\" clustered in the South.",
+   "tags": [
+    "plastic packaging",
+    "recycling access",
+    "MRF-siting",
+    "environmental justice",
+    "EPR"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Pull the Nature Communications Sustainability study for its MRF-proximity methodology, and track whether specific state EPR plans carry environmental-justice earmarks.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 2,
+   "title": "US packaging EPR pushes AI vision systems toward MRFs",
+   "url": "https://resource-recycling.com/policy-now/2026/10/06/epr-demands-push-ai-vision-systems-toward-mrfs/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-06",
+   "summary": "Producer responsibility organizations (PROs) are buying AI vision systems and testing them in-house as US state packaging EPR programs build audit and reporting rules, EverestLabs' Apurba Pradhan said at RCon in St. Louis, Missouri. He cited a seven-day audit of one fiber line at 91.27% bale purity, with contaminants broken out by resin (PET, polypropylene, HDPE) and aluminum, and an infeed running 21 of 41 tons per hour; manual 50–100 pound samples cover about 0.01% of a day's material.",
+   "tags": [
+    "EPR",
+    "machine vision sorting",
+    "MRF",
+    "PET-HDPE",
+    "US"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: Polypropylene (PP)",
+    "Polymer: PET / polyester",
+    "Driver: EPR & packaging law",
+    "Driver: Textiles",
+    "Driver: AI & digital"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track whether PROs mandate installation and who pays; request the audit methodology and sample sizes behind any vendor purity figure.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "Accumold to nearly double micro injection molding capacity with $33.25M Iowa facility",
+   "url": "https://www.plasticstoday.com/materials/accumold-set-to-nearly-double-micro-injection-molding-capacity-for-medical-microelectronics-micro-optics",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-20",
+   "summary": "Accumold is investing $33.25 million in a 53,000-sq-ft, EF5 tornado-resistant facility at its Ankeny, Iowa, campus, Plasticstoday reports. It says the site is intended to nearly double micro injection molding capacity for medical, microelectronics, and micro-optics. Timeline, capacity figures, equipment details, and qualification plans are absent from the supplied material.",
+   "tags": [
+    "micro injection molding",
+    "capacity expansion",
+    "medical devices",
+    "microelectronics",
+    "Iowa"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment",
+    "Driver: Medical & healthcare"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request start-up and qualification timing, and confirm whether the expansion will use the same micro molding platforms, resin grades, and certifications as the existing Ankeny site.",
+   "action": "Request evidence"
+  }
+ ],
+ "items": [
+  {
+   "issue": "2026-09-27",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 1,
+   "title": "US Plastics Shipments Reach $533.6B in 2025, Up 0.9%",
+   "url": "https://www.plasticstoday.com/industry-trends/us-plastics-industry-shipments-reach-533-6-billion",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-25",
+   "summary": "US plastics industry shipments grew 0.9% to $533.6 billion in 2025, according to Plastics Industry Association chief economist Perc Pineda, PhD. The same account puts total economic impact at $715.8 billion and 1.7 million jobs supported. The supplied material provides no polymer, segment, process or company breakdown, and no volume, price or mix detail.",
+   "tags": [
+    "US",
+    "market data",
+    "plastics industry",
+    "economics",
+    "demand"
+   ],
+   "themes": [
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Check whether the association's underlying report disaggregates shipments by resin or segment and reports volume, before citing this figure in internal demand planning.",
+   "action": "Verify"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 2,
+   "title": "Slovenian Injection Moulding Monitoring Supplier Seeks Partners",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeDZfaUowUnlhWVNXWmlnUjd5MDEyUVJmbkpIRkMyVmNzTXFyLWo2NEFITXZ4ZFl5RjFXNGxrQThKNlJRV01jbEJSZjBma0NqNDZyVzRQa3RQeUl6SUtCME9HMmEwbVN3U1VyWUNwZmFtaDQxRFJVSGxRMHJhczNBRDNVMjI2S1R3T2podXNWVjhVT0V3dGd6a2djU3l1OUExcE1NdHdmVGtaQzRVNmJqQWtxaElGTTZ2NXJ0ejhMNlI?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "EU regulatory sources",
+   "published": "2026-09-25",
+   "summary": "An Enterprise Europe Network partnering notice states that a Slovenian company is seeking industrial users and commercial partners for intelligent process monitoring, quality control and traceability solutions aimed at plastic injection moulding. Company identity, technology specifications, sensor or software architecture, validated performance data, readiness level and commercial terms are absent from the supplied material, which is a headline-level notice only.",
+   "tags": [
+    "injection molding",
+    "process monitoring",
+    "quality control",
+    "traceability",
+    "slovenia"
+   ],
+   "themes": [
+    "Driver: M&A & partnerships",
+    "Driver: AI & digital"
+   ],
+   "regions": [
+    "European Union",
+    "Other Europe"
+   ],
+   "next_action": "Request the full Enterprise Europe Network company profile and, if relevant, register a conditional expression of interest to obtain company identity, technology readiness level, sensor types and any validated performance or reference installations before comparison with existing systems.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "Greenback ships first pyrolysis oil from Mexico chemical recycling plant",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRERTM1RpVFQ1WXVMMGE2RENQTkNuTkhPdC14aTBiZk1nREFud3VFVmRSVVpnYUMwUDd1SDdLckdLY3UwdUI2Tm9weE9RbXJ5VlBfSHZnU0FRclhfTEZTRlpjVEZVWm56bDZRM3NHYWRBQlA0SVpZNm9NM3NhYXd0M1NHWTM1OXNNMjVaZ2szZUFkV2Y1OWZVX1NvVDhSM09NbGFDM0R2TVVJOEZNRmVBZG5oQVhWVTVMUDFNb0NHb1VoQzM4ejB2aXhJb2dyUQ?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-09-22",
+   "summary": "Greenback has shipped the first pyrolysis oil from its chemical recycling plant in Mexico, per a Plastics News headline. The supplied material contains no plant capacity, feedstock type or tonnage, offtake partner, shipment date, or product specification. Treat this as a reported first-shipment milestone rather than evidence of verified commercial-scale output.",
+   "tags": [
+    "chemical recycling",
+    "pyrolysis oil",
+    "Mexico",
+    "plastics recycling",
+    "feedstock"
+   ],
+   "themes": [
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships",
+    "Driver: Chemical & enzymatic recycling"
+   ],
+   "regions": [
+    "Mexico & Latin America"
+   ],
+   "next_action": "Track Greenback statements and Plastics News follow-up coverage for disclosed capacity, feedstock, product specification and offtake terms before assessing this as a qualified supply option.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "material-performance",
+   "pillar_name": "Material Performance",
+   "rank": 1,
+   "title": "AI Data Centers Push Polymer Dielectrics to 224G, 56 GHz",
+   "url": "https://www.plasticstoday.com/materials/the-new-materials-challenge-inside-ai-data-centers",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-25",
+   "summary": "A PlasticsToday article by Satyam Shukla says AI infrastructure scaling to 224G data rates and 56 GHz frequencies is changing material-selection criteria: materials once chosen for mechanical properties now face electrical specifications. It cites copper roughness, polymer dielectrics, and thermal performance as determinants of rack-scale system success; dates, geography, grades, suppliers, test conditions, and quantified data are absent from the supplied material.",
+   "tags": [
+    "polymer dielectrics",
+    "AI data centers",
+    "high frequency materials",
+    "thermal performance",
+    "material qualification"
+   ],
+   "themes": [
+    "Driver: AI & digital"
+   ],
+   "regions": [],
+   "next_action": "Check datasheets or qualification reports for dielectric properties at the relevant frequency and thermal-cycling conditions; the supplied material lacks those details.",
+   "action": "Verify"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "material-performance",
+   "pillar_name": "Material Performance",
+   "rank": 2,
+   "title": "Plastic Frunk Reported as Structural Chassis Component",
+   "url": "https://www.plasticstoday.com/automotive-mobility/plastic-frunk-debuts-as-structural-component",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-24",
+   "summary": "A German premium automaker is reported to have debuted a plastic frunk that serves dual purposes as storage and as a structural chassis component in its electric four-door high-performance sports car. The supplied material names no polymer grade, process route, mechanical or crash-test data, supplier, vehicle model, production date or volume, so the structural claim remains unverified in the available text.",
+   "tags": [
+    "automotive",
+    "structural components",
+    "EV",
+    "metal to plastic substitution",
+    "Germany"
+   ],
+   "themes": [
+    "Driver: Recycled content & claims",
+    "Driver: Automotive & EV"
+   ],
+   "regions": [
+    "Germany"
+   ],
+   "next_action": "Track the announcement for the polymer grade, molding process and structural test data before initiating any comparative feasibility or qualification work.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "material-performance",
+   "pillar_name": "Material Performance",
+   "rank": 3,
+   "title": "Headline Only: Strontium Titanate Additive Claimed to Boost Proton Conduction",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQU9xQ1NKR0t4YTc4V1NqMU5sRjlaNy1WT2ZVdUpzWm9KNzl4SEpweE13RkZvSzhvVTFpZEtHRHVzejhVOThmS1FveHU0bWlTRUs5SEU5akN1X0tXd2czamI0dXl1Um8xblhpWlhxaHV1bXNfVWZxSFJ3eXZzaW5DbDhYVEFvZG5tWlp3OXdScUd1YnVYc3BMZVEwTmNWWlBPLTdlQVpFa3ZxTVI1eTVSLXZnZw?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Emerging polymers and materials AI",
+   "published": "2026-09-26",
+   "summary": "Bioengineer.org reports, in a headline only, that strontium titanate nanoparticles boost proton conduction in polymer (plastic) battery electrolytes. The supplied material contains no article body, so electrolyte chemistry, nanoparticle grade and loading, conductivity values, test conditions, baseline comparison, date and geography are all absent from the supplied material.",
+   "tags": [
+    "polymer electrolyte",
+    "proton conduction",
+    "strontium titanate",
+    "nanoparticles",
+    "battery"
+   ],
+   "themes": [],
+   "regions": [],
+   "next_action": "Proposed step: retrieve the full Bioengineer.org item and any linked study to check method, conductivity values, test conditions, and baseline before citing it in a materials review.",
+   "action": "Other"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "Lego to invest $400M in Monterrey injection-molding expansion",
+   "url": "https://www.plasticstoday.com/injection-molding/lego-invests-400m-in-mexico-factory-expansion",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-25",
+   "summary": "Lego Group announced more than $400 million to expand its Monterrey, Mexico injection-molding plant, adding 62,000 square meters and 1,300 jobs by 2029, according to PlasticsToday. The supplied material gives no resin grades, machine tonnage, output capacity, or sustainability specifications.",
+   "tags": [
+    "injection molding",
+    "lego",
+    "Mexico",
+    "capacity expansion",
+    "investment"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "Mexico & Latin America"
+   ],
+   "next_action": "Track Lego procurement notices and any published specifications for the Monterrey site, and validate capacity and job figures against later company or regional disclosures.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 2,
+   "title": "Aluma-Form to Build $6.7M North Carolina Injection Molding Plant",
+   "url": "https://www.plasticstoday.com/injection-molding/aluma-form-brings-6-7m-plastics-plant-to-north-carolina",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-24",
+   "summary": "Aluma-Form is investing $6.7 million in a North Carolina injection molding plant to make engineered plastic components for utilities, according to the source. The facility is expected to create more than 100 jobs. The supplied material does not state polymers, output capacity, commissioning timeline, plant location within the state, or customers.",
+   "tags": [
+    "injection molding",
+    "engineered plastics",
+    "North Carolina",
+    "capacity investment",
+    "utilities"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track commissioning announcements and, if the plant is a candidate source, request material grades, molding capability, and any utility qualification approvals before treating it as approved.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 3,
+   "title": "Matium Launches Agency Program; Collective Polymers Is First Partner",
+   "url": "https://www.plasticstoday.com/resin-pricing/matium-launches-agency-program-with-collective-polymers-partnership",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-23",
+   "summary": "Matium launched an Agency program, with Collective Polymers as its first partner, giving plastics traders access to financing, logistics and software infrastructure without equity exchange, per PlasticsToday (David Hutton). Terms, fees, geography, launch date and participant count are absent from the supplied material.",
+   "tags": [
+    "plastics trading",
+    "financing",
+    "logistics",
+    "software",
+    "partnership"
+   ],
+   "themes": [
+    "Driver: M&A & partnerships",
+    "Driver: AI & digital"
+   ],
+   "regions": [],
+   "next_action": "Request program documentation from Matium or Collective Polymers covering fees, credit terms and geographic coverage, and track whether further partners are announced.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 4,
+   "title": "US Farathane plans $22M Port Huron plant, 115 jobs",
+   "url": "https://www.plasticstoday.com/automotive-mobility/us-farathane-invests-22m-in-port-huron-expansion",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-23",
+   "summary": "US Farathane will invest nearly $22 million to build a new manufacturing facility in Port Huron, Michigan, creating 115 jobs, per a brief PlasticsToday item by David Hutton. The supplied material names no polymer, process, product line, capacity figure or timeline; this is an announced investment, not operating capacity.",
+   "tags": [
+    "automotive",
+    "capacity expansion",
+    "michigan",
+    "manufacturing investment"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment",
+    "Driver: Automotive & EV"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "If Port Huron sits in your supply chain, ask the company which processes and part families the site will run and on what timeline; verify before treating it as available capacity.",
+   "action": "Qualify / decide"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 5,
+   "title": "Pexco Acquires Recto Molded Products and Legacy Extrusions",
+   "url": "https://www.plasticstoday.com/building-construction/pexco-strengthens-portfolio-through-strategic-acquisition",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-23",
+   "summary": "Pexco has acquired Recto Molded Products and Legacy Extrusions, according to PlasticsToday (David Hutton). The stated rationale is to add complex injection molding, tooling expertise and engineered thermoplastic solutions supporting OEM manufacturing. Deal value, headcount, plant locations, material grades, capacity and completion date are absent from the supplied material.",
+   "tags": [
+    "M&A",
+    "injection molding",
+    "engineered thermoplastics",
+    "OEM manufacturing",
+    "supply chain"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships"
+   ],
+   "regions": [],
+   "next_action": "Check your supplier and tooling register against Recto and Legacy part numbers, and ask Pexco to confirm which sites and material grades will continue to serve existing programs.",
+   "action": "Verify"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 1,
+   "title": "US lawmakers press USTR on PET imports, RPET capacity",
+   "url": "https://resource-recycling.com/plastics/2026/09/25/us-lawmakers-urge-protection-of-domestic-rpet/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-09-25",
+   "summary": "Five US representatives sent a September 2026 letter asking USTR Jamieson Greer to weigh domestic RPET in Section 301 reviews of foreign structural excess capacity, citing industry data that over a quarter of US PET recycling capacity was lost in 12 months and seven of about 30 reclaimers closed. They seek review of Vietnam, Malaysia, Indonesia, India, Thailand and South Korea, possible remedies under HTS 3907.61, 3907.69 and 3907.99.50, and better traceability of recycled-content and origin claims. Bale prices hit a record low of 1.44 cents/lb in April 2026 (RecyclingMarkets.Net).",
+   "tags": [
+    "rPET",
+    "PET",
+    "section 301",
+    "trade remedies",
+    "US"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Trade, tariffs & duties",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "United States",
+    "India & South Asia",
+    "Japan & Korea"
+   ],
+   "next_action": "Track whether USTR opens or widens a Section 301 proceeding and whether an RPET-specific HTSUS breakout advances; verify origin and food-grade documentation for imported recycled-content resin.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 2,
+   "title": "NAW appeals Oregon EPR ruling to Ninth Circuit",
+   "url": "https://resource-recycling.com/policy-now/2026/09/25/naw-appeals-oregon-epr-ruling/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-09-25",
+   "summary": "The National Association of Wholesaler-Distributors (NAW) filed a Sept. 24 notice of appeal with the Ninth Circuit, challenging Judge Michael H. Simon's Aug. 27 ruling upholding Oregon's 2021 Recycling Modernization Act (SB 582), which levies producer fees on packaging including plastics. The appeal raises dormant Commerce Clause and due process theories; Simon dissolved the preliminary injunction shielding NAW members since February, so Oregon continues implementing the law.",
+   "tags": [
+    "EPR",
+    "packaging",
+    "Oregon SB 582",
+    "dormant Commerce Clause",
+    "US"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track the Nebraska v. Heller injunction hearing set for January 2027, which may yield a California ruling before the Ninth Circuit decides; confirm CAA fee schedules and membership terms applying to your packaging.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 3,
+   "title": "Newsom vetoes SB 1180, leaving SB 54 fund rules undefined",
+   "url": "https://resource-recycling.com/policy-now/2026/09/24/newsom-signs-battery-epr-expansion-vetoes-sb-54-fund-bill/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-09-24",
+   "summary": "California Gov. Gavin Newsom vetoed SB 1180 on Sept. 20, 2026; it would have set spending rules for the $5 billion Plastic Pollution Mitigation Fund (PPMF) created under SB 54. Statute still requires the producer responsibility organization (PRO) to pay $500 million per year into the PPMF from Jan. 1, 2027 to Jan. 1, 2037, with up to $150 million collectible from plastic manufacturers. Newsom said the bill \"risks complicating implementation.\"",
+   "tags": [
+    "EPR",
+    "SB 54",
+    "California",
+    "plastic packaging",
+    "Plastic Pollution Mitigation Fund"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track CalRecycle's SB 54 implementation, the litigation over the final regulations, and whether a successor spending-rules bill is introduced before payments begin in 2027.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 4,
+   "title": "EUBP Position Paper Seeks EU Demand Measures for Biobased Plastics",
+   "url": "https://www.european-bioplastics.org/pp-industrial-accelerator-act/",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "European Bioplastics",
+   "published": "2026-09-22",
+   "summary": "European Bioplastics (EUBP) published a position paper urging the EU to turn the Industrial Accelerator Act's (IAA) recognition of biobased plastics, polymers and chemicals as strategic lead markets into concrete demand-side measures. EUBP asks the Commission to act within 12 months under Article 16 to stimulate sustainable-carbon chemicals, polymers and plastics and make defossilisation an explicit industrial objective. The excerpt gives advocacy messages, not binding text, quantified targets or implementation detail.",
+   "tags": [
+    "biobased plastics",
+    "EU regulation",
+    "Industrial Accelerator Act",
+    "policy advocacy",
+    "Europe"
+   ],
+   "themes": [
+    "Polymer: Bio-based & biodegradable"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Monitor the IAA process for Article 16 Commission proposals and check whether sustainable-carbon eligibility criteria appear in implementing text.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-09-27",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 5,
+   "title": "UK Plastic Packaging Tax: headline only, no data supplied",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbjNQeFlZTmJuaVdvX3dNeVE2R0hyREwzTzlfdC0tRkVfdDlveEVEdjJJeHJlQnB3Qlo0ZDlJTkZGaEJBbkh3SWJIUzhwY3Z1NnhXX3NHN0hjamFsYTZjUjc0TThydlQzSi1tRjdyWHNnNDM5NnFwako0WVFSQlNIWWhMZGt5UWNYZm9sQjhPRm83SHVxSTlVNEhUSDdsT29salJNNGFWTEZ0UQ?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Customer value and product design",
+   "published": "2026-09-22",
+   "summary": "Packaging Gateway published an item headlined \"Is the UK Plastic Packaging Tax working? What the data tells us,\" as captured in the supplied RSS feed. The supplied material contains only the headline and the outlet name; the article body, any dataset, time period, methodology, tax rates and stated conclusions are absent from the supplied material. No author is identified beyond the feed's \"Customer value and product design\" attribution.",
+   "tags": [
+    "UK Plastic Packaging Tax",
+    "packaging regulation",
+    "tax compliance",
+    "plastics policy",
+    "packaging"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "UK"
+   ],
+   "next_action": "Obtain the full article and any dataset it cites before using its framing in compliance or packaging-design reviews.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 1,
+   "title": "Recycled Plastics: Pricing Pressure and Policy Delay Signal",
+   "url": "https://www.plasticstoday.com/materials/recycled-plastics-markets-navigate-pricing-pressures-policy-delays",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-29",
+   "summary": "Recycled plastics markets are described as facing disconnected feedstock pricing, compressed converter margins, and policy uncertainty across rPET, rPE, and rPP, according to an analysis summary attributed to PlasticsToday (David Hutton). Named pressure points are import dependence, freight costs, and virgin resin competition. The supplied material contains no quantified prices, capacity figures, named policies, geographies, grades beyond the three resin families, or actors; those details are absent from the supplied excerpt.",
+   "tags": [
+    "rPET",
+    "rPE",
+    "rPP",
+    "recycled plastics",
+    "market pricing",
+    "policy uncertainty"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: Polypropylene (PP)",
+    "Polymer: PET / polyester",
+    "Driver: Trade, tariffs & duties",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [],
+   "next_action": "Track the specific recycled-content rules and their proposal-versus-application status relevant to your markets, and request the underlying price and volume data behind any recyclate quote before treating the reported margin squeeze as applicable to a given grade or region.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 1,
+   "title": "ADS recycled HDPE share falls to 38% as Georgia capacity ramps",
+   "url": "https://resource-recycling.com/plastics/2026/10/01/ads-flexing-new-recycling-capacity-against-resin-spikes/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-01",
+   "summary": "Advanced Drainage Systems (ADS) bought 388 million pounds of recycled plastic in fiscal 2026, 38% of resin purchases, down from 540 million pounds and 46% in fiscal 2025—the lowest share in five years, per its sustainability report. ADS targets 1 billion pounds annually by fiscal 2032 and says it is pivoting back toward recycled resin after a $30 million Cordele, Georgia, recycling expansion ramped in June, citing volatile virgin polyolefin pricing linked to supply constraints from the US-Israel war in Iran.",
+   "tags": [
+    "HDPE",
+    "recycled content",
+    "recycled plastics",
+    "pipe",
+    "georgia"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "",
+   "action": null
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 2,
+   "title": "Three brand packaging changes reported; specification detail absent from supplied material",
+   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOZlRKNExRczZqREJDZWFOal95THJhQzVoUEtLR2pCWmxndnZvcWpqTWpOYl8tRjJ6N3FONE51Y0paVGV1OEp3a2JGSDY1QmZqYzhjX0xyMUdTMlBSZzNhRTZxa3ZXNXAwZkpMZjlWMzMwNnVBVTNndi1yLUM4NENYUkF1aFVnbzBCZnZGMzZZV1ZYM0otcGdLOHRDbi1xWjI1Mk0ta0RvSkpyaVBaWlhqeXM5QWdqSGhYSWM5N1A1RjlYeldaMERLazlRZGRhZjhBanc0QXF6Z21qcVlBV0xTNnh4b2NkekNSdjFkOFVGWjV2bG05Yk1Ra2NzSE1KQ3lfNTZiMzI4bXBUeE5RNEh4THg1Qm4zTno1cURjbWhQRlJfV2t6VGp5cktYc0NoZFFSQnA5Q2dhSXRBMVBzbFg0cUx3?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Customer value and product design",
+   "published": "2026-09-28",
+   "summary": "A Packaging World roundup headline reports three packaging changes: Coca-Cola transitioning ginger beer packaging to clear bottles, Head & Shoulders incorporating HDPE (high-density polyethylene) into shampoo bottles, and Arla adopting a recycled plastic cup. The supplied material consists of the headline only — no article body. Dates, geography, resin grades, recycled-content percentages, test conditions and volumes are absent from the supplied material.",
+   "tags": [
+    "HDPE",
+    "recycled plastic",
+    "plastic packaging",
+    "bottle design",
+    "consumer brands"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)"
+   ],
+   "regions": [],
+   "next_action": "Retrieve the full Packaging World article and, if available, the brand packaging specifications to confirm material type, recycled content and launch dates before citing these moves internally.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "Toray claims first solvent-based PPS recycling process",
+   "url": "https://www.plasticstoday.com/materials/toray-develops-first-solvent-based-pps-recycling-technology",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-30",
+   "summary": "The PlasticsToday item reports that Toray Industries announced what it calls an industry-first solvent-based process for recovering polyphenylene sulfide (PPS) from waste while maintaining molecular weight, with possible greenhouse gas reductions. The supplied material omits scale, pilot or commercial readiness, economics, recovery rates, and quantified GHG data, leaving the claim as early-stage.",
+   "tags": [
+    "PPS",
+    "solvent based recycling",
+    "chemical recycling",
+    "toray",
+    "materials recovery"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: Recycled content & claims",
+    "Driver: Chemical & enzymatic recycling"
+   ],
+   "regions": [
+    "Japan & Korea"
+   ],
+   "next_action": "Ask Toray for pilot versus commercial scale, recovery rate, molecular-weight retention data, GHG accounting boundaries, and sample availability.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 2,
+   "title": "Reju Plans Three Textile-to-Textile RPET Plants, First Due 2028–29",
+   "url": "https://resource-recycling.com/recycling/2026/10/01/rejus-patrik-frisk-on-the-promise-of-textile-to-textile-recycling/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-01",
+   "summary": "Reju, a Paris-based textile-to-textile chemical recycler wholly owned by Technip Energies, plans three commercial polyester plants — Sittard (Netherlands), Rochester (New York) and Lacq (France) — after opening a Frankfurt demo plant in October 2024. CEO Patrik Frisk says the first is expected by end-2028 or into 2029, taking in about 60,000 tons of textile waste a year (roughly 300 million garments) to produce about 40,000 tons of RPET via glycolysis to the rBHET monomer. Pricing is not specified; Frisk says it will cost more than virgin and mechanical polyester.",
+   "tags": [
+    "chemical recycling",
+    "polyester",
+    "textile to textile",
+    "rPET",
+    "capacity"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Chemical & enzymatic recycling",
+    "Driver: Textiles"
+   ],
+   "regions": [
+    "United States",
+    "France",
+    "Other Europe"
+   ],
+   "next_action": "Track permitting and offtake announcements for Sittard and Rochester, and request fiber specification and sample data for qualification; the claimed 50 percent CO2 reduction versus oil-based polyester is a company statement that would need independent verification.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 3,
+   "title": "APR Launches Digital Design Assessment Tool for Packaging Recyclability",
+   "url": "https://www.plasticstoday.com/packaging/apr-launches-digital-tool-for-packaging-recyclability",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-30",
+   "summary": "APR launched a digital Design Assessment Tool that automates recyclability evaluations for plastic packaging, per PlasticsToday (David Hutton), aimed at helping companies meet expanding EPR (extended producer responsibility) laws and labeling requirements. The supplied excerpt gives no launch date, geography, material grades, test conditions, assessment methodology, tool scope, availability or cost.",
+   "tags": [
+    "plastic packaging",
+    "recyclability",
+    "EPR compliance",
+    "design for recycling",
+    "digital tool"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law",
+    "Driver: AI & digital"
+   ],
+   "regions": [],
+   "next_action": "Ask APR for the tool's assessment criteria, material and format scope, and any jurisdiction mapping; then run one existing package format through it and compare the result against your current design-for-recycling checklist.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 4,
+   "title": "Australia's waste-plastic railway sleepers: 50-year claim unverified",
+   "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPVFNmVEV4WGw0R0V3WGt3OUZrRUlsOXljc0RUZ2lDbUg1eTlKZ05JTDNVOU9lVV9STXVaYkZQYW14czZFSUpPYmNGYXRYTmtha09hd0pwdnJOVDhwVVkxODFPdU9hbjd6d1JmOERxTVFfajc1dUUyRVlKQ0Nwd3lucmctaGlxNzk3TTBGMkYyMUlDN2tMVEZEZEVrbUZxSC1tdHljR3JWUUU1VWVOZHRPM1NMUjNYWVhCbmFzcHpIX0s3WVBPWUU2b09XN0tXZ2MtZ0FIQU1ua1FZOTd5d1V2cjVJYzRWWUdZTEFMS1VJZ21rc0hhWFMyQl8zbl8tZHhWTUN3ODAzVjdQa2VscHNEOEtjcUo4TUtxUnVaNk5Nems3TTVIN3BqQjFadXMteDNyYjg0M2dRdFV4djBDcElKdDUxLUhaRl9FZWdrZVNMMGVCeXlMOWstQTdEQXptOTh5SGRHZ1d6MG51TDkyTUEzdA?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Customer value and product design",
+   "published": "2026-10-04",
+   "summary": "An Australian initiative has been converting waste plastic into railway sleepers since 2015, according to a headline-only item from The Economic Times; the report claims the sleepers could last up to 50 years and keep \"tonnes\" of plastic out of landfill. The supplied material does not state the polymer type or blend, process, production volumes, cost, scale, or the test method and conditions behind the 50-year figure, and no field-service data is provided. No community comments were available.",
+   "tags": [
+    "waste plastic",
+    "railway sleepers",
+    "recycling",
+    "Australia",
+    "construction"
+   ],
+   "themes": [
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "Australia & NZ"
+   ],
+   "next_action": "Request the supplier's test reports and any field-trial records for the sleepers, and compare them against the rail operator's applicable sleeper specification before any qualification decision.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "material-performance",
+   "pillar_name": "Material Performance",
+   "rank": 1,
+   "title": "EU Forest Project Reports Lightweight Biocomposites for Transport",
+   "url": "https://www.plasticstoday.com/automotive-mobility/eu-project-delivers-lightweight-biocomposites-for-sustainable-transport",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-02",
+   "summary": "The EU-funded Forest project reports lightweight biocomposites for automotive, aerospace and bus applications, claiming up to 35% weight reduction while maintaining performance and safety standards, per PlasticsToday. Matrix polymers, fiber types, the baseline component, test conditions, project timeline and participating organizations are absent from the supplied material.",
+   "tags": [
+    "biocomposites",
+    "automotive",
+    "lightweighting",
+    "EU-funded",
+    "sustainable transport"
+   ],
+   "themes": [
+    "Driver: Automotive & EV",
+    "Driver: Textiles"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Request the project's technical deliverables or a material datasheet listing matrix polymer, fiber type and loading, test standards and the reference component behind the 35% figure.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "material-performance",
+   "pillar_name": "Material Performance",
+   "rank": 2,
+   "title": "Waterloo headline claims 3D-printed filter removes up to 90% of microplastics",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNE9JQV82a3RKOE5TRjFzQWEyVlVGMk5XUXphbTZTV0dmSlpWZVUxNHJRVmc0VVdiSmk3NkpieHEwcTdSRGo0OEFXei1wY2FDZzZqUnZkNEJKNlg2SjZZQ2hPUUhONGRPSFFwdDZUZXBqWU1PS3JKdFZiTGkxa2lGd1dWeGRqekdqWlQwa3hlb1RZZw?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Emerging polymers and materials AI",
+   "published": "2026-09-29",
+   "summary": "The University of Waterloo is credited with a headline claiming that a low-cost 3D-printed filter removes up to 90 per cent of microplastics from water. The supplied material contains no supporting detail: no filter or polymer grade, printing method, particle size range, influent concentration, water matrix, flow rate, test protocol, cost figure, production scale, or commercialization date. No study, dataset, or peer-reviewed reference is present in the supplied excerpt.",
+   "tags": [
+    "microplastics",
+    "3D printing",
+    "water filtration",
+    "University of Waterloo",
+    "early stage"
+   ],
+   "themes": [
+    "Driver: Recycled content & claims",
+    "Driver: Bans & chemical restrictions"
+   ],
+   "regions": [
+    "Canada"
+   ],
+   "next_action": "Obtain the underlying Waterloo release or study to check test method, particle size range, flow rate, and removal mechanism; request samples or data before any specification change or total-cost comparison.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "future-materials",
+   "pillar_name": "Future Materials",
+   "rank": 1,
+   "title": "Italian SME seeks partners for Horizon Europe recyclable thermoplastic composites project",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ09abC1LM3M2YUFLdUFZV0VGSk5lRGRKZXhqbjFGWXU5Y2QwRWZuUzlaOWYwbnprQUVIVy1DVGM1LUFrMU9JN3BJZ004d1JOR2lPMkNKaDR5Vm1KVGVJNlh3SHIzZU04SWp5Y0kxbnJDcU55eUVVRnhySDhlWWZVWW1uMUFNclN6MFRwQ1VuSnRnQ3UtZkhGQ0hqdkNFSmZIeGo3dTZDU1FENWNNYmJ5V0wtYmRWS043cmY0UGpOTjg?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "EU regulatory sources",
+   "published": "2026-10-02",
+   "summary": "An Italian small or medium-sized enterprise (SME) is seeking partners under Horizon Europe call HORIZON-CL4-2027-01-MAT-PROD-06 to develop recyclable thermoplastic composites, per the Enterprise Europe Network listing. The supplied material provides no technical results, material grades, test conditions, target scale, budget or consortium details.",
+   "tags": [
+    "thermoplastic composites",
+    "recyclable materials",
+    "Horizon Europe",
+    "Italy",
+    "partner search"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: M&A & partnerships"
+   ],
+   "regions": [
+    "European Union",
+    "Italy"
+   ],
+   "next_action": "Check the HORIZON-CL4-2027-01-MAT-PROD-06 work programme and the Enterprise Europe Network partner-search entry for scope, consortium requirements and timeline before contacting the SME.",
+   "action": "Verify"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "Borouge starts €100M specialty polypropylene compounding plant in Austria",
+   "url": "https://www.plasticstoday.com/compounding/borouge-opens-105m-polypropylene-facility-in-austria",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-28",
+   "summary": "Borouge International has begun commercial operations at its specialty polypropylene (PP) compounding facility in Schwechat, Austria, following a $105 million (€100 million) investment, per the supplied report. The supplied excerpt gives no nameplate capacity, grade portfolio, start-up date, or target applications. A linked ChemAnalyst headline frames the plant as boosting \"circular\" PP supply, but no supporting detail appears in the supplied material.",
+   "tags": [
+    "polypropylene",
+    "compounding",
+    "capacity investment",
+    "austria"
+   ],
+   "themes": [
+    "Polymer: Polypropylene (PP)",
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "Other Europe",
+    "Middle East"
+   ],
+   "next_action": "Ask Borouge for the Schwechat grade slate, nameplate capacity and any recycled-content certification, and check fit against current specifications before substituting.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 2,
+   "title": "Alpla to Open North Las Vegas Packaging Plant in Spring 2027",
+   "url": "https://www.plasticstoday.com/packaging/alpla-expands-us-manufacturing-with-nevada-facility",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-01",
+   "summary": "Alpla, described as a global packaging specialist, plans to open a manufacturing plant in North Las Vegas, Nevada, in spring 2027, adding western US capacity and 36 jobs, according to PlasticsToday (David Hutton). The supplied material does not state the product line, format, polymer grade, capacity volume, investment amount or customers. No community comments were available.",
+   "tags": [
+    "alpla",
+    "plastic packaging",
+    "US manufacturing",
+    "capacity expansion",
+    "nevada"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track Alpla announcements or contact the company for the plant's packaging formats, polymer grades and capacity, then compare against current western US supply terms if relevant. This is a monitoring step, not a procurement recommendation.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 3,
+   "title": "Resin Sourcing Shifts Toward Regional Suppliers and Total Cost",
+   "url": "https://www.plasticstoday.com/industry-trends/the-new-rules-of-resin-sourcing-for-an-unpredictable-supply-chain",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-29",
+   "summary": "A Plasticstoday industry trend piece by Michael Foldvary states that since 2020, supply-chain disruptions have pushed plastics converters toward flexible sourcing strategies that prioritize regional suppliers, alternative materials, and total cost over unit price alone. The supplied material contains no quantified data, no specific resin grades, supplier names, regions, volumes, or price figures; it is a high-level trend summary rather than a report on a discrete sourcing change.",
+   "tags": [
+    "resin sourcing",
+    "procurement",
+    "converters",
+    "regional suppliers"
+   ],
+   "themes": [
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [],
+   "next_action": "Consider building a total-cost comparison for one resin grade already in use, covering freight, lead time, and re-qualification, and treat the regional-substitution and alternative-material claims as unverified until supported by supplier documentation.",
+   "action": "Other"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 4,
+   "title": "Evertis adds Monterrey COEX-CAST PET film line",
+   "url": "https://www.plasticstoday.com/packaging/evertis-expands-mexican-pet-film-production-capacity",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-29",
+   "summary": "Evertis is installing a COEX-CAST (coextrusion cast) production line at its Monterrey, Mexico facility to make thin, flexible PET films for North American markets, according to PlasticsToday (David Hutton). The supplied material does not state capacity, start-up timing, investment, film thickness or grade, barrier structure, or recycled content. No community comments were available.",
+   "tags": [
+    "PET film",
+    "COEX-CAST",
+    "capacity expansion",
+    "Mexico",
+    "North America"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "United States",
+    "Mexico & Latin America"
+   ],
+   "next_action": "Request from Evertis the line start-up date and film specification (thickness range, structure, recycled content), or track follow-up coverage, before adding it to a sourcing or qualification comparison.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 5,
+   "title": "Rocket Kit Maker Insources Injection Molding, Reports Cost Halved",
+   "url": "https://www.plasticstoday.com/injection-molding/rocket-manufacturer-launches-in-house-injection-molding-operation",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-29",
+   "summary": "LOC Precision, a Wisconsin-based manufacturer of high-power rocket kits, has moved plastic injection molding in-house using compact benchtop equipment and reports cutting production costs in half, per PlasticsToday. The supplied material does not specify polymer grade, molded parts, production volume, tooling cost, timeline or quality data.",
+   "tags": [
+    "injection molding",
+    "vertical integration",
+    "cost reduction",
+    "benchtop equipment",
+    "wisconsin"
+   ],
+   "themes": [],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Proposed: request the part-level cost breakdown, resin grades and tooling investment behind the claim before using it in any make-versus-buy assessment.",
+   "action": "Other"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 1,
+   "title": "Italy Packaging Decree Becomes Law; Single-Use Plastics Details Absent",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQWlZqdC1IbzNwYjNUd1RLanlJY3ZKdzU4cjJfWnlSUXFGdTloVDhhOE40S1BSZE5LU2x0U2Z0OGpZYTc2dU9MaGpCajQzTl9ZQmFOQzZITXVrcWdaYUN3N0NfWHRCLU9fQ3Y0RUNsdFF2VkE5ZUJZLWgyLXpvMmxicHFXTE9UMmZTQV9pTy05bHE1emJLQzMxZ0NkeWZFMEhnZDlFLUhkd3VHVXQ2aWVIelBPUFNzQ2d6WUg4N1RJS3NQTFdqTGJqM195R1ZjQm02bXpiRlE4eDhiUUdLWS1CNTdmdjlvV0IzXzU3WkJicXJHRGlnWDlob1hTaFNjdS1wa3c?oc=5",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "PCR and renewable materials",
+   "published": "2026-10-01",
+   "summary": "Il Sole 24 ORE reports that Italy's Packaging Decree received final approval from the Chamber of Deputies and is now law, with changes affecting single-use plastics. The supplied material contains only the headline and link; the specific measures, affected material grades, scope, transition periods and application dates are absent from it. No effective date or implementation timeline can be verified from what was provided.",
+   "tags": [
+    "single use plastics",
+    "packaging decree",
+    "Italy",
+    "regulatory compliance"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "Italy"
+   ],
+   "next_action": "Obtain the enacted decree text or its official gazette publication to confirm scope, definitions and application dates, and compare those against current packaging specifications before any change is scoped.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 2,
+   "title": "Ineos Backs EU PVC Dumping Probe, Seeks Trade-Defense Reform",
+   "url": "https://www.plasticstoday.com/legislation-regulations/ineos-files-20-cases-against-unfair-imports",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-30",
+   "summary": "Ineos says it welcomes the European Commission's anti-dumping investigation into PVC imports while pressing for urgent EU trade-defense reform, citing US tariff strategies as a model for protecting strategic industries (PlasticsToday, David Hutton). The headline refers to 20 Ineos cases, but the supplied material gives no detail on respondent countries, PVC grades, duty levels or timelines.",
+   "tags": [
+    "PVC",
+    "anti dumping",
+    "EU trade defense",
+    "European Commission",
+    "ineos"
+   ],
+   "themes": [
+    "Polymer: PVC",
+    "Driver: Trade, tariffs & duties"
+   ],
+   "regions": [
+    "United States",
+    "European Union"
+   ],
+   "next_action": "Track the European Commission's investigation notice for product scope, named countries and provisional-duty deadlines before changing supplier qualification or contract terms.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 3,
+   "title": "California Adds Microplastics to Candidate Chemicals List",
+   "url": "https://www.plasticstoday.com/legislation-regulations/california-takes-bold-step-on-microplastics-regulation",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-30",
+   "summary": "California added microplastics to its Candidate Chemicals List effective Oct. 1, which PlasticsToday (David Hutton) frames as a step in the state's decade-long effort to regulate plastic pollution. The listing is a screening step under California's Safer Consumer Products framework, not a ban or restriction. The supplied material gives no product categories, obligations, thresholds, or compliance timelines.",
+   "tags": [
+    "microplastics",
+    "California",
+    "Safer Consumer Products",
+    "plastics pollution"
+   ],
+   "themes": [
+    "Driver: Bans & chemical restrictions"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track whether the listing progresses to a Priority Product designation under the Safer Consumer Products framework, and watch for subsequent state notices defining scope, test conditions, or compliance dates.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 4,
+   "title": "Exxon, others defeat consumer suit over plastic recycling claims",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTEJULS1KRUVtM09aZnNfc29vQUVNSzJzTjZhODh4QVpaQ1NNZFExUV9EdmFiNXVCVjJid244VnE4NmdxN1FXZVJISEFzRkE4Z0N3UlNzWWNWLXE1UTRzRUxhNUdYamZXQ1ViM3VocHNZSm1IS3VlbXdvSl9CTUc2SkVaYXlXOV9BcEFYdUdIRTdveWswUzYzcTFJaElmdDNuQlNOV0w4VWNlZ3pkY0U2ZGNLZTB4M3ZJWFFr?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-09-30",
+   "summary": "Reuters reports that Exxon and other defendants defeated a consumer lawsuit over plastic recycling claims. The supplied item contains only a headline: the court, jurisdiction, legal basis, claims at issue, scope of the ruling, and whether it sets precedent or merely dismisses one complaint are all absent from the supplied material. No community comments or tool results were provided.",
+   "tags": [
+    "plastics recycling",
+    "greenwashing litigation",
+    "claims substantiation",
+    "US"
+   ],
+   "themes": [
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Retrieve the court ruling or docket entry to confirm jurisdiction, legal basis and whether the dismissal is precedential before reviewing claim language or label copy.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 5,
+   "title": "Nepal Supreme Court reportedly orders 40-micron plastic bag ban enforcement",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaHZqaEpCNDVVTVI4eUtyR1JDNWlHUEF4LVJIdFhnWDJUYkpNZzlpZGhtM3haT2lja1pMVm15WmpudG00OWN5NkxqRXZic1RSNmEwbklVYldlMzVBT2hoenZucHFKVU1jRTBZZHFGWk4wS3R4WDdfV08wT2tZcDhwdlo1b3h1VFpUSy1EU2xGelEtMnRjNDZzZm5saElJNWxDVEpjaUpzaFJaS2dwRTVQNmI4UkRKNFk?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-09-30",
+   "summary": "Nepal's Supreme Court has reportedly ordered nationwide enforcement of a ban on plastic bags below 40 microns, according to a headline-only item from myRepublica. The supplied material does not include the order's scope, effective date, enforcement mechanisms, or affected product exemptions. No further source text or community comments were available.",
+   "tags": [
+    "plastic bags",
+    "40 micron",
+    "regulation",
+    "nepal",
+    "packaging"
+   ],
+   "themes": [
+    "Driver: Bans & chemical restrictions"
+   ],
+   "regions": [
+    "India & South Asia"
+   ],
+   "next_action": "Obtain the Supreme Court order or official gazette text to confirm scope, exclusions, compliance dates, and enforcement authority before adjusting specifications.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-04",
+   "pillar": "research-patents",
+   "pillar_name": "Research & Patents",
+   "rank": 1,
+   "title": "Virginia Tech reports ring-shaped polymer route to degradable packaging",
+   "url": "https://www.plasticstoday.com/sustainability/virginia-tech-researchers-develop-ring-shaped-polymers-for-sustainable-packaging",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-09-30",
+   "summary": "Virginia Tech researchers report developing degradable, high-performance packaging materials by controlling polymer chain architecture rather than changing chemical components, according to a PlasticsToday item by Lisette Hilton; the work is framed as a potential route for sustainable food packaging. Polymer identity, performance metrics, degradation conditions and publication details are absent from the supplied material.",
+   "tags": [
+    "ring shaped polymers",
+    "polymer architecture",
+    "degradable packaging",
+    "food packaging",
+    "Virginia Tech"
+   ],
+   "themes": [],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Locate the primary publication or Virginia Tech release to confirm polymer chemistry, test conditions and degradation results before requesting samples.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 1,
+   "title": "ColombiaPlast 2026 Reports Record Attendance, Expanded Space in Bogotá",
+   "url": "https://www.plasticstoday.com/industry-trends/colombiaplast-2026-records-strong-growth-in-bogot-",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-08",
+   "summary": "ColombiaPlast 2026 in Bogotá closed with record attendance, expanded exhibition space, and US$7.8 million in reported business expectations, according to PlasticsToday (David Hutton), which framed the event as reinforcing Bogotá's position as the plastics hub for the Andean region. Absolute attendance, exhibitor and floor-space figures, event dates, and the methodology behind the business-expectations figure are absent from the supplied material. Business expectations are projections, not audited outcomes.",
+   "tags": [
+    "colombia",
+    "andean region",
+    "trade show",
+    "regional demand"
+   ],
+   "themes": [],
+   "regions": [
+    "United States",
+    "Mexico & Latin America"
+   ],
+   "next_action": "Request audited attendance, exhibitor and floor-space counts and the methodology behind the US$7.8 million figure from the organizer before citing it in any market-sizing or sourcing plan.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 2,
+   "title": "Engel iQ.boost training reportedly cuts molder losses",
+   "url": "https://www.plasticstoday.com/injection-molding/engel-training-program-unlocks-savings",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-07",
+   "summary": "Sinit, a molder using Engel injection-molding equipment, reportedly halved complaints, cut start-up rejects by one-third, and saved $94,500 annually after training on already-installed iQ.boost digital assistance systems. The supplied excerpt lacks baseline scale, part/volume data, timeline, and independent verification; it is a single-molder, vendor-linked case study.",
+   "tags": [
+    "injection molding",
+    "process optimization",
+    "digitalization",
+    "cost savings",
+    "training"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment",
+    "Driver: AI & digital"
+   ],
+   "regions": [],
+   "next_action": "Ask Engel or Sinit for baseline complaint/reject rates, measurement period, part and volume mix, and training scope before using the figures in an internal business case.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 1,
+   "title": "Five Horizon Europe projects map biodegradable packaging evidence streams",
+   "url": "https://www.european-bioplastics.org/bioplastic-packaging-design-safe-sustainable-and-recyclable-white-paper/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "European Bioplastics",
+   "published": "2026-10-07",
+   "summary": "The European Bioplastics booklet (V2) records a 1 December 2025 Berlin workshop, a side event to the EBC 2025 conference, covering five Horizon Europe-funded 2025 projects: E-OILE', BioPackMan, UPCYCLE, GRECO and Be-UP. Planned work spans polymer scale-up, additives and catalysts, life cycle and techno-economic assessment, pilot production, and biodegradability testing in landfill, compost, soil, freshwater and marine conditions. No results, performance or cost data appear; parity claims versus PP, PE and PET are stated as objectives, not outcomes.",
+   "tags": [
+    "bioplastics",
+    "biodegradable polymers",
+    "packaging",
+    "Horizon Europe",
+    "LCA/TEA",
+    "EU"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: Polypropylene (PP)",
+    "Polymer: PET / polyester",
+    "Polymer: Bio-based & biodegradable",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Track the five projects' Zenodo and CORDIS records for published deliverables, and request samples once pilot materials are released.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 2,
+   "title": "Benvic to Debut Internal LCA Platform at Fakuma 2026",
+   "url": "https://www.plasticstoday.com/materials/benvic-debuts-lca-platform-at-fakuma-2026",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-09",
+   "summary": "Benvic, described in the announcement as a European polymer compounder, will debut an internal Life Cycle Assessment (LCA) platform at Fakuma 2026, letting customers measure environmental impact during early product development. The supplied material contains no methodology, standard alignment, scope, data-quality provisions, availability, or timing beyond the Fakuma 2026 fair.",
+   "tags": [
+    "LCA",
+    "polymer compounding",
+    "Europe",
+    "fakuma"
+   ],
+   "themes": [],
+   "regions": [
+    "European Union",
+    "Germany"
+   ],
+   "next_action": "Request the platform's methodology, system boundary and data-source documentation, plus any named LCA standard or product category rules, before using outputs in design or procurement decisions.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 3,
+   "title": "Plastic Ingenuity touts PET medical reel replacing PVC",
+   "url": "https://www.plasticstoday.com/packaging/plastic-ingenuity-showcasing-sustainable-packaging-innovation-at-pack-expo",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-06",
+   "summary": "Plastic Ingenuity says its Ameristar Award-winning PET (polyethylene terephthalate) medical device reel replaces PVC (polyvinyl chloride) with a recyclable material, converting 236,000 pounds annually, according to PlasticsToday. The company will showcase the reel at Pack Expo 2026 in Chicago later this month. The supplied material gives no performance, qualification, cost or regulatory detail, and does not specify whether 236,000 pounds is converted volume, capacity or a target.",
+   "tags": [
+    "PET",
+    "PVC replacement",
+    "medical device packaging",
+    "sustainable packaging",
+    "Pack Expo"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: PET / polyester",
+    "Polymer: PVC",
+    "Driver: Capacity moves & investment",
+    "Driver: Medical & healthcare"
+   ],
+   "regions": [],
+   "next_action": "Request the reel's material specification, sterilization compatibility and recyclability documentation, and ask what the 236,000 pounds annually measures.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "Panel: U.S. recycling access tracks wealth, not plastic waste generation",
+   "url": "https://resource-recycling.com/recycling/2026/10/07/improving-recycling-access-for-underserved-communities/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-07",
+   "summary": "At the Northeast Recycling Council conference (Plainsboro, New Jersey), University at Buffalo's John Atkinson presented a Nature Communications Sustainability study — first author Zeinab Mousania — analyzing 84,000 Census tracts and 130 million buildings: plastic packaging waste generation is stable across socioeconomic groups, but communities near MRFs are 30–55% wealthier and 14–19% more college-educated. Ramsey County, Minnesota used CDC's EJI Explorer to tier grants, raising one community's funding from $1,500 to over $20,000. WasteZero estimates ~15% of U.S. communities are \"recycling deserts,\" clustered in the South.",
+   "tags": [
+    "plastic packaging",
+    "recycling access",
+    "MRF-siting",
+    "environmental justice",
+    "EPR"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Pull the Nature Communications Sustainability study for its MRF-proximity methodology, and track whether specific state EPR plans carry environmental-justice earmarks.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 2,
+   "title": "US packaging EPR pushes AI vision systems toward MRFs",
+   "url": "https://resource-recycling.com/policy-now/2026/10/06/epr-demands-push-ai-vision-systems-toward-mrfs/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-06",
+   "summary": "Producer responsibility organizations (PROs) are buying AI vision systems and testing them in-house as US state packaging EPR programs build audit and reporting rules, EverestLabs' Apurba Pradhan said at RCon in St. Louis, Missouri. He cited a seven-day audit of one fiber line at 91.27% bale purity, with contaminants broken out by resin (PET, polypropylene, HDPE) and aluminum, and an infeed running 21 of 41 tons per hour; manual 50–100 pound samples cover about 0.01% of a day's material.",
+   "tags": [
+    "EPR",
+    "machine vision sorting",
+    "MRF",
+    "PET-HDPE",
+    "US"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: Polypropylene (PP)",
+    "Polymer: PET / polyester",
+    "Driver: EPR & packaging law",
+    "Driver: Textiles",
+    "Driver: AI & digital"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track whether PROs mandate installation and who pays; request the audit methodology and sample sizes behind any vendor purity figure.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 3,
+   "title": "Carbios Reports Enzymatic PET Textile Recycling at Scale",
+   "url": "https://www.plasticstoday.com/medical/carbios-validates-enzymatic-pet-textile-recycling-at-scale",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-08",
+   "summary": "Carbios says it produced recycled polyester garments from complex textile and plastic waste using enzymatic technology, presenting the result as evidence of industrial scalability across European manufacturing partners (reported by PlasticsToday, Robert Grace). The supplied material gives no quantified capacity, throughput, process details, test conditions, verification data, grades, or commercial timelines. The scalability claim is Carbios' own and is not independently evidenced in the supplied excerpt.",
+   "tags": [
+    "PET",
+    "enzymatic recycling",
+    "textile recycling",
+    "Europe",
+    "carbios"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships",
+    "Driver: Recycled content & claims",
+    "Driver: Chemical & enzymatic recycling",
+    "Driver: Textiles"
+   ],
+   "regions": [
+    "European Union",
+    "France"
+   ],
+   "next_action": "Consider requesting the underlying validation data from Carbios or its named European partners — output capacity, feedstock specifications, fibre grade test results and chain-of-custody documentation — and track partner announcements for firm commercial timelines.",
+   "action": "Other"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 4,
+   "title": "Caracal Opens Baltimore Medical Plastics Recycling Site With Johns Hopkins",
+   "url": "https://www.plasticstoday.com/sustainability/caracal-opens-baltimore-facility-for-medical-recycling",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-06",
+   "summary": "Caracal Products and Services opened a Baltimore, Maryland facility to recycle medical plastics in partnership with Johns Hopkins Health System, per PlasticsToday (David Hutton). The supplied material contains no capacity, feedstock volume, processing technology, accepted polymer grades, start date, or economics.",
+   "tags": [
+    "medical plastics",
+    "recycling",
+    "healthcare",
+    "baltimore",
+    "Johns Hopkins"
+   ],
+   "themes": [
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships",
+    "Driver: Medical & healthcare"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Ask Caracal or Johns Hopkins for the accepted polymer list, baseline volumes and end markets for recovered resin.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "material-performance",
+   "pillar_name": "Material Performance",
+   "rank": 1,
+   "title": "Toray prototypes heat-resistant film capacitor tested at 150°C",
+   "url": "https://www.plasticstoday.com/materials/toray-tests-heat-resistant-film-capacitor",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-08",
+   "summary": "Toray Industries says it successfully tested a prototype film capacitor made with a proprietary heat-resistant film at 150°C, a temperature relevant to electric-vehicle and aircraft inverter electronics. The company says the design could potentially halve inverter cooling-system size. Polymer chemistry, electrical ratings, test duration and conditions, and qualification status are absent from the supplied material.",
+   "tags": [
+    "toray",
+    "film capacitor",
+    "heat resistant film",
+    "EV power electronics",
+    "prototype"
+   ],
+   "themes": [
+    "Driver: Automotive & EV"
+   ],
+   "regions": [
+    "Japan & Korea"
+   ],
+   "next_action": "Ask Toray for test conditions and electrical specifications — voltage and capacitance ratings, test duration and pass criteria at 150°C — before comparing against incumbent high-temperature film capacitor data.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "US Plastic Resin Production Rises in August",
+   "url": "https://www.plasticstoday.com/resin-pricing/us-plastic-resin-production-rises-in-august",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-05",
+   "summary": "US plastic resin production reached 9.1 billion pounds in August 2026, up 1.7% from July, according to PlasticsToday (David Hutton). The same report says recycled plastics markets face pricing challenges and import dependency, without figures. Resin-level detail, year-over-year comparison and methodology are absent from the supplied material.",
+   "tags": [
+    "plastic resin",
+    "production",
+    "US",
+    "recycled plastics",
+    "pricing"
+   ],
+   "themes": [
+    "Driver: Trade, tariffs & duties",
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the resin-level breakdown, year-over-year comparison and methodology from the report's publisher before using the number in supply planning.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 2,
+   "title": "Charter Next Generation to Close Texas Blown Film Plant",
+   "url": "https://www.plasticstoday.com/extrusion-film-sheet/cng-closes-texas-blown-film-plant-affecting-56-workers",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-05",
+   "summary": "Charter Next Generation has filed a WARN notice announcing the closure of its Grand Prairie, Texas, blown film facility on November 30, affecting 56 employees, per PlasticsToday (David Hutton). The supplied material does not specify the closure year, the number or type of film lines, output volumes, grades produced, customers served, or any company rationale. No community comments were available.",
+   "tags": [
+    "blown film",
+    "Texas",
+    "plant closure",
+    "capacity",
+    "Charter Next Generation"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Check the WARN filing for the closure year and site details, and ask CNG which film structures and accounts are being transferred, then compare qualification timelines and total cost for any alternate source.",
+   "action": "Verify"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 3,
+   "title": "Polyfil USA Announces $12M New Jersey Compounding Expansion",
+   "url": "https://www.plasticstoday.com/compounding/polyfil-usa-breaks-ground-on-12m-manufacturing-expansion",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-05",
+   "summary": "Polyfil USA announced a $12 million expansion of its New Jersey headquarters, covering advanced manufacturing equipment, laboratories, and training facilities, according to PlasticsToday (David Hutton). The announcement discloses no capacity tonnage, product lines, timeline, or operational status.",
+   "tags": [
+    "compounding",
+    "capacity expansion",
+    "investment",
+    "New Jersey"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request capacity tonnage, affected product lines, and commissioning dates from the supplier, and track the project until operational status is confirmed.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 4,
+   "title": "Borouge to expand mechanical recycling in Germany and Austria",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQXFNczU4WGpIOUpRUi1ZVGFpUkstRm15QXlURjJJeXRRRlpOcjlGZ3FBSThlZ2E2MEo0ajBJV21VbkFzMFpsamFhWjFFMXNIdHZGdG9YeGxFbk5ZcGlzenNRWnF4bzhLc2dnbVZGR0JKSGVVajlGbUkza240S3lndkZTODRNRDRYd24yVFpSdDFNcXpfaV9EajI3WXlRdWF6NHZOWng4RGw3aVIzbUlzc3gxSQ?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PCR and renewable materials",
+   "published": "2026-10-07",
+   "summary": "ChemEngOnline's headline states that Borouge International is expanding mechanical recycling capacity in Germany and Austria. The supplied material gives no capacity, investment, feedstock, output grade, timeline, or site detail; these are absent from the excerpt, not confirmed absent publicly.",
+   "tags": [
+    "mechanical recycling",
+    "capacity expansion",
+    "Germany",
+    "austria",
+    "borouge"
+   ],
+   "themes": [
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Mechanical recycling"
+   ],
+   "regions": [
+    "Germany",
+    "Other Europe",
+    "Middle East"
+   ],
+   "next_action": "Track Borouge's own announcements and the full ChemEngOnline article for tonnage, polymer grade, plant locations, and start-up dates.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 5,
+   "title": "US BOPP Film Prices Firm as Braskem Shutdowns Tighten Supply",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWDgzZVRRUV9fQjN3U3RmM2FXNG53bmNkZnplMXE1OUI3dGR2cEY2ckRJSmtVTFRKVDFQNEdXTWlYUER6cEtTZFNlSW5aMF9nUmdLVWRjd19rZ0FhWVZSVFBENU45LVNjWk16NmlIYVVtVW1hYnBOR1pvcW1HZ0haTjA5ZEMybmJxTGJ3aURfRVpBdEs0THh0RHU1RXotZ1VpaEtoeTdhVlhKeFJBT0hsVnh5MmdSNzV5c0dDandaT240SUozN0E?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Resin markets and feedstock",
+   "published": "2026-10-09",
+   "summary": "ChemAnalyst reports that US BOPP (biaxially oriented polypropylene) film prices are firm, attributing tighter supply to shutdowns at Braskem's Marcus Hook and Texas facilities. Only the headline was supplied: shutdown duration, affected capacity, price levels, assessment dates and geography beyond those sites are absent from the supplied material, and no independent confirmation is available.",
+   "tags": [
+    "BOPP",
+    "polypropylene",
+    "US",
+    "supply disruption",
+    "braskem"
+   ],
+   "themes": [
+    "Polymer: Polypropylene (PP)",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track Braskem restart or force-majeure notices for the Marcus Hook and Texas sites, and obtain the full ChemAnalyst price assessment, before revising BOPP sourcing or contract assumptions.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 1,
+   "title": "ACC Welcomes Sen. Curtis Recycled Materials Attribution Act",
+   "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNekQ1MFR0b1BDOTlPdHBXWUI3c1FaV2tfbWt6UnZtVnZ0RnNPZWlpS0lXc0l2OFdZTTBoaG5mLV92U0JfWEJDVkxuWUo2a0JROGRHZlZ5MUEzRk4yMml4SEF4Y3RMcm1tek9kMGRsdUJLLWtKcW83NFN2UWN6WnotUEF1cDA0LTE5RUVKWWt5M18xVnc1VFh5M3RIeElrUlZRenc3Nld3N3N3dy1OOVFuY2Q5endkMlpFZ3lUSl9HNm9ud0lHTWlVem5Edkh4blB6TkFGX2dpcUUtSFZXM2lGc1dwbkFtWHVmYllCUHNGMjBrZllyZGtYMllBZU0zcUhRdzhTMUo0U0FaNmNlNFEwUS1vM051MF9McFlxZjR5Y2ZhcDh5SWJ5RzZYUnVfQkdfTHc?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Customer value and product design",
+   "published": "2026-10-07",
+   "summary": "The American Chemistry Council (ACC) applauded Sen. Curtis’ introduction of a “Recycled Materials Attribution Act,” according to the ACC item headline. The supplied material contains only that headline: bill text, scope, definitions, timing, and compliance details are absent.",
+   "tags": [
+    "recycled materials",
+    "attribution",
+    "legislation",
+    "US",
+    "plastics policy"
+   ],
+   "themes": [],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track the bill’s text and committee status, then compare its proposed attribution method with existing recycled-content documentation requirements.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 2,
+   "title": "UK Plastic Packaging Tax mass balance rules open for consultation",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWF9Cd2ZqeWpuMk91T0NEU3luYjBoYlFkOWtPQ1lIR1k1Q2xjbVItTkF3YkhZYTFVZFl5Q0hsZTROUU1Eanc1eFJnWTFqM0ZtcGRTMVJ0ek5IYlkwQnNTZlRpWXFTSHJvdFlJNUVGVjNIRktyanBYTnc3N0NyVmtwMkswVU9aVWw0MjRxSTdueFZiMTdOVkpnUms5T3hMMFluVVVZ?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Customer value and product design",
+   "published": "2026-10-07",
+   "summary": "letsrecycle.com reports that mass balance rules for the UK Plastic Packaging Tax (PPT) have been published for consultation. A second headline in the supplied feed, from resourcemedia.eco, frames the consultation as HMRC seeking views on how chemically recycled plastic would qualify for PPT. The supplied material contains no detail on scope, proposed thresholds, consultation dates, or whether any rules have been adopted.",
+   "tags": [
+    "Plastic Packaging Tax",
+    "mass balance",
+    "packaging",
+    "consultation"
+   ],
+   "themes": [],
+   "regions": [
+    "UK"
+   ],
+   "next_action": "Track the HMRC consultation documents for proposed mass balance models, eligibility conditions and dates, and compare them against current PPT guidance before altering recycled-content claims or packaging specifications.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-11",
+   "pillar": "research-patents",
+   "pillar_name": "Research & Patents",
+   "rank": 1,
+   "title": "Headline: 26% of plastics chemicals hazardous, 66% unknown",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYjhCUXpaUFU0RVg3SGVqUy1OYUF2c3hIdW1Hc1B2NXM3REhpN18xTnc1aW9pQ2duLXYwVWtqVEFCMGtZTnZTLV9tYlhwSkdpU1E1amxhNEtMUXF6bEZyOWlnNV9QdHZEYzdYWUgwY2M2cXMyeFJsZ3o5Q2h6aVlfZmRNTGhNTWxjM2Eya2VRSEZTMHpmclZGeHNLVUhOR0QyTUx4TWNjLUZCQklzT0l6R3JmRE1Jc1Nqek1ybFY5VFpfVS1FcmRtR1JYWnFNcEl0M2tpM190T3A3RzV4RjRENFBBMNIB6AFBVV95cUxPU0o3MlVnTVNjMWt1ZkU0d3A0MVMwTlBrWjRLZEE2SW82a2xsRzk2d2h1UlROQ0dqUmt2QlJQZ29kOVEzZTUtX0FYTGFBUVNxRE43RUZ3Smtubk5QdmpDT2lnUUNXMXg1cGpReGpEYmFicFAteWMtY201RzdDZEhBRmFjYWhBcXVCelhpOU9wRHJOdWVWdFZTZnBCT3ZvS2JmT3ZRV25wdVBLZGl1cTFYWDY3RzQxWmtTX0QtOTJ1eWJVb1VFTS1xQTAtM08tUGJSODV4R1V1cWpSYU4tYVYtTTRuZzhld1hP?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-10-05",
+   "summary": "Diari ARA published a headline stating that 26% of the chemicals found in plastics are dangerous to health and that another 66% are unknown. The supplied material contains only the headline: no cited study, chemical identities, methodology, geography, publication date or hazard criteria are present.",
+   "tags": [
+    "plastics",
+    "chemical safety",
+    "health",
+    "hazard assessment",
+    "research"
+   ],
+   "themes": [
+    "Driver: Bans & chemical restrictions"
+   ],
+   "regions": [],
+   "next_action": "Retrieve the full Diari ARA article to identify the underlying assessment, its chemical inventory and scope, and whether it is peer-reviewed research, a regulatory review or an advocacy compilation, before using the numbers in any dossier.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 1,
+   "title": "PLASTICS Forecast Points to 2026 Growth Across All Four US Plastics Sectors",
+   "url": "https://www.plasticstoday.com/industry-trends/us-plastics-sectors-forecast-2026-growth",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-16",
+   "summary": "PLASTICS' latest quarterly forecast projects production growth in all four US plastics sectors in 2026, with machinery leading the expansion and gains continuing into 2027, according to PlasticsToday's report by David Hutton. The supplied material gives no sector-level growth rates, baseline year or quarter, historical comparison, or forecast methodology. Sector definitions and the four sectors named are also absent from the supplied content.",
+   "tags": [
+    "US",
+    "plastics processing",
+    "machinery",
+    "production forecast",
+    "market outlook"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the full quarterly forecast from PLASTICS to check sector definitions, baseline period, growth figures and methodology before citing it in planning documents.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 2,
+   "title": "LyondellBasell to Supply Polymers for exoIQ B900 Exoskeleton",
+   "url": "https://www.plasticstoday.com/medical/lyb-supplies-advanced-polymers-for-wearable-support-device",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-12",
+   "summary": "LyondellBasell and exoIQ are collaborating on material solutions for the B900 active back exoskeleton, a wearable system described as easing physical strain during demanding tasks, according to PlasticsToday. The supplied material does not name the polymer type or grade, the specific components involved, volumes, test data, or qualification status.",
+   "tags": [
+    "lyondellBasell",
+    "wearable exoskeleton",
+    "advanced polymers",
+    "supplier collaboration",
+    "product design"
+   ],
+   "themes": [],
+   "regions": [],
+   "next_action": "Request the specific polymer grade and any datasheet or test conditions (load cycles, temperature, contact-skin testing) from LyondellBasell or exoIQ before shortlisting the material for design or qualification work.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 3,
+   "title": "Engel Forecasts €1.55 Billion Revenue for Fiscal 2026/27",
+   "url": "https://www.plasticstoday.com/injection-molding/us-demand-powers-engel-s-injection-molding-rebound",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-12",
+   "summary": "Engel forecasts revenue of about €1.55 billion for fiscal 2026/27, according to PlasticsToday (David Hutton), citing strong US investment, growth in India and stable medical demand. The supplied excerpt does not define the fiscal year, provide a comparison baseline, or quantify orders, machine capacity, tonnage or pricing. No production-volume figure is given.",
+   "tags": [
+    "injection molding",
+    "engel",
+    "US demand",
+    "India",
+    "medical"
+   ],
+   "themes": [
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Medical & healthcare"
+   ],
+   "regions": [
+    "United States",
+    "India & South Asia"
+   ],
+   "next_action": "Ask Engel or its distributors for current US and India delivery lead times and order backlog, and compare with alternative press suppliers before adjusting capacity plans.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "Niagara, Rhea's Factory to Test Enzymatic PET Recycling",
+   "url": "https://www.plasticstoday.com/packaging/niagara-bottling-hosts-enzymatic-pet-recycling-test",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-15",
+   "summary": "Rhea's Factory and Niagara Bottling will validate enzymatic PET recycling technology at a California facility under a $3 million U.S. Department of Energy program, according to Plastic Today. The supplied material gives no capacity, timeline, feedstock scope, output quality, food-contact status, or commercial-readiness detail.",
+   "tags": [
+    "PET",
+    "enzymatic recycling",
+    "depolymerization",
+    "California",
+    "DOE funding"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Chemical & enzymatic recycling"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track DOE program milestones and request test parameters and output specifications when available; compare any claimed PET grade against existing qualification requirements.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 2,
+   "title": "COtooCLEAN Award Spotlights CO2 Decontamination for Flexible Film Recycling",
+   "url": "https://www.plasticstoday.com/packaging/cotooclean-wins-packaging-recycling-project-of-year",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-13",
+   "summary": "Nextek and Coveris received the Packaging Recycling Project of the Year award for COtooCLEAN, a CO2-based decontamination technology intended to enable food-grade recycling of flexible plastic films, according to Plastics Today (David Hutton). The item names no polymer grades, throughput or capacity figures, decontamination performance results, food-contact approval status, or timeline to commercial operation; those details are absent from the supplied material.",
+   "tags": [
+    "flexible packaging",
+    "food grade recyclate",
+    "CO2 decontamination",
+    "mechanical recycling"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment",
+    "Driver: Mechanical recycling"
+   ],
+   "regions": [],
+   "next_action": "If flexible-film recyclate is on your roadmap, ask Nextek or Coveris for the underlying decontamination validation data, the intended polymer and film structure scope, and any food-contact approval pathway; if none is provided, keep the incumbent route in the comparison.",
+   "action": "Qualify / decide"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 3,
+   "title": "Republic breaks ground on St. Louis-area single-stream MRF",
+   "url": "https://resource-recycling.com/recycling/2026/10/15/republic-breaks-ground-on-st-louis-mrf/",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-15",
+   "summary": "Republic Services broke ground on a 105,000-square-foot single-stream materials recovery facility (MRF) in Bridgeton, Missouri, designed to process up to 45 tons per hour—about nine truckloads—including plastic bottles and jugs. Targeted opening is 2028, later than the mid-2027 date envisioned when announced in May 2025; Republic did not state a reason or disclose cost. Optical sorters and artificial intelligence (AI) systems are planned.",
+   "tags": [
+    "MRF",
+    "single stream recycling",
+    "plastic bottles and jugs",
+    "optical sorting",
+    "Missouri / St. Louis"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment",
+    "Driver: AI & digital"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Ask Republic for the commissioning schedule, accepted plastic grades, and bottle/jug bale specifications; track whether the 2028 date holds.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "material-performance",
+   "pillar_name": "Material Performance",
+   "rank": 1,
+   "title": "Gunze develops carbon-free antistatic sewing thread using ion-conductive polymers",
+   "url": "https://www.plasticstoday.com/materials/gunze-develops-carbon-free-antistatic-sewing-thread",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-12",
+   "summary": "Gunze Limited reports an antistatic sewing thread based on ion-conductive polymers rather than carbon or metal, which the company says enables a wider range of colors and applications. The supplied material does not include polymer chemistry, surface resistivity or charge-decay values, test conditions, thread counts, price, or a launch date. This is a company claim and has not been independently verified in the supplied material.",
+   "tags": [
+    "ion conductive polymers",
+    "antistatic",
+    "sewing thread",
+    "textiles",
+    "carbon free"
+   ],
+   "themes": [
+    "Driver: Resin prices & feedstock",
+    "Driver: Recycled content & claims",
+    "Driver: Textiles"
+   ],
+   "regions": [],
+   "next_action": "Request Gunze's technical datasheet covering surface resistivity, charge decay against a named test standard and humidity, tensile strength, and wash durability before any sampling decision.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "Inteplast to acquire Fiberon composite decking from Fortune Brands",
+   "url": "https://www.plasticstoday.com/building-construction/inteplast-group-to-acquire-fiberon-decking-maker",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-16",
+   "summary": "Inteplast Group has agreed to acquire Fiberon, a composite decking manufacturer, from Fortune Brands Innovations, as reported by PlasticsToday (David Hutton). The transaction adds composite decking manufacturing sites and expands Inteplast's building-products lineup. Deal value, site count, production capacity, material grades and expected closing date are absent from the supplied material.",
+   "tags": [
+    "Inteplast Group",
+    "fiberon",
+    "composite decking",
+    "M&A",
+    "building products"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships"
+   ],
+   "regions": [],
+   "next_action": "Track closing conditions and any regulatory filings for deal value and site list, and seek written confirmation from Fiberon that current product specifications, colour offerings and warranty terms carry over after close.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 2,
+   "title": "Plastipak opens Italian PET material center",
+   "url": "https://www.plasticstoday.com/materials/plastipak-opens-pet-material-center-in-italy",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-16",
+   "summary": "Plastipak has opened a PET Material Center in Verbania, Italy, producing a 30%-recycled-content PET resin, according to PlasticsToday. The resin is described as designed to simplify processing and support circular packaging goals. Capacity, start date, performance data, pricing and qualification details are absent from the supplied material.",
+   "tags": [
+    "PET",
+    "recycled content",
+    "packaging",
+    "Italy",
+    "supply"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "Italy"
+   ],
+   "next_action": "Request the resin specification, recycled-content evidence and a sample for processing trials, then compare total cost against incumbent grades.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 3,
+   "title": "Sealed Air adds closed-cell PE foam capacity at Madera, California",
+   "url": "https://www.plasticstoday.com/packaging/sealed-air-expands-foam-capacity-in-madera",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-14",
+   "summary": "Sealed Air has expanded closed-cell polyethylene (PE) foam manufacturing capacity at its Madera, California, facility, according to PlasticsToday, citing growing fabricator and customer demand. Capacity figures, investment amount, commissioning date, grade slate and any quantification of demand growth are absent from the supplied material.",
+   "tags": [
+    "polyethylene foam",
+    "capacity expansion",
+    "packaging",
+    "California"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Ask Sealed Air or a distributor for the affected foam grades, incremental capacity and availability date before adjusting sourcing or dual-source assumptions.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 1,
+   "title": "CAA CEO Fielkow to depart; Meyers interim as six-state EPR work continues",
+   "url": "https://resource-recycling.com/policy-now/2026/10/14/fielkow-to-step-down-as-caa-ceo/",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-14",
+   "summary": "Circular Action Alliance (CAA) announced Oct. 14 that CEO Jeff Fielkow will leave later this year, with chief strategy officer Jeff Meyers serving as interim CEO during a board-led succession; no departure date or reason was given. The packaging producer responsibility organization (PRO) runs or is building EPR programs in California, Colorado, Maryland, Minnesota, Oregon and Washington, each with distinct deadlines, fees and oversight; it recently filed its final SB 54 plan with CalRecycle.",
+   "tags": [
+    "packaging EPR",
+    "producer responsibility",
+    "California SB 54",
+    "US packaging policy",
+    "CAA"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track CAA board announcements for a permanent CEO appointment and check CalRecycle filings for any change to the SB 54 plan.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-18",
+   "pillar": "research-patents",
+   "pillar_name": "Research & Patents",
+   "rank": 1,
+   "title": "Water-processed fluorine-free battery binder shows lab-scale gains",
+   "url": "https://resource-recycling.com/e-scrap/2026/10/16/researchers-work-on-fluorine-free-battery-binder/",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-16",
+   "summary": "A Nature Communications study from UC San Diego and Toyota Research Institute of North America describes a fluorine-free lithium-ion binder: polyacrylic acid and carboxymethyl cellulose dissolved in water and crosslinked with citric acid, replacing fluorinated binders requiring toxic N-methyl-2-pyrrolidone (NMP). The lab-stage binder worked with lithium iron phosphate, nickel-rich and silicon electrodes and separated in water for direct recycling. Its lifecycle analysis estimates 6.9–9.3% manufacturing energy savings and 7.1% higher manufacturer profit; recycling shows 10% less energy, 3% less water and 7.2% lower greenhouse gas emissions. Binder cost is undetermined.",
+   "tags": [
+    "fluorine free binder",
+    "polyacrylic acid",
+    "carboxymethyl cellulose",
+    "water based processing",
+    "lab scale"
+   ],
+   "themes": [],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the study's test conditions and cycle-life data, and ask whether pilot-scale coating trials with industry partners are planned.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 1,
+   "title": "Dow signals PE price momentum into 2027",
+   "url": "https://resource-recycling.com/plastics/2026/10/23/dow-bullish-on-pe-pricing-into-27/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-23",
+   "summary": "On its Oct. 22 Q3 call, Dow said polyethylene pricing momentum should extend into 2027, citing higher feedstock costs, tighter inventories and war-related production constraints. Dow cited a cumulative 12 cents/lb in nominated October–November PE contract increases, a 5 cents/lb September contract rise and a 6 cents/lb weekly spot rise; ACC September data it cited showed inventory down 5 days of supply and 400 million lb.",
+   "tags": [
+    "polyethylene",
+    "PE pricing",
+    "feedstock costs",
+    "packaging",
+    "North America"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track ACC inventory data and confirm whether October–November PE nominations settle with suppliers.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 1,
+   "title": "CJ Biomaterials, Dongsung announce PHA hotmelt adhesive for US packaging",
+   "url": "https://www.plasticstoday.com/packaging/first-pha-bioplastic-hotmelt-adhesive-enters-us-market",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-20",
+   "summary": "CJ Biomaterials and Dongsung Chemical have announced a PHA-based hotmelt adhesive for US packaging applications, described as a bio-based alternative to conventional adhesives. The supplied material does not include PHA content, adhesive performance data, compostability or other certification, pricing, or supply volumes. No independent verification or comparison with incumbent hotmelts is provided.",
+   "tags": [
+    "PHA",
+    "bioplastic",
+    "hotmelt adhesive",
+    "packaging",
+    "US"
+   ],
+   "themes": [
+    "Polymer: Bio-based & biodegradable",
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the technical data sheet and a trial sample from the suppliers, then benchmark performance and total cost against the incumbent adhesive on the intended substrate and packaging line.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 2,
+   "title": "Recycled PETG Tested for Sterile Medical Packaging",
+   "url": "https://www.plasticstoday.com/medical/can-recycled-petg-be-used-in-sterile-medical-packaging-",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-19",
+   "summary": "Coloplast, Impact Plastics and Placon are reportedly collaborating on a project testing whether post-industrial recycled (PIR) PETG can be incorporated into thermoformed sterile barrier systems for medical packaging, according to PlasticsToday. The supplied material describes results only as \"promising\" and gives no recycled-content level, sterilization method, test protocol, barrier or mechanical data, standards pathway or timeline.",
+   "tags": [
+    "PETG",
+    "recycled content",
+    "medical packaging",
+    "thermoforming",
+    "sterile barrier systems"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Recycled content & claims",
+    "Driver: Medical & healthcare"
+   ],
+   "regions": [],
+   "next_action": "Request the grade, PIR loading and test protocols from the collaborators, and track whether the work advances toward formal sterile barrier validation.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 3,
+   "title": "Pact Group and ALDI announce Australian recycled household packaging initiative",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUWlSR2czdGl2dWppX3BlZlotSXJ4dkJnUlgxSXZVUHNydlBtbHFIakhxbi1aWFhVMktONk9SLXhhVDhZV1NBLU85QWY4NjMzaE43NXFPbjdNcEtpcS1LbThRNUFMZ09aTHBuc0JDNXdTeHJDanhZa1JGOVBsdUNmcXVKVzJSZkxVMF9sUVd6VHdZcDF3OHQzMzRRT1pIOXZLM1dOQTRYNExzNEJPdnlFbERPU1N2RnVBeEZaLXQ2bDBXdFlpdEh5V3NGN1dTTXhoOEJ3?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Customer value and product design",
+   "published": "2026-10-20",
+   "summary": "Retail World Magazine reports that Pact Group and ALDI have launched an initiative for recycled household plastic packaging in Australia, described in the headline as one of the country’s largest. The supplied material contains only the headline; recycled-content levels, polymer grades, packaging formats, volumes, timelines and test or compliance details are absent.",
+   "tags": [
+    "recycled plastics",
+    "PCR packaging",
+    "household packaging",
+    "Australia",
+    "Pact Group/ALDI"
+   ],
+   "themes": [
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "Australia & NZ"
+   ],
+   "next_action": "Request the Pact Group/ALDI announcement or packaging specification for recycled-content percentage, polymer grade, application, launch date and food-contact compliance, and compare it with current supplier declarations.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "Triton, TenCate to turn retired turf HDPE into composite rail ties",
+   "url": "https://resource-recycling.com/plastics/2026/10/20/triton-to-make-rail-ties-from-artificial-turf/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-20",
+   "summary": "Missouri-based Triton Group and turf maker TenCate will convert HDPE recovered from retired artificial turf into post-consumer resin for glass-fiber-reinforced composite rail ties, Plastics Recycling Update reports. Triton plans a dedicated line for up to 350,000 lb/month, targeting an April 2027 start; full utilization implies up to 21 million lb over five years, about 600–800 fields and enough material for 300,000-plus ties. TenCate strips sand and rubber infill before baling; Triton says residual rubber, sand and backing are removed before pelletization.",
+   "tags": [
+    "HDPE",
+    "post consumer resin",
+    "artificial turf",
+    "composite railroad ties",
+    "mechanical recycling",
+    "US"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Driver: Recycled content & claims",
+    "Driver: Mechanical recycling",
+    "Driver: Textiles"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Ask Triton for the PCR pellet specification and a sample, and verify the AREMA standard compliance and major-US-railroad approvals cited in its statement.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 2,
+   "title": "Missouri grant-funded granulator turns wire spools into PVC pipe feedstock",
+   "url": "https://resource-recycling.com/plastics/2026/10/22/hitachi-energy-partner-turns-spools-into-pvc-pipe-feed/",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-22",
+   "summary": "A $143,600 Cumberland granulator, partly funded by an $85,500 Missouri Market Development Program grant awarded in fiscal 2025, lets recycling partner J. Carter Enterprises of New Bloomfield, Missouri, shred large wire spools from Hitachi Energy's Jefferson City transformer plant into post-industrial feedstock for PVC pipe production. The partners report about 250,000 pounds recovered since last year, per a Hitachi Energy press release. The grinder is also available to other local manufacturers.",
+   "tags": [
+    "PVC",
+    "post industrial recycling",
+    "wire spools",
+    "granulation",
+    "Missouri"
+   ],
+   "themes": [
+    "Polymer: PVC",
+    "Driver: Resin prices & feedstock",
+    "Driver: M&A & partnerships",
+    "Driver: Mechanical recycling"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the granulator's throughput, feedstock specification and the receiving facility's acceptance criteria before evaluating similar regrind in a pipe formulation.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 3,
+   "title": "Aliplast opens R3GID rigid plastics recycling plant in Modena",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUE9nTWNUVllsZVR3UWt1YWJHVDh0d2FVNFhnUnFBYjFkZ25GLUQ1UjdwM2UyaU11eTdwMWtRNjlvR1J6UXJYOTcyeFJtaVptMmI0YUlZQmhGVkl3UVB3bEswSkRHMVFtWEpXVnFaaGVQamp2N0dQMktjUlNhRHVxaVlYR1dNeHp3REFZVWthNDFPQS1XdWsyMkpGRmVtN1BPcEI0?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-10-20",
+   "summary": "Aliplast, part of Herambiente Group, has inaugurated the R3GID rigid plastics recycling plant in Modena, Italy, according to a headline-only Yahoo Finance item. The supplied material gives no capacity, feedstock specification, technology, commissioning date or output grades. Companion headlines in the same feed put investment at €48.8M and €55M, a discrepancy not resolved in the supplied material.",
+   "tags": [
+    "rigid plastics",
+    "plastics recycling",
+    "Italy",
+    "aliplast",
+    "recycling capacity"
+   ],
+   "themes": [
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "Italy"
+   ],
+   "next_action": "Check Aliplast/Herambiente’s own release for commissioning status, capacity, feedstock scope and output specifications, and reconcile the €48.8M and €55M investment figures before citing either.",
+   "action": "Verify"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 4,
+   "title": "Avery Dennison Noted as First RecyClass PET Tray Technology Approval",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZW81MGVqVzhreWNDanlIVXVISE1kT2dUdVU4VXdYNm1aVUtQMWk1TG9SX28zMXBQeWRaMFJ5U3E1VmpoZHZiYWFEaVNGRGN2T2lmZ1gtNVc2OGVjd2dCcnprQ0V5SmVZRUhjR19uQW1pZTZteVZtWElMc3FvWE5XTmNhS1dxc0NHd2pJR1E1Zk1kd0ZwMk5CYzEybmNQa0h0cHZLQVU0cEN5enhnVUd3VTRtZnhZRk45OVpWTHAzWWswZw?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-10-21",
+   "summary": "Recycling Product News reports, in a headline only, that Avery Dennison has received the first RecyClass technology approval for PET trays. The supplied material does not identify the approved technology, the PET tray format or grade covered, the assessment method or test conditions, the date, or the geography concerned. These details are absent from the supplied material rather than confirmed as undisclosed.",
+   "tags": [
+    "PET",
+    "PET trays",
+    "recyClass",
+    "recyclability approval",
+    "plastic packaging"
+   ],
+   "themes": [
+    "Polymer: PET / polyester"
+   ],
+   "regions": [],
+   "next_action": "Request the approval scope and certificate reference, and check the RecyClass listing directly, to confirm which technology, tray format, and assessment basis are covered before applying it to a specification.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 5,
+   "title": "Headline-only report questions evidence for enzymatic PE/PP recycling",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMWY3SlR1RUVYaHBndmhlcjlHeHB6Y2hhbnJfN1hCbTFhQmpZbXFORy1ibUdoUnVWMDNaTnF0bjFBMy15WGFTNHBFRmI3S3FfS0RGM05yUlA3WGZ2YkZ2a2MzNk9XUFVPaE94NG5mak9pdnphMGRQX0g2RjZvMFVpMnpkSHdHN0tjWVY0RklsQ2VkUQ?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Emerging polymers and materials AI",
+   "published": "2026-10-19",
+   "summary": "Packaging Insights headlined a report that researchers warn enzymatic recycling of polyethylene (PE) and polypropylene (PP) lacks supporting evidence. Only the headline is supplied: no study authors, method, test conditions, polymer grades, quantified results or publication date are available.",
+   "tags": [
+    "polyethylene",
+    "polypropylene",
+    "enzymatic recycling",
+    "evidence gap",
+    "packaging"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: Polypropylene (PP)",
+    "Driver: Chemical & enzymatic recycling"
+   ],
+   "regions": [],
+   "next_action": "Locate the underlying study or researcher statement and check its method, polymer grades and measured yields before citing the evidence gap internally.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "Accumold to nearly double micro injection molding capacity with $33.25M Iowa facility",
+   "url": "https://www.plasticstoday.com/materials/accumold-set-to-nearly-double-micro-injection-molding-capacity-for-medical-microelectronics-micro-optics",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-20",
+   "summary": "Accumold is investing $33.25 million in a 53,000-sq-ft, EF5 tornado-resistant facility at its Ankeny, Iowa, campus, Plasticstoday reports. It says the site is intended to nearly double micro injection molding capacity for medical, microelectronics, and micro-optics. Timeline, capacity figures, equipment details, and qualification plans are absent from the supplied material.",
+   "tags": [
+    "micro injection molding",
+    "capacity expansion",
+    "medical devices",
+    "microelectronics",
+    "Iowa"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment",
+    "Driver: Medical & healthcare"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request start-up and qualification timing, and confirm whether the expansion will use the same micro molding platforms, resin grades, and certifications as the existing Ankeny site.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 2,
+   "title": "Trelleborg to Acquire Aerospace Thermoplastics Maker Tri-Mack",
+   "url": "https://www.plasticstoday.com/automotive-mobility/trelleborg-to-acquire-aerospace-thermoplastics-maker-tri-mack",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-21",
+   "summary": "Trelleborg Sealing Solutions has agreed to acquire Tri-Mack Plastics Manufacturing, adding thermoplastic composite expertise to its aerospace component portfolio, per PlasticsToday (David Hutton). Deal value, capacity, customer base, timeline and regulatory approval status are absent from the supplied material.",
+   "tags": [
+    "thermoplastic composites",
+    "aerospace",
+    "mergers acquisitions",
+    "trelleborg"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships"
+   ],
+   "regions": [],
+   "next_action": "Track deal close and any stated plans for Tri-Mack's sites or process lines, then judge whether a supplier qualification review is warranted.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 3,
+   "title": "Conair plans $10M Franklin, PA fabrication and coating expansion",
+   "url": "https://www.plasticstoday.com/auxiliaries/conair-invests-10-million-in-pennsylvania-expansion",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-20",
+   "summary": "The Conair Group, part of PiovanGroup, plans a $10 million expansion at its Franklin, Pennsylvania site to add in-house fabrication, machining, and powder coating capacity, according to PlasticsToday (David Hutton). The supplied material gives no timeline, capacity figures, product-line scope, or customer-impact details, and no equipment tonnage or output targets are stated.",
+   "tags": [
+    "plastics auxiliary equipment",
+    "capacity expansion",
+    "Pennsylvania",
+    "conair",
+    "piovanGroup"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Ask Conair or a local distributor which product lines the Franklin fabrication, machining, and powder coating additions cover and when they are expected to start up, then compare quoted lead times before adjusting procurement schedules.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 4,
+   "title": "Silgan and AIP to buy Trivium for $3.4B; new dispensing unit",
+   "url": "https://www.plasticstoday.com/packaging/silgan-aip-to-acquire-trivium-in-3-4-billion-deal",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-19",
+   "summary": "Silgan and AIP are acquiring Trivium in a $3.4 billion deal, according to Plastics Today (David Hutton). The transaction restructures the business into Silgan Metal Containers and Closures plus a new Dispensing Solutions segment described as targeting plastics and specialty growth. The supplied material does not include a signing or closing date, financing details, plant or capacity figures, or plastics-specific revenue.",
+   "tags": [
+    "packaging M&A",
+    "dispensing solutions",
+    "plastics packaging",
+    "supplier consolidation"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships"
+   ],
+   "regions": [],
+   "next_action": "Track the deal's progression and confirm which Trivium dispensing product lines and manufacturing sites will sit in Dispensing Solutions; request updated supply and quality documentation for any affected specifications.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 5,
+   "title": "Ukrainian polymer compound maker seeks international partners via EEN listing",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcWpOcXNZdzhsVUJwV3VZUmdxc0pWVlN0dHBVVHdkZUI0SnVtNUE2RGx3TmZOZ3V4YTRSRDVxOENHY1RHWVFzOHZFd3BVNlhadDlBT0s5M2Z5d3dDaENsalBUZEtJMDlYSkl2ZG5qTWhtc05VNjJyVlNiUi0ybi1FTGRIQ0Y4dUZhTXRHRkNmWk55R2ZveENtOEc4RklhX3NUM1gtczNUMWI5MC15MHd6Wl9nNTVhUEx6aTk2eg?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "EU regulatory sources",
+   "published": "2026-10-19",
+   "summary": "An Enterprise Europe Network listing states that a Ukrainian manufacturer of polymer compounds and composite materials is seeking international industrial partners under commercial or manufacturing agreements. The supplied material does not name the company or specify polymer types and grades, capacity, existing qualifications, or the terms sought. No timeline or commercial-readiness details appear in the supplied excerpt.",
+   "tags": [
+    "polymer compounds",
+    "composites",
+    "Ukraine",
+    "commercial partnerships"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships"
+   ],
+   "regions": [
+    "European Union",
+    "Other Europe"
+   ],
+   "next_action": "Retrieve the complete Enterprise Europe Network profile to check polymer types, capacity, certifications such as ISO 9001 or IATF 16949, and the proposed commercial or manufacturing agreement terms.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 1,
+   "title": "Maine EPR Delayed, Not Derailed, as No PRO Steps Forward",
+   "url": "https://www.plasticstoday.com/packaging/what-s-next-for-epr-in-maine-",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-22",
+   "summary": "Maine's extended producer responsibility (EPR) program for packaging remains in progress despite no producer responsibility organization (PRO) having stepped forward to administer it, according to Plasticstoday. The program is being described as delayed rather than derailed. The supplied material contains no implementation dates, material scope, producer obligations, fee structure, or named next steps.",
+   "tags": [
+    "EPR",
+    "packaging",
+    "Maine",
+    "producer responsibility",
+    "regulation"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track the state's EPR implementation timeline and any published producer obligations or PRO appointment before adjusting packaging compliance planning.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 2,
+   "title": "Draft ASTM Guide Would Define Medical-Grade Polymer Criteria",
+   "url": "https://www.plasticstoday.com/medical/inside-the-proposed-medical-grade-polymer-classification-guide",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-21",
+   "summary": "A proposed ASTM standard would define what qualifies a polymer as \"medical-grade,\" organized around disclosure, sterilization and quality requirements, according to Plasticstoday's account of the draft. The supplied material does not give the draft's designation, formal scope, specific test methods, timeline, or how it compares with existing standards.",
+   "tags": [
+    "ASTM",
+    "medical grade polymers",
+    "standards",
+    "material qualification",
+    "healthcare"
+   ],
+   "themes": [
+    "Driver: Medical & healthcare"
+   ],
+   "regions": [],
+   "next_action": "Track the draft's status and committee ballot stage with ASTM, and obtain the draft's scope and definitions sections before revising internal material specifications.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 3,
+   "title": "Dow, Orbis: packaging rules reshape recycled-content procurement",
+   "url": "https://resource-recycling.com/plastics/2026/10/21/pack-expo-roundup/",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-21",
+   "summary": "At Pack Expo in Chicago, Dow and Orbis executives said extended producer responsibility (EPR) laws in California and six other states, post-consumer recycled (PCR) mandates in California, New Jersey and Washington, and the EU Packaging and Packaging Waste Regulation (PPWR) are pushing brands toward PCR and mono-material packaging; Dow's Holly Kennedy cited compliance laws starting in 2027. Kennedy said procurement prioritizes supply security over sustainability; Orbis's Lynn Hediger said customers want consistent North American and European packaging. New Jersey's three-year food-contact PCR exemption extension was called disruptive; tonnage and pricing data are absent.",
+   "tags": [
+    "EPR",
+    "PCR mandates",
+    "polyolefins",
+    "packaging",
+    "PPWR",
+    "US"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law",
+    "Driver: Resin prices & feedstock",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "United States",
+    "European Union"
+   ],
+   "next_action": "",
+   "action": null
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 4,
+   "title": "Three beverage brands drop cap and label from '100%' bottle claims",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTOUNnNFpBODJlVUlBYlBGUHVBM1pYaDdReFh5VGhPZTdrMnBwampVYVRyOXBqbzNnRzE5cm5OeDNtNC1XX1FaRkpnMUlfTFhrejVWclBPd0N2enR4YnUzNFBRWGl4MTM4REczUHhGVQ?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-10-23",
+   "summary": "According to an ESG News headline, Coca-Cola, Nestlé and Danone removed the cap and label from their \"100%\" bottle claims after a complaint from BEUC, a European consumer organisation. The supplied material contains only the headline: the complaint's jurisdiction, the exact wording before and after, the affected product lines and markets, the timing, and any company or BEUC statement are absent. No regulatory finding or authority decision is reported.",
+   "tags": [
+    "plastic packaging",
+    "beverage bottles",
+    "green claims",
+    "BEUC complaint",
+    "consumer protection"
+   ],
+   "themes": [
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [],
+   "next_action": "Audit any pack copy or supplier declaration that states a whole-bottle percentage, confirm which components the figure covers, and track the BEUC complaint file for its scope and any authority response.",
+   "action": "Verify"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 5,
+   "title": "EU plastic packaging waste: 35.9 kg per person (Commission headline)",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE92TTdBaF83RG93TnpsV1JlSEJXMS1OakRXYk9sN09DS1c1R1pwTHlGOVBmaXVYQnRFNDg0YVBycXdNQ2w1bldEY0htQkNINWJsSl9Mb1IwWHlTLThYN2dGVFpQeVRaWDhPZDFwODc2bXZBZ3g4RVRyMlAxSHRBUQ?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "EU regulatory sources",
+   "published": "2026-10-22",
+   "summary": "The European Commission published an item headlined \"Plastic packaging waste in the EU: 35.9 kg per person.\" The supplied material contains only that headline: the reference year, methodology, and whether the figure covers waste generated or waste treated are absent, as is any description of a regulatory instrument or application date.",
+   "tags": [
+    "EU",
+    "plastic packaging waste",
+    "European Commission",
+    "per capita metric",
+    "packaging policy"
+   ],
+   "themes": [],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Locate the underlying Commission publication and confirm reference year, scope (generated versus treated) and methodology before citing the figure in any internal or customer document.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-10-25",
+   "pillar": "research-patents",
+   "pillar_name": "Research & Patents",
+   "rank": 1,
+   "title": "Headline: soil enzyme degraded bioplastics in about a year",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcGlCTW0zUnBqVTlMRFkwQi1maVJkWjR1RnRFZTRteUJldEVkRXhxQkt0aFoxUDNuM0dEdkgzVE1oWGFVaXh3R2lhN19JYzhkQ1FFcVhJMGt2bGxZcVRFQVpsVHg2Yk8wODlIeTFpQS14T2hDXzViZmVxb1p1VnJWa2R6eDk1dndrNG1CWm9EMzdnVlFYdF9ySGlVNmhNelkzSjg0S0V5XzItRkZRZzhGUW9LeGpoUVFYRmV6NGllWDdCRkdGdzMxUDdFbUJmemhNZXhMMmxwWFpsRkh4eHJGY3dBRDY?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PCR and renewable materials",
+   "published": "2026-10-21",
+   "summary": "A Nature World News headline reports that a soil bacterial enzyme, described as \"Pac-Man\"-like, broke down bioplastics in roughly one year while conventional plastic \"barely changed.\" Only the headline is present in the supplied material: polymer grade(s), enzyme identity, soil type and conditions, specimen form and thickness, measurement method, and study scale are all absent, as is peer-review status.",
+   "tags": [
+    "bioplastics",
+    "biodegradation",
+    "soil bacteria",
+    "enzyme",
+    "end of life"
+   ],
+   "themes": [
+    "Polymer: Bio-based & biodegradable",
+    "Driver: Chemical & enzymatic recycling"
+   ],
+   "regions": [],
+   "next_action": "Locate the underlying study or release to confirm polymer grade, soil and incubation conditions, specimen thickness, measured mineralization, and the comparator conventional plastic before citing the result internally.",
+   "action": "Request evidence"
+  }
+ ]
+}
