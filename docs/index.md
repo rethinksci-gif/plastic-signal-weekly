@@ -10,6 +10,7 @@ title: Plastic Signal Weekly
   <p class="hero-copy">A decision brief for people building the next generation of plastic products. Markets, materials, regulation and research—filtered for consequence, not volume.</p>
   <div class="hero-actions">
     <a class="primary-action" href="#latest">Read the latest issue <span>→</span></a>
+    <a class="text-action" href="{{ '/trends.html' | relative_url }}">See the trends</a>
     <a class="text-action" href="{{ '/feed-en.xml' | relative_url }}">Subscribe via RSS</a>
   </div>
   <div class="edition-stamp"><strong>WEEKLY EDITION</strong><span>8 intelligence pillars</span><span>Independent perspective</span></div>
