@@ -1,11 +1,12 @@
 {
- "generated_at": "2026-10-27T18:53:27Z",
+ "generated_at": "2026-11-01T12:17:48Z",
  "weeks": [
   "2026-09-27",
   "2026-10-04",
   "2026-10-11",
   "2026-10-18",
-  "2026-10-25"
+  "2026-10-25",
+  "2026-11-01"
  ],
  "issues": [
   {
@@ -42,15 +43,22 @@
    "url": "2026/10/25/summary-en.html",
    "signals_seen": 280,
    "items_kept": 20
+  },
+  {
+   "date": "2026-11-01",
+   "title": "Plastic Signal Weekly — 2026-11-01",
+   "url": "2026/11/01/summary-en.html",
+   "signals_seen": 190,
+   "items_kept": 16
   }
  ],
  "totals": {
-  "issues": 5,
-  "items": 87,
-  "signals_seen": 1095,
+  "issues": 6,
+  "items": 103,
+  "signals_seen": 1285,
   "sources": 9,
-  "avg_score": 5.24,
-  "high_signal": 15
+  "avg_score": 5.26,
+  "high_signal": 19
  },
  "pillars": [
   {
@@ -60,7 +68,8 @@
     1,
     2,
     3,
-    1
+    1,
+    4
    ]
   },
   {
@@ -70,7 +79,8 @@
     2,
     3,
     0,
-    3
+    3,
+    2
    ]
   },
   {
@@ -80,7 +90,8 @@
     4,
     4,
     3,
-    5
+    5,
+    2
    ]
   },
   {
@@ -90,7 +101,8 @@
     5,
     5,
     3,
-    5
+    5,
+    4
    ]
   },
   {
@@ -100,7 +112,8 @@
     5,
     2,
     1,
-    5
+    5,
+    2
    ]
   },
   {
@@ -110,7 +123,8 @@
     1,
     1,
     1,
-    1
+    1,
+    0
    ]
   },
   {
@@ -120,7 +134,8 @@
     2,
     1,
     1,
-    0
+    0,
+    2
    ]
   },
   {
@@ -130,6 +145,7 @@
     1,
     0,
     0,
+    0,
     0
    ]
   }
@@ -137,174 +153,201 @@
  "polymers": [
   {
    "name": "PET / polyester",
-   "count": 12,
+   "count": 14,
    "by_week": [
     1,
     3,
     4,
     2,
+    2,
     2
    ],
-   "avg_score": 5.42,
-   "share": 0.138
+   "avg_score": 5.64,
+   "share": 0.136
   },
   {
    "name": "Polyethylene (PE/HDPE/LDPE)",
-   "count": 10,
+   "count": 13,
    "by_week": [
     0,
     3,
     3,
     1,
+    3,
     3
    ],
-   "avg_score": 5.8,
-   "share": 0.115
+   "avg_score": 5.69,
+   "share": 0.126
   },
   {
    "name": "Polypropylene (PP)",
-   "count": 6,
+   "count": 8,
    "by_week": [
     0,
     2,
     3,
     0,
-    1
+    1,
+    2
    ],
    "avg_score": 5.5,
-   "share": 0.069
+   "share": 0.078
   },
   {
    "name": "Engineering & high-performance",
-   "count": 5,
+   "count": 6,
    "by_week": [
     2,
     2,
     0,
     0,
+    1,
     1
    ],
-   "avg_score": 5.2,
-   "share": 0.057
-  },
-  {
-   "name": "Bio-based & biodegradable",
-   "count": 4,
-   "by_week": [
-    1,
-    0,
-    1,
-    0,
-    2
-   ],
-   "avg_score": 5.25,
-   "share": 0.046
+   "avg_score": 5.17,
+   "share": 0.058
   },
   {
    "name": "PVC",
-   "count": 3,
+   "count": 5,
    "by_week": [
     0,
     1,
     1,
     0,
-    1
+    1,
+    2
    ],
    "avg_score": 5.0,
-   "share": 0.034
+   "share": 0.049
+  },
+  {
+   "name": "Bio-based & biodegradable",
+   "count": 5,
+   "by_week": [
+    1,
+    0,
+    1,
+    0,
+    2,
+    1
+   ],
+   "avg_score": 5.2,
+   "share": 0.049
   }
  ],
  "drivers": [
   {
    "name": "Capacity moves & investment",
-   "count": 34,
+   "count": 39,
    "by_week": [
     6,
     6,
     8,
     8,
-    6
+    6,
+    5
    ],
-   "avg_score": 5.24,
-   "share": 0.391
+   "avg_score": 5.31,
+   "share": 0.379
   },
   {
    "name": "Resin prices & feedstock",
-   "count": 20,
+   "count": 24,
    "by_week": [
     3,
     4,
     4,
     4,
-    5
+    5,
+    4
    ],
-   "avg_score": 5.35,
-   "share": 0.23
+   "avg_score": 5.33,
+   "share": 0.233
   },
   {
    "name": "Recycled content & claims",
-   "count": 17,
+   "count": 20,
    "by_week": [
     2,
     6,
     2,
     2,
-    5
+    5,
+    3
    ],
-   "avg_score": 5.47,
-   "share": 0.195
+   "avg_score": 5.55,
+   "share": 0.194
   },
   {
    "name": "M&A & partnerships",
-   "count": 12,
+   "count": 15,
    "by_week": [
     4,
     1,
     2,
     1,
-    4
+    4,
+    3
    ],
    "avg_score": 5.0,
-   "share": 0.138
+   "share": 0.146
   },
   {
    "name": "EPR & packaging law",
-   "count": 10,
+   "count": 13,
    "by_week": [
     3,
     2,
     2,
     1,
-    2
+    2,
+    3
    ],
-   "avg_score": 5.7,
-   "share": 0.115
+   "avg_score": 5.69,
+   "share": 0.126
   },
   {
    "name": "Chemical & enzymatic recycling",
-   "count": 7,
+   "count": 8,
    "by_week": [
     1,
     2,
     1,
     1,
-    2
+    2,
+    1
    ],
-   "avg_score": 5.29,
-   "share": 0.08
+   "avg_score": 5.62,
+   "share": 0.078
   },
   {
    "name": "AI & digital",
-   "count": 7,
+   "count": 8,
    "by_week": [
     3,
     1,
     2,
     1,
-    0
+    0,
+    1
    ],
-   "avg_score": 5.14,
-   "share": 0.08
+   "avg_score": 5.12,
+   "share": 0.078
+  },
+  {
+   "name": "Textiles",
+   "count": 7,
+   "by_week": [
+    0,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "avg_score": 5.57,
+   "share": 0.068
   },
   {
    "name": "Medical & healthcare",
@@ -314,23 +357,39 @@
     0,
     2,
     1,
-    3
+    3,
+    0
    ],
    "avg_score": 5.17,
-   "share": 0.069
+   "share": 0.058
   },
   {
-   "name": "Textiles",
-   "count": 6,
+   "name": "Mechanical recycling",
+   "count": 5,
    "by_week": [
     0,
-    2,
-    2,
+    0,
     1,
+    1,
+    2,
     1
    ],
-   "avg_score": 5.67,
-   "share": 0.069
+   "avg_score": 5.6,
+   "share": 0.049
+  },
+  {
+   "name": "Automotive & EV",
+   "count": 5,
+   "by_week": [
+    2,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   "avg_score": 5.0,
+   "share": 0.049
   },
   {
    "name": "Trade, tariffs & duties",
@@ -340,23 +399,11 @@
     2,
     1,
     0,
+    0,
     0
    ],
    "avg_score": 5.5,
-   "share": 0.046
-  },
-  {
-   "name": "Mechanical recycling",
-   "count": 4,
-   "by_week": [
-    0,
-    0,
-    1,
-    1,
-    2
-   ],
-   "avg_score": 5.5,
-   "share": 0.046
+   "share": 0.039
   },
   {
    "name": "Bans & chemical restrictions",
@@ -366,142 +413,130 @@
     3,
     1,
     0,
-    0
-   ],
-   "avg_score": 5.0,
-   "share": 0.046
-  },
-  {
-   "name": "Automotive & EV",
-   "count": 4,
-   "by_week": [
-    2,
-    1,
-    1,
     0,
     0
    ],
    "avg_score": 5.0,
-   "share": 0.046
+   "share": 0.039
   }
  ],
  "theme_momentum": {
   "Polymer": [
    {
-    "name": "Bio-based & biodegradable",
-    "recent": 2,
-    "earlier": 2,
-    "delta": 0.0132
+    "name": "Polyethylene (PE/HDPE/LDPE)",
+    "recent": 6,
+    "earlier": 7,
+    "delta": 0.0292
    },
    {
-    "name": "Polyethylene (PE/HDPE/LDPE)",
-    "recent": 4,
-    "earlier": 6,
-    "delta": 0.0084
+    "name": "Bio-based & biodegradable",
+    "recent": 3,
+    "earlier": 2,
+    "delta": 0.0257
    },
    {
     "name": "PVC",
-    "recent": 1,
+    "recent": 3,
     "earlier": 2,
-    "delta": -0.0024
+    "delta": 0.0257
+   },
+   {
+    "name": "Polypropylene (PP)",
+    "recent": 3,
+    "earlier": 5,
+    "delta": 0.0035
+   },
+   {
+    "name": "Engineering & high-performance",
+    "recent": 2,
+    "earlier": 4,
+    "delta": -0.0026
    },
    {
     "name": "PET / polyester",
     "recent": 4,
-    "earlier": 8,
-    "delta": -0.0096
-   },
-   {
-    "name": "Engineering & high-performance",
-    "recent": 1,
-    "earlier": 4,
-    "delta": -0.0204
-   },
-   {
-    "name": "Polypropylene (PP)",
-    "recent": 1,
-    "earlier": 5,
-    "delta": -0.0294
+    "earlier": 10,
+    "delta": -0.02
    }
   ],
   "Driver": [
    {
-    "name": "Medical & healthcare",
-    "recent": 4,
-    "earlier": 2,
-    "delta": 0.0445
-   },
-   {
-    "name": "Resin prices & feedstock",
-    "recent": 9,
-    "earlier": 11,
-    "delta": 0.0415
-   },
-   {
-    "name": "Capacity moves & investment",
-    "recent": 14,
-    "earlier": 20,
-    "delta": 0.0386
+    "name": "M&A & partnerships",
+    "recent": 7,
+    "earlier": 8,
+    "delta": 0.0353
    },
    {
     "name": "Mechanical recycling",
     "recent": 3,
-    "earlier": 1,
-    "delta": 0.0379
+    "earlier": 2,
+    "delta": 0.0257
    },
    {
     "name": "Recycled content & claims",
-    "recent": 7,
-    "earlier": 10,
-    "delta": 0.0193
+    "recent": 8,
+    "earlier": 12,
+    "delta": 0.0192
    },
    {
-    "name": "M&A & partnerships",
+    "name": "Medical & healthcare",
+    "recent": 3,
+    "earlier": 3,
+    "delta": 0.0183
+   },
+   {
+    "name": "Resin prices & feedstock",
+    "recent": 9,
+    "earlier": 15,
+    "delta": 0.0105
+   },
+   {
+    "name": "EPR & packaging law",
     "recent": 5,
-    "earlier": 7,
-    "delta": 0.0151
+    "earlier": 8,
+    "delta": 0.0083
    },
    {
     "name": "Chemical & enzymatic recycling",
     "recent": 3,
-    "earlier": 4,
-    "delta": 0.0108
+    "earlier": 5,
+    "delta": 0.0035
    },
    {
     "name": "Textiles",
     "recent": 2,
-    "earlier": 4,
-    "delta": -0.0048
-   },
-   {
-    "name": "EPR & packaging law",
-    "recent": 3,
-    "earlier": 7,
-    "delta": -0.0162
+    "earlier": 5,
+    "delta": -0.01
    },
    {
     "name": "Automotive & EV",
-    "recent": 0,
+    "recent": 1,
     "earlier": 4,
-    "delta": -0.036
+    "delta": -0.0161
    },
    {
     "name": "Bans & chemical restrictions",
     "recent": 0,
     "earlier": 4,
-    "delta": -0.036
+    "delta": -0.0296
    },
    {
     "name": "Trade, tariffs & duties",
     "recent": 0,
     "earlier": 4,
-    "delta": -0.036
+    "delta": -0.0296
    },
    {
     "name": "AI & digital",
     "recent": 1,
-    "earlier": 6,
-    "delta": -0.0384
+    "earlier": 7,
+    "delta": -0.0383
+   },
+   {
+    "name": "Capacity moves & investment",
+    "recent": 11,
+    "earlier": 28,
+    "delta": -0.0588
    }
   ]
  },
@@ -515,7 +550,21 @@
     1,
     2,
     2,
-    5
+    5,
+    0
+   ]
+  },
+  {
+   "name": "injection molding",
+   "count": 9,
+   "issues": 5,
+   "by_week": [
+    4,
+    1,
+    1,
+    1,
+    0,
+    2
    ]
   },
   {
@@ -527,19 +576,34 @@
     2,
     2,
     1,
+    2,
+    0
+   ]
+  },
+  {
+   "name": "PET",
+   "count": 8,
+   "issues": 5,
+   "by_week": [
+    1,
+    0,
+    2,
+    2,
+    1,
     2
    ]
   },
   {
-   "name": "injection molding",
+   "name": "EPR",
    "count": 7,
    "issues": 4,
    "by_week": [
-    4,
-    1,
-    1,
-    1,
-    0
+    2,
+    0,
+    2,
+    0,
+    2,
+    1
    ]
   },
   {
@@ -551,31 +615,34 @@
     3,
     1,
     0,
-    2
+    2,
+    0
    ]
   },
   {
-   "name": "PET",
-   "count": 6,
+   "name": "polypropylene",
+   "count": 5,
    "issues": 4,
    "by_week": [
+    0,
+    1,
     1,
     0,
-    2,
-    2,
-    1
+    1,
+    2
    ]
   },
   {
-   "name": "EPR",
-   "count": 6,
+   "name": "chemical recycling",
+   "count": 4,
    "issues": 3,
    "by_week": [
+    1,
     2,
     0,
-    2,
     0,
-    2
+    0,
+    1
    ]
   },
   {
@@ -587,19 +654,60 @@
     2,
     1,
     0,
+    1,
+    0
+   ]
+  },
+  {
+   "name": "HDPE",
+   "count": 4,
+   "issues": 3,
+   "by_week": [
+    0,
+    2,
+    0,
+    0,
+    1,
     1
    ]
   },
   {
-   "name": "chemical recycling",
-   "count": 3,
+   "name": "MRF",
+   "count": 4,
+   "issues": 3,
+   "by_week": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    2
+   ]
+  },
+  {
+   "name": "mechanical recycling",
+   "count": 4,
+   "issues": 4,
+   "by_week": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "polyethylene",
+   "count": 4,
    "issues": 2,
    "by_week": [
-    1,
+    0,
+    0,
+    0,
+    0,
     2,
-    0,
-    0,
-    0
+    2
    ]
   },
   {
@@ -611,6 +719,20 @@
     1,
     0,
     0,
+    1,
+    0
+   ]
+  },
+  {
+   "name": "material qualification",
+   "count": 3,
+   "issues": 3,
+   "by_week": [
+    1,
+    0,
+    0,
+    0,
+    1,
     1
    ]
   },
@@ -623,7 +745,34 @@
     1,
     0,
     0,
+    0,
     0
+   ]
+  },
+  {
+   "name": "investment",
+   "count": 3,
+   "issues": 3,
+   "by_week": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "capacity investment",
+   "count": 3,
+   "issues": 3,
+   "by_week": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
    ]
   },
   {
@@ -635,19 +784,8 @@
     2,
     0,
     0,
+    0,
     0
-   ]
-  },
-  {
-   "name": "HDPE",
-   "count": 3,
-   "issues": 2,
-   "by_week": [
-    0,
-    2,
-    0,
-    0,
-    1
    ]
   },
   {
@@ -659,18 +797,33 @@
     1,
     0,
     1,
-    1
+    1,
+    0
    ]
   },
   {
-   "name": "polypropylene",
+   "name": "PVC",
    "count": 3,
    "issues": 3,
    "by_week": [
     0,
     1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "bioplastics",
+   "count": 3,
+   "issues": 3,
+   "by_week": [
+    0,
+    0,
     1,
     0,
+    1,
     1
    ]
   },
@@ -683,55 +836,21 @@
     0,
     1,
     1,
-    1
-   ]
-  },
-  {
-   "name": "mechanical recycling",
-   "count": 3,
-   "issues": 3,
-   "by_week": [
-    0,
-    0,
     1,
-    1,
-    1
-   ]
-  },
-  {
-   "name": "material qualification",
-   "count": 2,
-   "issues": 2,
-   "by_week": [
-    1,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "name": "investment",
-   "count": 2,
-   "issues": 2,
-   "by_week": [
-    1,
-    0,
-    1,
-    0,
     0
    ]
   },
   {
-   "name": "capacity investment",
+   "name": "EV",
    "count": 2,
    "issues": 2,
    "by_week": [
     1,
-    1,
     0,
     0,
-    0
+    0,
+    0,
+    1
    ]
   },
   {
@@ -743,65 +862,6 @@
     0,
     0,
     1,
-    0
-   ]
-  },
-  {
-   "name": "plastics policy",
-   "count": 2,
-   "issues": 2,
-   "by_week": [
-    1,
-    0,
-    1,
-    0,
-    0
-   ]
-  },
-  {
-   "name": "toray",
-   "count": 2,
-   "issues": 2,
-   "by_week": [
-    0,
-    1,
-    1,
-    0,
-    0
-   ]
-  },
-  {
-   "name": "capacity",
-   "count": 2,
-   "issues": 2,
-   "by_week": [
-    0,
-    1,
-    1,
-    0,
-    0
-   ]
-  },
-  {
-   "name": "recycling",
-   "count": 2,
-   "issues": 2,
-   "by_week": [
-    0,
-    1,
-    1,
-    0,
-    0
-   ]
-  },
-  {
-   "name": "microplastics",
-   "count": 2,
-   "issues": 1,
-   "by_week": [
-    0,
-    2,
-    0,
     0,
     0
    ]
@@ -809,169 +869,171 @@
  ],
  "rising_tags": [
   {
-   "name": "packaging",
-   "recent": 7,
-   "earlier": 5,
-   "delta": 0.0294
-  },
-  {
    "name": "polyethylene",
-   "recent": 2,
+   "recent": 4,
    "earlier": 0,
-   "delta": 0.0143
+   "delta": 0.025
   },
   {
-   "name": "producer responsibility",
-   "recent": 2,
-   "earlier": 0,
-   "delta": 0.0143
+   "name": "polypropylene",
+   "recent": 3,
+   "earlier": 2,
+   "delta": 0.012
   },
   {
-   "name": "enzymatic recycling",
+   "name": "PVC",
    "recent": 2,
    "earlier": 1,
-   "delta": 0.0102
+   "delta": 0.0091
+  },
+  {
+   "name": "bioplastics",
+   "recent": 2,
+   "earlier": 1,
+   "delta": 0.0091
+  },
+  {
+   "name": "material qualification",
+   "recent": 2,
+   "earlier": 1,
+   "delta": 0.0091
+  },
+  {
+   "name": "packaging",
+   "recent": 5,
+   "earlier": 7,
+   "delta": 0.0076
+  },
+  {
+   "name": "HDPE",
+   "recent": 2,
+   "earlier": 2,
+   "delta": 0.0057
+  },
+  {
+   "name": "MRF",
+   "recent": 2,
+   "earlier": 2,
+   "delta": 0.0057
   },
   {
    "name": "mechanical recycling",
    "recent": 2,
-   "earlier": 1,
-   "delta": 0.0102
+   "earlier": 2,
+   "delta": 0.0057
   },
   {
-   "name": "recycled content",
-   "recent": 2,
-   "earlier": 1,
-   "delta": 0.0102
-  },
-  {
-   "name": "PET",
+   "name": "EPR",
    "recent": 3,
-   "earlier": 3,
-   "delta": 0.0091
-  },
-  {
-   "name": "European Commission",
-   "recent": 1,
-   "earlier": 1,
-   "delta": 0.003
-  },
-  {
-   "name": "M&A",
-   "recent": 1,
-   "earlier": 1,
-   "delta": 0.003
-  },
-  {
-   "name": "MRF",
-   "recent": 1,
-   "earlier": 1,
-   "delta": 0.003
+   "earlier": 4,
+   "delta": 0.0052
   }
  ],
  "cooling_tags": [
   {
+   "name": "capacity expansion",
+   "recent": 2,
+   "earlier": 7,
+   "delta": -0.0111
+  },
+  {
    "name": "injection molding",
-   "recent": 1,
-   "earlier": 6,
-   "delta": -0.0175
+   "recent": 2,
+   "earlier": 7,
+   "delta": -0.0111
   },
   {
    "name": "automotive",
    "recent": 0,
    "earlier": 3,
-   "delta": -0.0123
-  },
-  {
-   "name": "chemical recycling",
-   "recent": 0,
-   "earlier": 3,
-   "delta": -0.0123
+   "delta": -0.0101
   },
   {
    "name": "rPET",
    "recent": 0,
    "earlier": 3,
-   "delta": -0.0123
+   "delta": -0.0101
   },
   {
    "name": "Horizon Europe",
    "recent": 0,
    "earlier": 2,
-   "delta": -0.0082
+   "delta": -0.0068
   },
   {
-   "name": "austria",
+   "name": "M&A",
    "recent": 0,
    "earlier": 2,
-   "delta": -0.0082
+   "delta": -0.0068
   }
  ],
  "pillar_momentum": [
   {
-   "name": "Recycling Technologies",
-   "recent": 8,
-   "earlier": 9,
-   "delta": 0.0864
+   "name": "Sustainable Materials",
+   "recent": 5,
+   "earlier": 5,
+   "delta": 0.0643
   },
   {
    "name": "Market & Business",
-   "recent": 4,
-   "earlier": 5,
-   "delta": 0.0341
+   "recent": 5,
+   "earlier": 8,
+   "delta": 0.0195
   },
   {
-   "name": "Research & Patents",
-   "recent": 2,
-   "earlier": 2,
-   "delta": 0.0261
-  },
-  {
-   "name": "Sustainable Materials",
-   "recent": 3,
-   "earlier": 5,
-   "delta": 0.0028
-  },
-  {
-   "name": "Supply Chain & Feedstock",
-   "recent": 8,
-   "earlier": 15,
-   "delta": -0.0227
+   "name": "Recycling Technologies",
+   "recent": 7,
+   "earlier": 12,
+   "delta": 0.0153
   },
   {
    "name": "Regulations & Compliance",
-   "recent": 6,
-   "earlier": 12,
-   "delta": -0.0307
+   "recent": 7,
+   "earlier": 13,
+   "delta": 0.0004
+  },
+  {
+   "name": "Research & Patents",
+   "recent": 1,
+   "earlier": 3,
+   "delta": -0.017
+  },
+  {
+   "name": "Supply Chain & Feedstock",
+   "recent": 9,
+   "earlier": 18,
+   "delta": -0.0187
   },
   {
    "name": "Material Performance",
-   "recent": 1,
-   "earlier": 6,
-   "delta": -0.0778
+   "recent": 2,
+   "earlier": 7,
+   "delta": -0.0489
   }
  ],
  "regions": [
   {
    "name": "United States",
-   "count": 39,
+   "count": 43,
    "by_week": [
     6,
     9,
     9,
     7,
-    8
+    8,
+    4
    ]
   },
   {
    "name": "European Union",
-   "count": 11,
+   "count": 13,
    "by_week": [
     2,
     3,
     3,
     0,
-    3
+    3,
+    2
    ]
   },
   {
@@ -982,7 +1044,20 @@
     2,
     1,
     0,
-    1
+    1,
+    0
+   ]
+  },
+  {
+   "name": "India & South Asia",
+   "count": 5,
+   "by_week": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    2
    ]
   },
   {
@@ -992,6 +1067,7 @@
     2,
     1,
     1,
+    0,
     0,
     0
    ]
@@ -1004,7 +1080,8 @@
     2,
     0,
     1,
-    1
+    1,
+    0
    ]
   },
   {
@@ -1015,17 +1092,7 @@
     0,
     2,
     0,
-    0
-   ]
-  },
-  {
-   "name": "India & South Asia",
-   "count": 3,
-   "by_week": [
-    1,
-    1,
     0,
-    1,
     0
    ]
   },
@@ -1037,18 +1104,20 @@
     1,
     1,
     0,
+    0,
     0
    ]
   },
   {
    "name": "UK",
-   "count": 2,
+   "count": 3,
    "by_week": [
     1,
     0,
     1,
     0,
-    0
+    0,
+    1
    ]
   },
   {
@@ -1058,6 +1127,7 @@
     0,
     1,
     1,
+    0,
     0,
     0
    ]
@@ -1070,49 +1140,51 @@
     1,
     0,
     0,
-    1
+    1,
+    0
    ]
   },
   {
-   "name": "Middle East",
+   "name": "Canada",
    "count": 2,
    "by_week": [
     0,
     1,
-    1,
     0,
-    0
+    0,
+    0,
+    1
    ]
   }
  ],
  "sources": [
   {
    "name": "PlasticsToday",
-   "count": 47
+   "count": 54
   },
   {
    "name": "Resource Recycling",
-   "count": 14
+   "count": 18
   },
   {
    "name": "Recycling processes",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Customer value and product design",
-   "count": 6
+   "count": 7
   },
   {
    "name": "EU regulatory sources",
-   "count": 4
+   "count": 5
   },
   {
    "name": "Emerging polymers and materials AI",
-   "count": 3
+   "count": 4
   },
   {
    "name": "PCR and renewable materials",
-   "count": 3
+   "count": 4
   },
   {
    "name": "European Bioplastics",
@@ -1126,11 +1198,11 @@
  "actions": [
   {
    "name": "Request evidence",
-   "count": 45
+   "count": 53
   },
   {
    "name": "Track",
-   "count": 27
+   "count": 34
   },
   {
    "name": "Verify",
@@ -1138,7 +1210,7 @@
   },
   {
    "name": "Other",
-   "count": 4
+   "count": 5
   },
   {
    "name": "Qualify / decide",
@@ -1146,6 +1218,38 @@
   }
  ],
  "high_signal": [
+  {
+   "issue": "2026-11-01",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "DOE reinstates $340m remaining Eastman PET recycling grant",
+   "url": "https://resource-recycling.com/plastics/2026/10/30/eastman-375m-doe-grant-reinstated/",
+   "score": 8.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-30",
+   "summary": "The US Department of Energy (DOE) reinstated Eastman's $375m chemical-recycling grant, originally for a Longview, Texas plant; $340m remains after $35m previously received, the company said on an Oct. 30, 2026 earnings call. The revised scope covers a ~30% debottlenecking capacity increase at the Kingsport, Tennessee methanolysis plant, restart and repurposing of underutilized US recycling assets, and milestone-based planning for a potential second US methanolysis plant, with DOE potentially covering up to ~50% of capital. The Association of Plastic Recyclers (APR) separately says ~25% of US post-consumer PET processing capacity closed in 18 months.",
+   "tags": [
+    "PET",
+    "chemical recycling",
+    "methanolysis",
+    "US",
+    "DOE funding",
+    "RPET capacity"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims",
+    "Driver: Chemical & enzymatic recycling"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track DOE milestone disclosures and ask Eastman for updated capacity, grade and qualification timelines; keep a contingency for RPET supply exposed to the industry closures.",
+   "action": "Track"
+  },
   {
    "issue": "2026-09-27",
    "pillar": "regulation-compliance",
@@ -1598,6 +1702,96 @@
    ],
    "next_action": "Request start-up and qualification timing, and confirm whether the expansion will use the same micro molding platforms, resin grades, and certifications as the existing Ankeny site.",
    "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 1,
+   "title": "Northeast MRF recycled plastics prices rise in Q2 2026; PET falls 61%",
+   "url": "https://resource-recycling.com/recycling/2026/10/30/northeast-q2-commodities-rise-despite-pet-plunge/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-30",
+   "summary": "NERC's Q2 2026 survey of 19 materials recovery facilities (MRFs) in 12 Northeast states shows average blended recycled commodity value up 11.1% from Q1 to $93.03/ton excluding residuals, and 15.24% to $76.37/ton including them, a second straight quarterly rise. Plastics diverged: PET averaged $40.48/ton, down 61% (range $8.47–$70), while color HDPE rose 122% to $293.63/ton, natural HDPE 10% to $1,471.31/ton, polypropylene 72% to $345.37/ton and mixed Nos. 3–7 39% to $186.52/ton.",
+   "tags": [
+    "PET",
+    "HDPE",
+    "polypropylene",
+    "recycled commodity prices",
+    "northeast-US",
+    "MRF"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: Polypropylene (PP)",
+    "Polymer: PET / polyester",
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the full NERC Q2 2026 report and check contracted bale or flake pricing against the reported grade ranges for your source states.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "Saskatchewan foam densifier compacts EPS for Quebec XPS end market",
+   "url": "https://resource-recycling.com/plastics/2026/10/29/epr-at-work-sask-adds-foam-densifier/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-29",
+   "summary": "SK Recycles and SARCAN Recycling jointly invested $300,000 in Saskatchewan's first household rigid-foam densifier, in Saskatoon. The extended producer responsibility (EPR) packaging program began collecting household foam in December 2024 and has collected over 50 metric tons; densification began in late January 2026, with the first load shipped in August. Compaction reaches up to 50:1—16 metric tons densified versus about 0.5 metric tons loose, at similar freight cost—and roughly two rail shipments a year go to a Quebec extruded polystyrene (XPS) insulation-board maker.",
+   "tags": [
+    "expanded polystyrene (EPS)",
+    "foam densification",
+    "EPR packaging",
+    "saskatchewan",
+    "Canada",
+    "mechanical recycling",
+    "XPS insulation"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law",
+    "Driver: Capacity moves & investment",
+    "Driver: Mechanical recycling"
+   ],
+   "regions": [
+    "Canada"
+   ],
+   "next_action": "Request the output specification and the Quebec end market's acceptance criteria before comparing rail and loose-foam trucking costs.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 2,
+   "title": "JLT Recycling plans ~$30M Maryland single-stream MRF, breaking ground 2028",
+   "url": "https://resource-recycling.com/recycling/2026/10/28/jlt-recycling-plans-30m-mrf-in-maryland/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-28",
+   "summary": "JLT Recycling, an affiliate of Jerome L. Taylor Trucking, plans a roughly $30 million, 50,000 sq ft commercial single-stream materials recovery facility (MRF) in Upper Marlboro, Maryland, per Resource Recycling. The Van Dyk Recycling Solutions line is rated at 25 tons per hour, on a site built for 50 t/h, with screens, optical sorters, magnetic and eddy-current separation and automated balers. Planning runs through 2027 with groundbreaking expected in early 2028, as Maryland's packaging EPR program under SB 901 begins.",
+   "tags": [
+    "MRF",
+    "single stream recycling",
+    "packaging EPR",
+    "maryland",
+    "optical sorting"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [],
+   "next_action": "Track Maryland's April 2027 producer plans and request the line's accepted plastics grades.",
+   "action": "Track"
   }
  ],
  "items": [
@@ -4074,6 +4268,457 @@
    "regions": [],
    "next_action": "Locate the underlying study or release to confirm polymer grade, soil and incubation conditions, specimen thickness, measured mineralization, and the comparator conventional plastic before citing the result internally.",
    "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 1,
+   "title": "Northeast MRF recycled plastics prices rise in Q2 2026; PET falls 61%",
+   "url": "https://resource-recycling.com/recycling/2026/10/30/northeast-q2-commodities-rise-despite-pet-plunge/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-30",
+   "summary": "NERC's Q2 2026 survey of 19 materials recovery facilities (MRFs) in 12 Northeast states shows average blended recycled commodity value up 11.1% from Q1 to $93.03/ton excluding residuals, and 15.24% to $76.37/ton including them, a second straight quarterly rise. Plastics diverged: PET averaged $40.48/ton, down 61% (range $8.47–$70), while color HDPE rose 122% to $293.63/ton, natural HDPE 10% to $1,471.31/ton, polypropylene 72% to $345.37/ton and mixed Nos. 3–7 39% to $186.52/ton.",
+   "tags": [
+    "PET",
+    "HDPE",
+    "polypropylene",
+    "recycled commodity prices",
+    "northeast-US",
+    "MRF"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: Polypropylene (PP)",
+    "Polymer: PET / polyester",
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the full NERC Q2 2026 report and check contracted bale or flake pricing against the reported grade ranges for your source states.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 2,
+   "title": "LyondellBasell Q3 Net Income $758M as PE Margins Rise",
+   "url": "https://www.plasticstoday.com/materials/lyondellbasell-profit-jumps-as-pe-prices-rebound",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-30",
+   "summary": "LyondellBasell reported $758 million in third-quarter net income, according to Plastics Today, with sharply higher polyethylene margins and surging oxyfuels profitability offsetting weaker European polymer pricing. The item gives no prior-period comparison, no production or sales volumes, no absolute PE price levels, and no regional breakdown of where margins improved. All figures are as reported for the quarter; the specific quarter's year is not stated in the supplied material.",
+   "tags": [
+    "polyethylene",
+    "polymer pricing",
+    "earnings",
+    "Europe"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Track the next quarterly report and independent PE contract price assessments for the specific grade and region before adjusting sourcing or contract assumptions; ask suppliers for price-level detail behind the margin claim.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 3,
+   "title": "Myers Industries Q3 sales up 8.1% as resin costs squeeze margins",
+   "url": "https://www.plasticstoday.com/injection-molding/myers-industries-posts-q3-revenue-growth-despite-margin-pressure",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-30",
+   "summary": "Myers Industries reported 8.1% year-over-year growth in third-quarter net sales, per PlasticsToday's David Hutton, while higher resin costs and an unfavorable product mix pressured gross margins. The supplied excerpt gives no absolute sales or margin figures, segment breakdown, volumes, resin grades, or guidance, so the split between price and volume behind the growth is not established.",
+   "tags": [
+    "injection molding",
+    "resin costs",
+    "gross margin",
+    "financial results",
+    "Myers Industries"
+   ],
+   "themes": [
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [],
+   "next_action": "Track the full quarterly filing for segment sales, volumes and resin commentary before treating the 8.1% growth as a demand indicator.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 4,
+   "title": "Orbia Headline Pairs Dura-Line AI Growth With PVC Weakness",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83TGpMX2Yxc3BmTEc4bXR3MTFydE5COFNyUTNMdFdSUlROd2U1NFlZdWg5QkJZVXBsUy1pLU1kVUtJOUNqdDJQZ3lYY2JhQy1MWlozTXI5Uk1IUTZRM1p0b2taSTFSNkIxU3V2cFN3ZjREem15d291aXdR?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Emerging polymers and materials AI",
+   "published": "2026-10-29",
+   "summary": "A Plastics News headline reports that Orbia's Dura-Line business is growing on AI-related demand while the company's PVC business struggles. The supplied item contains only the headline: no revenue or volume figures, grades, geography, time period, capacity detail, or definition of the PVC weakness are available in the supplied material. The claims are therefore unverified beyond the headline itself.",
+   "tags": [
+    "PVC",
+    "orbia",
+    "Dura Line",
+    "AI demand",
+    "business performance"
+   ],
+   "themes": [
+    "Polymer: PVC",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims",
+    "Driver: AI & digital"
+   ],
+   "regions": [],
+   "next_action": "Retrieve the full Plastics News article or Orbia's segment reporting to confirm which Dura-Line products are growing and what specifically constitutes the PVC weakness before adjusting sourcing assumptions.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 1,
+   "title": "Operation Clean Sweep launches India program with AIPMA",
+   "url": "https://www.plasticstoday.com/sustainability/operation-clean-sweep-expands-reach-into-india",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-29",
+   "summary": "Operation Clean Sweep (OCS), a resin-pellet stewardship program, has launched OCS India with AIPMA, extending its footprint to 18 countries and strengthening its presence across Asia, according to PlasticsToday. The supplied excerpt gives no quantified pellet-loss impact, compliance requirements or implementation timeline.",
+   "tags": [
+    "Operation Clean Sweep",
+    "pellet loss",
+    "India",
+    "plastics stewardship",
+    "AIPMA"
+   ],
+   "themes": [],
+   "regions": [
+    "India & South Asia"
+   ],
+   "next_action": "Request written OCS India participation details—scope, verification and start date—from the supplier or AIPMA, and compare them with existing pellet-loss specifications.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 2,
+   "title": "Closed Loop Partners backs mono-material PP textile startup",
+   "url": "https://www.plasticstoday.com/sustainability/closed-loop-partners-backs-startup-s-pp-fabric",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-28",
+   "summary": "Closed Loop Partners has backed a Colorado-based startup developing a mono-material polypropylene (PP) textile positioned as a replacement for PVC- and polyurethane-coated fabrics, according to PlasticsToday (David Hutton). The supplied material does not state the investment amount, the startup's name, the fabric's construction or grade, test conditions, performance data, production scale, or a commercialization timeline.",
+   "tags": [
+    "polypropylene",
+    "mono material textile",
+    "sustainable textiles",
+    "PVC/PU replacement",
+    "investment"
+   ],
+   "themes": [
+    "Polymer: Polypropylene (PP)",
+    "Polymer: PVC",
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships",
+    "Driver: Textiles"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track the startup's identity and technical disclosures, and, if a datasheet becomes available, compare tensile, flex and weldability data against the incumbent coated fabric under the same test conditions.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "Saskatchewan foam densifier compacts EPS for Quebec XPS end market",
+   "url": "https://resource-recycling.com/plastics/2026/10/29/epr-at-work-sask-adds-foam-densifier/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-29",
+   "summary": "SK Recycles and SARCAN Recycling jointly invested $300,000 in Saskatchewan's first household rigid-foam densifier, in Saskatoon. The extended producer responsibility (EPR) packaging program began collecting household foam in December 2024 and has collected over 50 metric tons; densification began in late January 2026, with the first load shipped in August. Compaction reaches up to 50:1—16 metric tons densified versus about 0.5 metric tons loose, at similar freight cost—and roughly two rail shipments a year go to a Quebec extruded polystyrene (XPS) insulation-board maker.",
+   "tags": [
+    "expanded polystyrene (EPS)",
+    "foam densification",
+    "EPR packaging",
+    "saskatchewan",
+    "Canada",
+    "mechanical recycling",
+    "XPS insulation"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law",
+    "Driver: Capacity moves & investment",
+    "Driver: Mechanical recycling"
+   ],
+   "regions": [
+    "Canada"
+   ],
+   "next_action": "Request the output specification and the Quebec end market's acceptance criteria before comparing rail and loose-foam trucking costs.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 2,
+   "title": "JLT Recycling plans ~$30M Maryland single-stream MRF, breaking ground 2028",
+   "url": "https://resource-recycling.com/recycling/2026/10/28/jlt-recycling-plans-30m-mrf-in-maryland/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-28",
+   "summary": "JLT Recycling, an affiliate of Jerome L. Taylor Trucking, plans a roughly $30 million, 50,000 sq ft commercial single-stream materials recovery facility (MRF) in Upper Marlboro, Maryland, per Resource Recycling. The Van Dyk Recycling Solutions line is rated at 25 tons per hour, on a site built for 50 t/h, with screens, optical sorters, magnetic and eddy-current separation and automated balers. Planning runs through 2027 with groundbreaking expected in early 2028, as Maryland's packaging EPR program under SB 901 begins.",
+   "tags": [
+    "MRF",
+    "single stream recycling",
+    "packaging EPR",
+    "maryland",
+    "optical sorting"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [],
+   "next_action": "Track Maryland's April 2027 producer plans and request the line's accepted plastics grades.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "material-performance",
+   "pillar_name": "Material Performance",
+   "rank": 1,
+   "title": "NexPoint reports top UL 2597 rating for Lexan, Cycoloy",
+   "url": "https://www.plasticstoday.com/materials/nexpoint-resins-earn-top-high-voltage-safety-rating",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-28",
+   "summary": "NexPoint Materials' Lexan and Cycoloy resins reportedly achieved the highest UL 2597 surface-tracking rating, a qualification point for high-voltage electric vehicle (EV) and electronics designs. The supplied material does not name the rating level, specific grades, test conditions, timing, geography, or independent verification; the claim is supplier-framed and brief.",
+   "tags": [
+    "polycarbonate",
+    "PC/ABS",
+    "UL 2597",
+    "EV",
+    "material qualification"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: Recycled content & claims",
+    "Driver: Automotive & EV"
+   ],
+   "regions": [],
+   "next_action": "Request grade-specific UL 2597 listings or test reports from NexPoint Materials, then compare them with incumbent materials under the same rating and application conditions.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "material-performance",
+   "pillar_name": "Material Performance",
+   "rank": 2,
+   "title": "Pregis metallized PE film prequalified for How2Recycle",
+   "url": "https://www.plasticstoday.com/packaging/new-recyclable-metallized-high-barrier-pe-film-is-food-friendly",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-28",
+   "summary": "Pregis has introduced a metallized polyethylene (PE) film that is mono-material and prequalified for How2Recycle, PlasticsToday reports. The company says the film passed third-party testing for its first snack-food application. The supplied material gives no barrier values, film grade, thickness, availability date or production scale.",
+   "tags": [
+    "polyethylene",
+    "metallized film",
+    "high barrier packaging",
+    "how2Recycle",
+    "food packaging"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)"
+   ],
+   "regions": [],
+   "next_action": "Request the film specification — oxygen and water-vapor transmission rates, thickness, sealant layer — and confirm the scope of the How2Recycle prequalification before any pack trial.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "DOE reinstates $340m remaining Eastman PET recycling grant",
+   "url": "https://resource-recycling.com/plastics/2026/10/30/eastman-375m-doe-grant-reinstated/",
+   "score": 8.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-10-30",
+   "summary": "The US Department of Energy (DOE) reinstated Eastman's $375m chemical-recycling grant, originally for a Longview, Texas plant; $340m remains after $35m previously received, the company said on an Oct. 30, 2026 earnings call. The revised scope covers a ~30% debottlenecking capacity increase at the Kingsport, Tennessee methanolysis plant, restart and repurposing of underutilized US recycling assets, and milestone-based planning for a potential second US methanolysis plant, with DOE potentially covering up to ~50% of capital. The Association of Plastic Recyclers (APR) separately says ~25% of US post-consumer PET processing capacity closed in 18 months.",
+   "tags": [
+    "PET",
+    "chemical recycling",
+    "methanolysis",
+    "US",
+    "DOE funding",
+    "RPET capacity"
+   ],
+   "themes": [
+    "Polymer: PET / polyester",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims",
+    "Driver: Chemical & enzymatic recycling"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Track DOE milestone disclosures and ask Eastman for updated capacity, grade and qualification timelines; keep a contingency for RPET supply exposed to the industry closures.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 2,
+   "title": "AIM Processing Acquires Wisconsin Injection Molder Retlaw",
+   "url": "https://www.plasticstoday.com/injection-molding/aim-processing-acquires-wisconsin-molder-retlaw",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-10-28",
+   "summary": "AIM Processing, backed by MCM Capital Partners, has acquired Wisconsin-based injection molder Retlaw Industries, according to PlasticsToday (David Hutton). The company frames the deal as extending its manufacturing capabilities into automation and industrial end markets. Deal value, tonnage, press count, site details and closing timeline are absent from the supplied material.",
+   "tags": [
+    "injection molding",
+    "acquisitions",
+    "supply chain consolidation",
+    "wisconsin",
+    "industrial end markets"
+   ],
+   "themes": [
+    "Driver: M&A & partnerships"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request written confirmation of contracting entity and manufacturing site for active tooling, and track whether the combined group announces equipment or site changes.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 3,
+   "title": "Balrampur Chini Mills Announces ₹3,080 Crore Bioplastics Plant Investment",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeWZpYV9HMDJCRDhHUkhUclFsdzBHcVgtZ1FOVGwydlMwUlVNSldLX0k1Z0NSYVhHY1ZvRUswSFpUX0VuakJ4NnJGRDhqOWVhcW1YVWR2RnNtZGtMU0x6a0xNU1k0RHYxQkJfVnpqSW8xTVh5VTl0MVZEdDZ2aWVaRE13aU96MmpyM29pbU9venZwbkQxZ2QyemZ6azhLa2ZPZy1NZGg2aUFQd1c2?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PCR and renewable materials",
+   "published": "2026-10-26",
+   "summary": "Balrampur Chini Mills has announced a ₹3,080 crore investment in a bioplastics manufacturing facility, according to a Chemical Industry Digest headline. The supplied material contains no polymer type, nameplate capacity, feedstock, technology partner, project timeline, site location or commissioning status, and no company statement beyond the headline figure.",
+   "tags": [
+    "bioplastics",
+    "India",
+    "capacity investment",
+    "announced project"
+   ],
+   "themes": [
+    "Polymer: Bio-based & biodegradable",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships"
+   ],
+   "regions": [
+    "India & South Asia"
+   ],
+   "next_action": "Track Balrampur Chini Mills' regulatory filings and project disclosures for polymer type, nameplate capacity and commissioning date before treating the plant as a prospective bio-based supply source.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 4,
+   "title": "Dosiujeun signs KRW 25bn waste-plastic recycling equipment supply deal",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51QkJzZi1aY3V4M3hCNGJmcXJIM0R6UXR4aTNCWVAxNVIxM1ZwOFVzc1BsbklsZkgyMFdJa1dEem9lYUhZWHdDZ2ptMTRaTC1qczNiWjZR?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-10-29",
+   "summary": "Herald Gyeongje (헤럴드경제) reports that Dosiujeun signed a KRW 25 billion contract to supply waste-plastic recycling equipment. The supplied material contains only the headline: the counterparty, equipment type and throughput, polymers handled, delivery schedule and contract term are all absent. No independent confirmation of the deal was available in the supplied material.",
+   "tags": [
+    "waste plastic recycling",
+    "recycling equipment",
+    "equipment supply deal",
+    "KRW 25 billion"
+   ],
+   "themes": [],
+   "regions": [],
+   "next_action": "Track Dosiujeun's regulatory disclosure or filing for counterparty, contract term and commissioning date, and check whether the equipment is mechanical or chemical recycling.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 1,
+   "title": "GOV.UK Publishes Final Evaluation of UK Plastic Packaging Tax",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUDdrOTJHazVLbU1MR0QwSFFmTlNNR3d5UHgzRW1fNm5RS1huSlJjM3NCMkFGNWF0N0JPVHlEZFBrRmRSWm1Eek9JSTNIU2NDYXpuSEMxbFVQU2xNQXNmVjU3amhtMTNxczZDLVVXeDhPcHU5alBEa01HREFvdFZDTEVsOFViRHdPMUFDVWhhR3BvbTNMZlhnQTViS0VmQkF2bXZyX3pJbmxFU0JRTXBpdDdjUmx2ckprV0k4ckdSTlIzM3c1ekYw?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Customer value and product design",
+   "published": "2026-10-28",
+   "summary": "GOV.UK has published a document titled \"Plastic Packaging Tax Evaluation: final evaluation,\" per the supplied RSS item. The supplied material contains only the headline and link: no findings, conclusions, publication date, evaluation period, methodology, tax-rate references, tonnage or revenue figures, or stated policy changes are present. Nothing in the supplied excerpt indicates whether the evaluation proposes any change to the tax or its administration.",
+   "tags": [
+    "plastic packaging tax",
+    "UK",
+    "packaging compliance",
+    "regulatory evaluation"
+   ],
+   "themes": [],
+   "regions": [
+    "UK"
+   ],
+   "next_action": "Retrieve the full evaluation from GOV.UK and check its stated evaluation period, evidence base, and any recommendations before adjusting compliance assumptions. Treat any indicated change as a proposal until an official effective date is confirmed.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-01",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 2,
+   "title": "EU EPR packaging waste reference page: no new obligations in supplied text",
+   "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPM2lpd3otZXVGRWhCRlptSExJUC1BNnAwY1FEVlJUTkhmTGZJSVhESGQySTQ0NjVPaEFidHJyZGllNmg1Qk5iNjFlWkpuYzNOMVpuOFNBSmtuTkdONEtXRWNtWXVqdVYwU0RCcll4dVZvTXRGUDZTOVpYa3NFMEotUHVUTXhpcFlpejdiSHFITmVGOUdBTFNzTkk2aFRQLXM3ZGF6ZUhYSnRzMFEyNzJzM09FZ1NIRHZPenJ5ZGJ4RGU0SUtpRVc2NmFqRnZsNU1VYktDLTltdGR2eGtaYVZaRlFvQ1lJTm13cVNJazk5Y1BFY2dFRkVCbFd2ZnN1VXRtdDd3aFVsNlJEeXZnQ1lSVm9uSl8xSXlYcm1MODJITzhrVmlZRmc1bG1B?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "EU regulatory sources",
+   "published": "2026-10-29",
+   "summary": "The item links to a European Commission green-forum.ec.europa.eu page titled \"Extended Producer Responsibility Obligations in EU Member States and EEA countries – Packaging Waste\", a reference resource on extended producer responsibility (EPR) for packaging. The supplied material contains only the headline and URL: no obligation text, country list, dates, fee levels or stated regulatory change, and no publication or update date.",
+   "tags": [
+    "EPR",
+    "packaging waste",
+    "EU",
+    "EEA",
+    "compliance"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Open the linked page and verify, per target market, the applicable member state or EEA scheme, polymer/format coverage, reporting deadlines and fee-modulation criteria, recording whether each is a proposal or an obligation in force.",
+   "action": "Other"
   }
  ]
 }
