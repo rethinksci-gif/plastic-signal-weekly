@@ -1,12 +1,13 @@
 {
- "generated_at": "2026-11-01T12:17:48Z",
+ "generated_at": "2026-11-08T12:26:00Z",
  "weeks": [
   "2026-09-27",
   "2026-10-04",
   "2026-10-11",
   "2026-10-18",
   "2026-10-25",
-  "2026-11-01"
+  "2026-11-01",
+  "2026-11-08"
  ],
  "issues": [
   {
@@ -50,15 +51,22 @@
    "url": "2026/11/01/summary-en.html",
    "signals_seen": 190,
    "items_kept": 16
+  },
+  {
+   "date": "2026-11-08",
+   "title": "Plastic Signal Weekly — 2026-11-08",
+   "url": "2026/11/08/summary-en.html",
+   "signals_seen": 177,
+   "items_kept": 17
   }
  ],
  "totals": {
-  "issues": 6,
-  "items": 103,
-  "signals_seen": 1285,
+  "issues": 7,
+  "items": 120,
+  "signals_seen": 1462,
   "sources": 9,
-  "avg_score": 5.26,
-  "high_signal": 19
+  "avg_score": 5.31,
+  "high_signal": 26
  },
  "pillars": [
   {
@@ -69,7 +77,8 @@
     2,
     3,
     1,
-    4
+    4,
+    1
    ]
   },
   {
@@ -80,7 +89,8 @@
     3,
     0,
     3,
-    2
+    2,
+    5
    ]
   },
   {
@@ -91,7 +101,8 @@
     4,
     3,
     5,
-    2
+    2,
+    1
    ]
   },
   {
@@ -102,7 +113,8 @@
     5,
     3,
     5,
-    4
+    4,
+    5
    ]
   },
   {
@@ -113,7 +125,8 @@
     2,
     1,
     5,
-    2
+    2,
+    4
    ]
   },
   {
@@ -124,6 +137,7 @@
     1,
     1,
     1,
+    0,
     0
    ]
   },
@@ -135,7 +149,8 @@
     1,
     1,
     0,
-    2
+    2,
+    1
    ]
   },
   {
@@ -146,66 +161,86 @@
     0,
     0,
     0,
+    0,
     0
    ]
   }
  ],
  "polymers": [
   {
+   "name": "Polyethylene (PE/HDPE/LDPE)",
+   "count": 17,
+   "by_week": [
+    0,
+    3,
+    3,
+    1,
+    3,
+    3,
+    4
+   ],
+   "avg_score": 5.59,
+   "share": 0.142
+  },
+  {
    "name": "PET / polyester",
-   "count": 14,
+   "count": 15,
    "by_week": [
     1,
     3,
     4,
     2,
     2,
-    2
+    2,
+    1
    ],
-   "avg_score": 5.64,
-   "share": 0.136
-  },
-  {
-   "name": "Polyethylene (PE/HDPE/LDPE)",
-   "count": 13,
-   "by_week": [
-    0,
-    3,
-    3,
-    1,
-    3,
-    3
-   ],
-   "avg_score": 5.69,
-   "share": 0.126
+   "avg_score": 5.67,
+   "share": 0.125
   },
   {
    "name": "Polypropylene (PP)",
-   "count": 8,
+   "count": 12,
    "by_week": [
     0,
     2,
     3,
     0,
     1,
-    2
+    2,
+    4
    ],
-   "avg_score": 5.5,
-   "share": 0.078
+   "avg_score": 5.58,
+   "share": 0.1
   },
   {
    "name": "Engineering & high-performance",
-   "count": 6,
+   "count": 9,
    "by_week": [
     2,
     2,
     0,
     0,
     1,
-    1
+    1,
+    3
    ],
-   "avg_score": 5.17,
-   "share": 0.058
+   "avg_score": 5.33,
+   "share": 0.075
+  },
+  {
+   "name": "Bio-based & biodegradable",
+   "count": 8,
+   "by_week": [
+    1,
+    0,
+    1,
+    0,
+    2,
+    1,
+    3
+   ],
+   "avg_score": 5.38,
+   "share": 0.067
   },
   {
    "name": "PVC",
@@ -216,138 +251,148 @@
     1,
     0,
     1,
-    2
+    2,
+    0
    ],
    "avg_score": 5.0,
-   "share": 0.049
-  },
-  {
-   "name": "Bio-based & biodegradable",
-   "count": 5,
-   "by_week": [
-    1,
-    0,
-    1,
-    0,
-    2,
-    1
-   ],
-   "avg_score": 5.2,
-   "share": 0.049
+   "share": 0.042
   }
  ],
  "drivers": [
   {
    "name": "Capacity moves & investment",
-   "count": 39,
+   "count": 44,
    "by_week": [
     6,
     6,
     8,
     8,
     6,
+    5,
     5
    ],
-   "avg_score": 5.31,
-   "share": 0.379
+   "avg_score": 5.32,
+   "share": 0.367
   },
   {
    "name": "Resin prices & feedstock",
-   "count": 24,
+   "count": 31,
    "by_week": [
     3,
     4,
     4,
     4,
     5,
-    4
+    4,
+    7
    ],
-   "avg_score": 5.33,
-   "share": 0.233
+   "avg_score": 5.35,
+   "share": 0.258
   },
   {
    "name": "Recycled content & claims",
-   "count": 20,
+   "count": 24,
    "by_week": [
     2,
     6,
     2,
     2,
     5,
-    3
+    3,
+    4
    ],
-   "avg_score": 5.55,
-   "share": 0.194
+   "avg_score": 5.62,
+   "share": 0.2
   },
   {
    "name": "M&A & partnerships",
-   "count": 15,
+   "count": 18,
    "by_week": [
     4,
     1,
     2,
     1,
     4,
+    3,
     3
    ],
    "avg_score": 5.0,
-   "share": 0.146
+   "share": 0.15
   },
   {
    "name": "EPR & packaging law",
-   "count": 13,
+   "count": 15,
    "by_week": [
     3,
     2,
     2,
     1,
     2,
-    3
+    3,
+    2
    ],
-   "avg_score": 5.69,
-   "share": 0.126
+   "avg_score": 5.8,
+   "share": 0.125
   },
   {
    "name": "Chemical & enzymatic recycling",
-   "count": 8,
+   "count": 11,
    "by_week": [
     1,
     2,
     1,
     1,
     2,
-    1
+    1,
+    3
    ],
-   "avg_score": 5.62,
-   "share": 0.078
+   "avg_score": 5.82,
+   "share": 0.092
   },
   {
    "name": "AI & digital",
-   "count": 8,
+   "count": 9,
    "by_week": [
     3,
     1,
     2,
     1,
     0,
+    1,
     1
    ],
-   "avg_score": 5.12,
-   "share": 0.078
+   "avg_score": 5.11,
+   "share": 0.075
   },
   {
    "name": "Textiles",
-   "count": 7,
+   "count": 8,
    "by_week": [
     0,
     2,
     2,
     1,
     1,
+    1,
     1
    ],
-   "avg_score": 5.57,
-   "share": 0.068
+   "avg_score": 5.62,
+   "share": 0.067
+  },
+  {
+   "name": "Mechanical recycling",
+   "count": 7,
+   "by_week": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    1,
+    2
+   ],
+   "avg_score": 5.43,
+   "share": 0.058
   },
   {
    "name": "Medical & healthcare",
@@ -358,52 +403,41 @@
     2,
     1,
     3,
+    0,
     0
    ],
    "avg_score": 5.17,
-   "share": 0.058
-  },
-  {
-   "name": "Mechanical recycling",
-   "count": 5,
-   "by_week": [
-    0,
-    0,
-    1,
-    1,
-    2,
-    1
-   ],
-   "avg_score": 5.6,
-   "share": 0.049
+   "share": 0.05
   },
   {
    "name": "Automotive & EV",
-   "count": 5,
+   "count": 6,
    "by_week": [
     2,
     1,
     1,
+    0,
+    0,
+    1,
+    1
+   ],
+   "avg_score": 5.0,
+   "share": 0.05
+  },
+  {
+   "name": "Trade, tariffs & duties",
+   "count": 5,
+   "by_week": [
+    1,
+    2,
+    1,
+    0,
     0,
     0,
     1
    ],
-   "avg_score": 5.0,
-   "share": 0.049
-  },
-  {
-   "name": "Trade, tariffs & duties",
-   "count": 4,
-   "by_week": [
-    1,
-    2,
-    1,
-    0,
-    0,
-    0
-   ],
-   "avg_score": 5.5,
-   "share": 0.039
+   "avg_score": 5.6,
+   "share": 0.042
   },
   {
    "name": "Bans & chemical restrictions",
@@ -414,144 +448,146 @@
     1,
     0,
     0,
+    0,
     0
    ],
    "avg_score": 5.0,
-   "share": 0.039
+   "share": 0.033
   }
  ],
  "theme_momentum": {
   "Polymer": [
    {
-    "name": "Polyethylene (PE/HDPE/LDPE)",
+    "name": "Polypropylene (PP)",
     "recent": 6,
-    "earlier": 7,
-    "delta": 0.0292
+    "earlier": 6,
+    "delta": 0.0417
+   },
+   {
+    "name": "Polyethylene (PE/HDPE/LDPE)",
+    "recent": 7,
+    "earlier": 10,
+    "delta": 0.0315
    },
    {
     "name": "Bio-based & biodegradable",
-    "recent": 3,
-    "earlier": 2,
-    "delta": 0.0257
-   },
-   {
-    "name": "PVC",
-    "recent": 3,
-    "earlier": 2,
-    "delta": 0.0257
-   },
-   {
-    "name": "Polypropylene (PP)",
-    "recent": 3,
-    "earlier": 5,
-    "delta": 0.0035
+    "recent": 4,
+    "earlier": 4,
+    "delta": 0.0278
    },
    {
     "name": "Engineering & high-performance",
+    "recent": 4,
+    "earlier": 5,
+    "delta": 0.0221
+   },
+   {
+    "name": "PVC",
     "recent": 2,
-    "earlier": 4,
-    "delta": -0.0026
+    "earlier": 3,
+    "delta": 0.0082
    },
    {
     "name": "PET / polyester",
-    "recent": 4,
-    "earlier": 10,
-    "delta": -0.02
+    "recent": 3,
+    "earlier": 12,
+    "delta": -0.0306
    }
   ],
   "Driver": [
    {
-    "name": "M&A & partnerships",
-    "recent": 7,
-    "earlier": 8,
-    "delta": 0.0353
+    "name": "Resin prices & feedstock",
+    "recent": 11,
+    "earlier": 20,
+    "delta": 0.025
    },
    {
     "name": "Mechanical recycling",
     "recent": 3,
-    "earlier": 2,
-    "delta": 0.0257
+    "earlier": 4,
+    "delta": 0.0151
    },
    {
-    "name": "Recycled content & claims",
-    "recent": 8,
+    "name": "Chemical & enzymatic recycling",
+    "recent": 4,
+    "earlier": 7,
+    "delta": 0.0106
+   },
+   {
+    "name": "M&A & partnerships",
+    "recent": 6,
     "earlier": 12,
-    "delta": 0.0192
-   },
-   {
-    "name": "Medical & healthcare",
-    "recent": 3,
-    "earlier": 3,
-    "delta": 0.0183
-   },
-   {
-    "name": "Resin prices & feedstock",
-    "recent": 9,
-    "earlier": 15,
-    "delta": 0.0105
+    "delta": 0.0074
    },
    {
     "name": "EPR & packaging law",
     "recent": 5,
-    "earlier": 8,
-    "delta": 0.0083
+    "earlier": 10,
+    "delta": 0.0061
    },
    {
-    "name": "Chemical & enzymatic recycling",
-    "recent": 3,
-    "earlier": 5,
-    "delta": 0.0035
+    "name": "Automotive & EV",
+    "recent": 2,
+    "earlier": 4,
+    "delta": 0.0025
+   },
+   {
+    "name": "Recycled content & claims",
+    "recent": 7,
+    "earlier": 17,
+    "delta": -0.0085
    },
    {
     "name": "Textiles",
     "recent": 2,
-    "earlier": 5,
-    "delta": -0.01
+    "earlier": 6,
+    "delta": -0.009
    },
    {
-    "name": "Automotive & EV",
+    "name": "Trade, tariffs & duties",
     "recent": 1,
     "earlier": 4,
-    "delta": -0.0161
+    "delta": -0.0102
+   },
+   {
+    "name": "AI & digital",
+    "recent": 2,
+    "earlier": 7,
+    "delta": -0.0147
    },
    {
     "name": "Bans & chemical restrictions",
     "recent": 0,
     "earlier": 4,
-    "delta": -0.0296
+    "delta": -0.0229
    },
    {
-    "name": "Trade, tariffs & duties",
+    "name": "Medical & healthcare",
     "recent": 0,
-    "earlier": 4,
-    "delta": -0.0296
-   },
-   {
-    "name": "AI & digital",
-    "recent": 1,
-    "earlier": 7,
-    "delta": -0.0383
+    "earlier": 6,
+    "delta": -0.0343
    },
    {
     "name": "Capacity moves & investment",
-    "recent": 11,
-    "earlier": 28,
-    "delta": -0.0588
+    "recent": 10,
+    "earlier": 34,
+    "delta": -0.0677
    }
   ]
  },
  "top_tags": [
   {
    "name": "packaging",
-   "count": 12,
-   "issues": 5,
+   "count": 15,
+   "issues": 6,
    "by_week": [
     2,
     1,
     2,
     2,
     5,
-    0
+    0,
+    3
    ]
   },
   {
@@ -564,7 +600,8 @@
     1,
     1,
     0,
-    2
+    2,
+    0
    ]
   },
   {
@@ -577,20 +614,50 @@
     2,
     1,
     2,
+    0,
     0
    ]
   },
   {
    "name": "PET",
-   "count": 8,
-   "issues": 5,
+   "count": 9,
+   "issues": 6,
    "by_week": [
     1,
     0,
     2,
     2,
     1,
-    2
+    2,
+    1
+   ]
+  },
+  {
+   "name": "plastic packaging",
+   "count": 8,
+   "issues": 5,
+   "by_week": [
+    1,
+    3,
+    1,
+    0,
+    2,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "chemical recycling",
+   "count": 7,
+   "issues": 4,
+   "by_week": [
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    3
    ]
   },
   {
@@ -603,59 +670,92 @@
     2,
     0,
     2,
-    1
-   ]
-  },
-  {
-   "name": "plastic packaging",
-   "count": 7,
-   "issues": 4,
-   "by_week": [
     1,
-    3,
-    1,
-    0,
-    2,
     0
    ]
   },
   {
    "name": "polypropylene",
-   "count": 5,
-   "issues": 4,
+   "count": 7,
+   "issues": 5,
    "by_week": [
     0,
     1,
     1,
     0,
     1,
+    2,
     2
    ]
   },
   {
-   "name": "chemical recycling",
-   "count": 4,
-   "issues": 3,
+   "name": "recycled plastics",
+   "count": 5,
+   "issues": 4,
    "by_week": [
-    1,
+    0,
     2,
+    1,
     0,
-    0,
+    1,
     0,
     1
    ]
   },
   {
-   "name": "recycled plastics",
+   "name": "recycled content",
+   "count": 5,
+   "issues": 4,
+   "by_week": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    2
+   ]
+  },
+  {
+   "name": "mechanical recycling",
+   "count": 5,
+   "issues": 5,
+   "by_week": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "plastics recycling",
+   "count": 4,
+   "issues": 4,
+   "by_week": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "automotive",
    "count": 4,
    "issues": 3,
    "by_week": [
-    0,
     2,
     1,
     0,
-    1,
-    0
+    0,
+    0,
+    0,
+    1
    ]
   },
   {
@@ -667,6 +767,35 @@
     2,
     0,
     0,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "name": "regulation",
+   "count": 4,
+   "issues": 3,
+   "by_week": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    2
+   ]
+  },
+  {
+   "name": "bioplastics",
+   "count": 4,
+   "issues": 4,
+   "by_week": [
+    0,
+    0,
+    1,
+    0,
+    1,
     1,
     1
    ]
@@ -681,20 +810,8 @@
     1,
     1,
     0,
-    2
-   ]
-  },
-  {
-   "name": "mechanical recycling",
-   "count": 4,
-   "issues": 4,
-   "by_week": [
-    0,
-    0,
-    1,
-    1,
-    1,
-    1
+    2,
+    0
    ]
   },
   {
@@ -707,19 +824,7 @@
     0,
     0,
     2,
-    2
-   ]
-  },
-  {
-   "name": "plastics recycling",
-   "count": 3,
-   "issues": 3,
-   "by_week": [
-    1,
-    1,
-    0,
-    0,
-    1,
+    2,
     0
    ]
   },
@@ -733,19 +838,7 @@
     0,
     0,
     1,
-    1
-   ]
-  },
-  {
-   "name": "automotive",
-   "count": 3,
-   "issues": 2,
-   "by_week": [
-    2,
     1,
-    0,
-    0,
-    0,
     0
    ]
   },
@@ -759,7 +852,8 @@
     1,
     0,
     0,
-    1
+    1,
+    0
    ]
   },
   {
@@ -772,6 +866,21 @@
     0,
     0,
     0,
+    1,
+    0
+   ]
+  },
+  {
+   "name": "M&A",
+   "count": 3,
+   "issues": 3,
+   "by_week": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
     1
    ]
   },
@@ -785,20 +894,22 @@
     0,
     0,
     0,
+    0,
     0
    ]
   },
   {
-   "name": "recycled content",
+   "name": "capacity",
    "count": 3,
    "issues": 3,
    "by_week": [
     0,
     1,
+    1,
     0,
-    1,
-    1,
-    0
+    0,
+    0,
+    1
    ]
   },
   {
@@ -811,253 +922,206 @@
     0,
     0,
     1,
-    1
-   ]
-  },
-  {
-   "name": "bioplastics",
-   "count": 3,
-   "issues": 3,
-   "by_week": [
-    0,
-    0,
     1,
-    0,
-    1,
-    1
-   ]
-  },
-  {
-   "name": "enzymatic recycling",
-   "count": 3,
-   "issues": 3,
-   "by_week": [
-    0,
-    0,
-    1,
-    1,
-    1,
-    0
-   ]
-  },
-  {
-   "name": "EV",
-   "count": 2,
-   "issues": 2,
-   "by_week": [
-    1,
-    0,
-    0,
-    0,
-    0,
-    1
-   ]
-  },
-  {
-   "name": "M&A",
-   "count": 2,
-   "issues": 2,
-   "by_week": [
-    1,
-    0,
-    0,
-    1,
-    0,
     0
    ]
   }
  ],
  "rising_tags": [
   {
-   "name": "polyethylene",
+   "name": "chemical recycling",
    "recent": 4,
-   "earlier": 0,
-   "delta": 0.025
+   "earlier": 3,
+   "delta": 0.0192
   },
   {
    "name": "polypropylene",
-   "recent": 3,
-   "earlier": 2,
-   "delta": 0.012
+   "recent": 4,
+   "earlier": 3,
+   "delta": 0.0192
   },
   {
-   "name": "PVC",
+   "name": "polycarbonate",
+   "recent": 2,
+   "earlier": 0,
+   "delta": 0.0135
+  },
+  {
+   "name": "food packaging",
    "recent": 2,
    "earlier": 1,
-   "delta": 0.0091
-  },
-  {
-   "name": "bioplastics",
-   "recent": 2,
-   "earlier": 1,
-   "delta": 0.0091
-  },
-  {
-   "name": "material qualification",
-   "recent": 2,
-   "earlier": 1,
-   "delta": 0.0091
-  },
-  {
-   "name": "packaging",
-   "recent": 5,
-   "earlier": 7,
-   "delta": 0.0076
-  },
-  {
-   "name": "HDPE",
-   "recent": 2,
-   "earlier": 2,
-   "delta": 0.0057
+   "delta": 0.0109
   },
   {
    "name": "MRF",
    "recent": 2,
    "earlier": 2,
-   "delta": 0.0057
+   "delta": 0.0083
+  },
+  {
+   "name": "bioplastics",
+   "recent": 2,
+   "earlier": 2,
+   "delta": 0.0083
+  },
+  {
+   "name": "polyethylene",
+   "recent": 2,
+   "earlier": 2,
+   "delta": 0.0083
+  },
+  {
+   "name": "regulation",
+   "recent": 2,
+   "earlier": 2,
+   "delta": 0.0083
   },
   {
    "name": "mechanical recycling",
    "recent": 2,
-   "earlier": 2,
+   "earlier": 3,
    "delta": 0.0057
   },
   {
-   "name": "EPR",
-   "recent": 3,
-   "earlier": 4,
-   "delta": 0.0052
+   "name": "recycled content",
+   "recent": 2,
+   "earlier": 3,
+   "delta": 0.0057
   }
  ],
  "cooling_tags": [
   {
    "name": "capacity expansion",
-   "recent": 2,
+   "recent": 0,
+   "earlier": 9,
+   "delta": -0.0235
+  },
+  {
+   "name": "plastic packaging",
+   "recent": 1,
    "earlier": 7,
+   "delta": -0.0115
+  },
+  {
+   "name": "packaging",
+   "recent": 3,
+   "earlier": 12,
    "delta": -0.0111
   },
   {
-   "name": "injection molding",
-   "recent": 2,
-   "earlier": 7,
-   "delta": -0.0111
+   "name": "EPR",
+   "recent": 1,
+   "earlier": 6,
+   "delta": -0.0089
   },
   {
-   "name": "automotive",
+   "name": "enzymatic recycling",
    "recent": 0,
    "earlier": 3,
-   "delta": -0.0101
+   "delta": -0.0078
   },
   {
    "name": "rPET",
    "recent": 0,
    "earlier": 3,
-   "delta": -0.0101
-  },
-  {
-   "name": "Horizon Europe",
-   "recent": 0,
-   "earlier": 2,
-   "delta": -0.0068
-  },
-  {
-   "name": "M&A",
-   "recent": 0,
-   "earlier": 2,
-   "delta": -0.0068
+   "delta": -0.0078
   }
  ],
  "pillar_momentum": [
   {
    "name": "Sustainable Materials",
-   "recent": 5,
-   "earlier": 5,
-   "delta": 0.0643
+   "recent": 7,
+   "earlier": 8,
+   "delta": 0.1202
   },
   {
    "name": "Market & Business",
    "recent": 5,
-   "earlier": 8,
-   "delta": 0.0195
+   "earlier": 9,
+   "delta": 0.0481
   },
   {
-   "name": "Recycling Technologies",
-   "recent": 7,
-   "earlier": 12,
-   "delta": 0.0153
-  },
-  {
-   "name": "Regulations & Compliance",
-   "recent": 7,
-   "earlier": 13,
-   "delta": 0.0004
-  },
-  {
-   "name": "Research & Patents",
-   "recent": 1,
-   "earlier": 3,
-   "delta": -0.017
+   "name": "Material Performance",
+   "recent": 3,
+   "earlier": 7,
+   "delta": 0.0104
   },
   {
    "name": "Supply Chain & Feedstock",
    "recent": 9,
-   "earlier": 18,
-   "delta": -0.0187
+   "earlier": 23,
+   "delta": 0.0084
   },
   {
-   "name": "Material Performance",
-   "recent": 2,
-   "earlier": 7,
-   "delta": -0.0489
+   "name": "Regulations & Compliance",
+   "recent": 6,
+   "earlier": 18,
+   "delta": -0.0251
+  },
+  {
+   "name": "Research & Patents",
+   "recent": 0,
+   "earlier": 4,
+   "delta": -0.046
+  },
+  {
+   "name": "Recycling Technologies",
+   "recent": 3,
+   "earlier": 17,
+   "delta": -0.1045
   }
  ],
  "regions": [
   {
    "name": "United States",
-   "count": 43,
+   "count": 47,
    "by_week": [
     6,
     9,
     9,
     7,
     8,
+    4,
     4
    ]
   },
   {
    "name": "European Union",
-   "count": 13,
+   "count": 18,
    "by_week": [
     2,
     3,
     3,
     0,
     3,
+    2,
+    5
+   ]
+  },
+  {
+   "name": "India & South Asia",
+   "count": 7,
+   "by_week": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    2,
     2
    ]
   },
   {
    "name": "Other Europe",
-   "count": 5,
+   "count": 6,
    "by_week": [
     1,
     2,
     1,
     0,
     1,
-    0
-   ]
-  },
-  {
-   "name": "India & South Asia",
-   "count": 5,
-   "by_week": [
-    1,
-    1,
     0,
-    1,
-    0,
-    2
+    1
    ]
   },
   {
@@ -1067,6 +1131,7 @@
     2,
     1,
     1,
+    0,
     0,
     0,
     0
@@ -1081,6 +1146,7 @@
     0,
     1,
     1,
+    0,
     0
    ]
   },
@@ -1091,6 +1157,7 @@
     1,
     0,
     2,
+    0,
     0,
     0,
     0
@@ -1105,6 +1172,7 @@
     1,
     0,
     0,
+    0,
     0
    ]
   },
@@ -1117,19 +1185,21 @@
     1,
     0,
     0,
-    1
+    1,
+    0
    ]
   },
   {
    "name": "France",
-   "count": 2,
+   "count": 3,
    "by_week": [
     0,
     1,
     1,
     0,
     0,
-    0
+    0,
+    1
    ]
   },
   {
@@ -1141,6 +1211,7 @@
     0,
     0,
     1,
+    0,
     0
    ]
   },
@@ -1153,56 +1224,57 @@
     0,
     0,
     0,
-    1
+    1,
+    0
    ]
   }
  ],
  "sources": [
   {
    "name": "PlasticsToday",
-   "count": 54
+   "count": 59
   },
   {
    "name": "Resource Recycling",
-   "count": 18
+   "count": 22
   },
   {
    "name": "Recycling processes",
-   "count": 8
+   "count": 10
   },
   {
    "name": "Customer value and product design",
    "count": 7
   },
   {
+   "name": "PCR and renewable materials",
+   "count": 7
+  },
+  {
    "name": "EU regulatory sources",
-   "count": 5
+   "count": 6
   },
   {
    "name": "Emerging polymers and materials AI",
    "count": 4
   },
   {
-   "name": "PCR and renewable materials",
-   "count": 4
-  },
-  {
    "name": "European Bioplastics",
-   "count": 2
+   "count": 3
   },
   {
    "name": "Resin markets and feedstock",
-   "count": 1
+   "count": 2
   }
  ],
  "actions": [
   {
    "name": "Request evidence",
-   "count": 53
+   "count": 68
   },
   {
    "name": "Track",
-   "count": 34
+   "count": 35
   },
   {
    "name": "Verify",
@@ -1210,7 +1282,7 @@
   },
   {
    "name": "Other",
-   "count": 5
+   "count": 6
   },
   {
    "name": "Qualify / decide",
@@ -1249,6 +1321,37 @@
    ],
    "next_action": "Track DOE milestone disclosures and ask Eastman for updated capacity, grade and qualification timelines; keep a contingency for RPET supply exposed to the industry closures.",
    "action": "Track"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "PureCycle shifts PP sales to non-food, signs WM feedstock deal",
+   "url": "https://resource-recycling.com/plastics/2026/11/05/purecycle-shifts-focus-secures-feedstock/",
+   "score": 8.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-11-05",
+   "summary": "PureCycle is shifting polypropylene (PP) sales toward non-food rigid applications after New Jersey's three-year delay of its food-contact PCR (post-consumer recycled) mandate removed about 50 million lbs/yr from 2026, CEO Dustin Olson said on the Nov. 4 Q3 call. It also signed a three-year WM contract for up to 25 million lbs (11,340 metric tons) of post-consumer PP bales annually from November. Q3 revenue was $2.3M, down 49% QoQ, with adjusted EBITDA near -$28M.",
+   "tags": [
+    "polypropylene",
+    "recycled content",
+    "feedstock",
+    "california-SB54",
+    "chemical recycling"
+   ],
+   "themes": [
+    "Polymer: Polypropylene (PP)",
+    "Driver: Resin prices & feedstock",
+    "Driver: Recycled content & claims",
+    "Driver: Chemical & enzymatic recycling"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Ask suppliers for APR certification and physical chain-of-custody evidence, and track the CAA program plan before committing 2027 recycled-content volumes.",
+   "action": "Request evidence"
   },
   {
    "issue": "2026-09-27",
@@ -1430,6 +1533,35 @@
    ],
    "next_action": "Ask Triton for the PCR pellet specification and a sample, and verify the AREMA standard compliance and major-US-railroad approvals cited in its statement.",
    "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 1,
+   "title": "CEN members approve four design-for-recycling specs for biodegradable packaging",
+   "url": "https://www.european-bioplastics.org/design-for-recycling-technical-specifications/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "European Bioplastics",
+   "published": "2026-11-03",
+   "summary": "CEN National Members, representing the national standardisation bodies of 34 European countries, approved four Technical Specifications on design for recycling of rigid and flexible packaging made of biodegradable plastics, European Bioplastics reported from Brussels on 3 November 2026. The documents — CEN/TS 18382 and 18383 (design guidelines) and CEN/TS 18395 and 18396 (recyclability evaluation processes) — address material recycling only, not organic recycling, and are intended to support Article 6 of the EU Packaging and Packaging Waste Regulation (PPWR), including Table 1 Category 19 of Annex II. Publication is expected in December 2026; the technical content was absent from the supplied material.",
+   "tags": [
+    "biodegradable plastics",
+    "packaging",
+    "design for recycling",
+    "PPWR",
+    "CEN standards"
+   ],
+   "themes": [
+    "Polymer: Bio-based & biodegradable",
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "When CEN publishes the four texts in December 2026, check whether the specific packaging format falls under Annex II Table 1 Category 19, and track the delegated act timetable.",
+   "action": "Other"
   },
   {
    "issue": "2026-09-27",
@@ -1792,6 +1924,151 @@
    "regions": [],
    "next_action": "Track Maryland's April 2027 producer plans and request the line's accepted plastics grades.",
    "action": "Track"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 1,
+   "title": "UC Riverside reuse program reports 95.4% container return rate",
+   "url": "https://resource-recycling.com/recycling/2026/11/06/uc-riverside-expands-reusable-takeout-program/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-11-06",
+   "summary": "UC Riverside expanded Reusables.com's reusable takeout container program to seven dining locations — including Panda Express, Chronic Tacos, The Halal Shack and Hibachi-San at the Highlander Union Building — in September 2026. Vendor figures put uptake at about half of takeout orders, double the planned level, with roughly 23,000 reuses and a 95.4% return rate versus a 98.5% companywide average across nearly 2 million reuses. Disposables cost $1 there; containers kept past five days incur a $5 charge, refunded if returned within 30 days, according to the university.",
+   "tags": [
+    "reuse systems",
+    "food service ware",
+    "packaging-EPR",
+    "SB 54",
+    "California"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the disposable-versus-reuse cost comparison behind the break-even claim, and track whether Circular Action Alliance's proposed reuse bonuses survive into the approved SB 54 plan.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "NylaNova–Nylene deal targets mixed nylon-6 waste",
+   "url": "https://resource-recycling.com/recycling/2026/11/04/partnership-targets-mixed-nylon-waste/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-11-04",
+   "summary": "NylaNova, an Evanston, Illinois startup, will supply nylon producer Nylene with recycled caprolactam from catalyzed depolymerization of mixed nylon-6 waste, including post-consumer carpet and apparel; volumes, delivery dates and whether the deal binds are undisclosed. NylaNova cites tonne-scale continuous pilot runs with feed only 65% nylon and yields above 90%, but no minimum nylon-6 content or contamination limits. A third-party screening life-cycle assessment (LCA) projects 94–96% lower cradle-to-gate emissions; a 20,000 metric tons/year U.S. plant is targeted for 2028.",
+   "tags": [
+    "nylon 6",
+    "caprolactam",
+    "chemical recycling",
+    "depolymerization",
+    "US"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims",
+    "Driver: Chemical & enzymatic recycling",
+    "Driver: Textiles"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the third-party LCA report, minimum nylon-6 content and contamination thresholds, and plant location; track fundraising progress and whether the Nylene offtake becomes binding.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 2,
+   "title": "NexPoint to close Alabama PC plant, move output to Indiana",
+   "url": "https://resource-recycling.com/plastics/2026/11/04/nexpoint-materials-to-shutter-alabama-plastics-plant/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-11-04",
+   "summary": "NexPoint Materials will close its Alabama polycarbonate resin and compounding plant near the end of Q1 2027, moving that production to its Mount Vernon, Indiana site, citing slowing PC demand. The Houston-based company calls the move part of a broader restructuring and says most customers will be unaffected, with impacts varying by product; a spokesperson declined to state affected headcount or cost savings. Plant capacity, cost impact and the identity of affected customers are absent from the supplied material.",
+   "tags": [
+    "polycarbonate",
+    "engineering thermoplastics",
+    "plant closure",
+    "supply consolidation",
+    "alabama"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "India & South Asia"
+   ],
+   "next_action": "Request written confirmation, per grade, of manufacturing site and the transition plan, including qualification samples and lead times, ahead of the Q1 2027 closure.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 2,
+   "title": "EU Member States Back Harmonized End-of-Waste Criteria for Recycled Plastics",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMjBHZ3htNnJxQ3hGcXY3bnRqM1dvbm9fLXAxSXM1N2tfVzFQdzVPQi1tUG04SmRNWV80aGx6d25MUmg2RnlId1hYOXlJUzNzTnMzbDc0dUx2bnBFM0pzNUxYSU0zWENER0k2dDdkTnB5TEwyOThleUlVbERhRFZXdUNYZ2Zycm9kMm5OcmNiWjFhSkhrWjlCdGZ3?oc=5",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-11-06",
+   "summary": "Packaging Insights reported that EU countries back harmonized end-of-waste criteria for recycled plastics; a related Plastics News headline says member states approved them. The supplied material is headlines only — no date, legal instrument, vote outcome, criteria detail or material scope — so it is unclear whether this is political support, a formal Council position or adopted law.",
+   "tags": [
+    "recycled plastics",
+    "end of waste",
+    "EU",
+    "regulation",
+    "packaging"
+   ],
+   "themes": [],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Track the official Council or Commission record to confirm instrument type, adoption stage and application date before adjusting incoming-material specifications.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 3,
+   "title": "EU Opens Safeguard Investigation Into PET Resin Imports",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdjBHTUQ2ZzVoMU95OEJYMU1UcERxOVV2YXFhUzM1dktxSFRuRnRwaXNMYzZmMEFiWmpHU2VQeVptZGFZdXBLaE1FUlhkMGNiRWh5bnBqcm1FcFNhZVA3em4tR0JoQ2E1RmVmbWFMbHhVRjdQemhVRXdnZ2RvbWZBSHZNYWh3Y1NBemF1Z1YtdWJTWEFaVUt6Tm5FOERsei1SZ09vRjRveG9xZGlDLUdTWlc1ZnFQbnVqdUdLMUFBQWt3blk?oc=5",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "EU regulatory sources",
+   "published": "2026-11-06",
+   "summary": "The European Commission has initiated a safeguard investigation into imports of PET resin chemicals, according to a headline on policy.trade.ec.europa.eu. PET (polyethylene terephthalate) is the polymer named in the item. The supplied material contains no product scope, covered origins, investigation timetable, provisional measures or quantitative data.",
+   "tags": [
+    "PET",
+    "trade safeguard",
+    "EU",
+    "regulation",
+    "resin"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: PET / polyester",
+    "Driver: Trade, tariffs & duties"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Retrieve the official investigation notice and check product scope, covered origins, and the distinction between initiation, provisional measures and any final decision before adjusting supplier or specification planning.",
+   "action": "Request evidence"
   }
  ],
  "items": [
@@ -4719,6 +4996,496 @@
    ],
    "next_action": "Open the linked page and verify, per target market, the applicable member state or EEA scheme, polymer/format coverage, reporting deadlines and fee-modulation criteria, recording whether each is a proposal or an obligation in force.",
    "action": "Other"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "market-business",
+   "pillar_name": "Market & Business",
+   "rank": 1,
+   "title": "US PP export prices edge lower despite tight spot availability",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Ocm9Lc0RTN1o2eDVLOEFsMTJmNDhpY0V3Z09Ic0VPeWdDb1JpZC1TUkZJRHNxZjRvcXZpWkZ6bG1mblNIQkdOamxJWG1oYXh3MktDV0dpc2JBTXVfSnhOaGg5R25rYjc4RzNJLQ?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Resin markets and feedstock",
+   "published": "2026-11-06",
+   "summary": "Polymerupdate reports that US polypropylene (PP) export prices edged lower, even as spot availability was described as tight. The supplied item consists only of the headline: it gives no price levels, no size of the decline, no comparison baseline or time period, and no stated cause. No grade or export destination is specified in the supplied material.",
+   "tags": [
+    "polypropylene",
+    "US",
+    "export pricing",
+    "spot availability"
+   ],
+   "themes": [
+    "Polymer: Polypropylene (PP)",
+    "Driver: Resin prices & feedstock"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the full Polymerupdate assessment to obtain the price level, weekly change, basis, grade and export destination, then compare it with your current export-parity reference before changing any contract assumption.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 1,
+   "title": "UC Riverside reuse program reports 95.4% container return rate",
+   "url": "https://resource-recycling.com/recycling/2026/11/06/uc-riverside-expands-reusable-takeout-program/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-11-06",
+   "summary": "UC Riverside expanded Reusables.com's reusable takeout container program to seven dining locations — including Panda Express, Chronic Tacos, The Halal Shack and Hibachi-San at the Highlander Union Building — in September 2026. Vendor figures put uptake at about half of takeout orders, double the planned level, with roughly 23,000 reuses and a 95.4% return rate versus a 98.5% companywide average across nearly 2 million reuses. Disposables cost $1 there; containers kept past five days incur a $5 charge, refunded if returned within 30 days, according to the university.",
+   "tags": [
+    "reuse systems",
+    "food service ware",
+    "packaging-EPR",
+    "SB 54",
+    "California"
+   ],
+   "themes": [
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the disposable-versus-reuse cost comparison behind the break-even claim, and track whether Circular Action Alliance's proposed reuse bonuses survive into the approved SB 54 plan.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 2,
+   "title": "Nivea partners develop 22% PCR shrink film for skincare packaging",
+   "url": "https://www.plasticstoday.com/packaging/nivea-partners-achieve-22-recycled-content-in-shrink-film",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-11-03",
+   "summary": "Nivea, Green Worms, Vardhaman Polypacks and ExxonMobil Signature Polymers have developed a shrink film for skincare packaging containing 22% post-consumer recycled (PCR) content, according to the supplied item, which describes it as high-performance. The excerpt does not give film performance data, a virgin-resin baseline, qualification results or production scale.",
+   "tags": [
+    "shrink film",
+    "post consumer recycled content",
+    "plastic packaging",
+    "skincare"
+   ],
+   "themes": [
+    "Driver: M&A & partnerships",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [],
+   "next_action": "Ask the partners for a technical data sheet and sample qualification plan covering the 22% PCR grade, then compare it with the incumbent film’s specifications.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 3,
+   "title": "Envalior links recycled PA6 feedstock, bio-based PPS to EU rules",
+   "url": "https://www.plasticstoday.com/materials/envalior-bets-on-circular-pa6-and-bio-based-pps",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-11-03",
+   "summary": "Envalior is pursuing a SECARA partnership for recycled caprolactam from scrapped vehicles for polyamide 6 (PA6) and, per the supplied summary, bio-based polyphenylene sulfide (PPS), as European Union (EU) recycled-content rules approach. The supplied material gives no scale, timing, qualification status, economics or verified performance data.",
+   "tags": [
+    "PA6",
+    "recycled caprolactam",
+    "bio-based PPS",
+    "EU recycled-content rules",
+    "automotive"
+   ],
+   "themes": [
+    "Polymer: Bio-based & biodegradable",
+    "Polymer: Engineering & high-performance",
+    "Driver: Resin prices & feedstock",
+    "Driver: M&A & partnerships",
+    "Driver: Automotive & EV"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Request current specification sheets, recycled-content documentation and sample availability from Envalior/SECARA; verify against the applicable EU rule's proposed or final requirements.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 4,
+   "title": "ICAR-CIAE and Natures Bioplastics report biodegradable milk and water films",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXlweldMWXF6R3puNk9ybTdPNG5LdFhtbk4wb1cwRmRhdzNkZDdZMW5tTXk5TGtDV0IwZFBMOHFTYW1Gdm5SbjZCMndGR3NEaEV1NWtQQWRTZ19hanlOWWxYdjJUbUJWdkp4WExoamgwREdmbEo1ZTZTb29BUFJROWlON21FX1YxMmtHLV9kcnRPVDNJZmJqMzZlUmwtVVo4NGktN3V0dDZSdzNZQjVjSDhIeWlJdTRuRnZZ?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PCR and renewable materials",
+   "published": "2026-11-06",
+   "summary": "The Indian Council of Agricultural Research’s Central Institute of Agricultural Engineering (ICAR-CIAE), Bhopal, and Natures Bioplastics Pvt. Ltd. reportedly developed biodegradable films for milk and water packaging, according to an ICAR item. The supplied material provides only the headline; polymer composition, barrier/mechanical performance, test conditions, certification, production scale and commercialization status are absent.",
+   "tags": [
+    "biodegradable films",
+    "bioplastics",
+    "food packaging",
+    "India"
+   ],
+   "themes": [
+    "Polymer: Bio-based & biodegradable"
+   ],
+   "regions": [
+    "India & South Asia"
+   ],
+   "next_action": "Request the ICAR-CIAE technical bulletin or a sample specification and compare film barrier, seal strength and food-contact compliance against incumbent milk and water packaging films under defined test conditions.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "sustainable-materials",
+   "pillar_name": "Sustainable Materials",
+   "rank": 5,
+   "title": "BENZ vapour-corrosion films reportedly contain 30% post-consumer PE",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWDhqWVdnbDdHcVFrQTEwdUd0WFNmQWVFRXNVRy1OTFFfODI3MGlKOEs3VnRRSmEwbHU0NzktVlB5VWxDSmxESk9LYVhSRldiWTRiYjdZV0ZqemVBM25VZXJxVUdfeHJHLURBRDlyTFFNZEp4TUhaUlNaU2JKX0dpN1RQOFZic3dJN0xPaFhTaC1tcG03bFBra3hfdFdBUHRI?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PCR and renewable materials",
+   "published": "2026-11-06",
+   "summary": "Packaging Europe’s headline reports that BENZ’s vapour corrosion inhibitor films contain 30% post-consumer polyethylene (PE). The supplied material gives no film grade, inhibitor chemistry, feedstock source, certification, performance data or commercial scale, so the claim is unverified beyond the headline.",
+   "tags": [
+    "post-consumer PE",
+    "recycled content",
+    "films",
+    "packaging"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Driver: Resin prices & feedstock",
+    "Driver: Recycled content & claims"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Request the technical data sheet and PCR-content certification, then compare inhibitor performance against the incumbent film under the intended packaging conditions.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "recycling-tech",
+   "pillar_name": "Recycling Technologies",
+   "rank": 1,
+   "title": "NylaNova–Nylene deal targets mixed nylon-6 waste",
+   "url": "https://resource-recycling.com/recycling/2026/11/04/partnership-targets-mixed-nylon-waste/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-11-04",
+   "summary": "NylaNova, an Evanston, Illinois startup, will supply nylon producer Nylene with recycled caprolactam from catalyzed depolymerization of mixed nylon-6 waste, including post-consumer carpet and apparel; volumes, delivery dates and whether the deal binds are undisclosed. NylaNova cites tonne-scale continuous pilot runs with feed only 65% nylon and yields above 90%, but no minimum nylon-6 content or contamination limits. A third-party screening life-cycle assessment (LCA) projects 94–96% lower cradle-to-gate emissions; a 20,000 metric tons/year U.S. plant is targeted for 2028.",
+   "tags": [
+    "nylon 6",
+    "caprolactam",
+    "chemical recycling",
+    "depolymerization",
+    "US"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: Capacity moves & investment",
+    "Driver: Recycled content & claims",
+    "Driver: Chemical & enzymatic recycling",
+    "Driver: Textiles"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Request the third-party LCA report, minimum nylon-6 content and contamination thresholds, and plant location; track fundraising progress and whether the Nylene offtake becomes binding.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "material-performance",
+   "pillar_name": "Material Performance",
+   "rank": 1,
+   "title": "Envalior launches Pocan BFN4135 halogen-free FR PBT grade",
+   "url": "https://www.plasticstoday.com/materials/new-flame-retardant-material-rivals-conventional-pbt-strength",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-11-03",
+   "summary": "Envalior has announced Pocan BFN4135, a halogen-free flame-retardant PBT that it positions as matching conventional PBT performance. The grade is aimed at connectors, bobbins and high-voltage applications, with Envalior citing tightening global regulations. The supplied announcement gives no quantified properties, flammability ratings, test conditions or comparison data.",
+   "tags": [
+    "PBT",
+    "halogen free flame retardant",
+    "connectors",
+    "high voltage",
+    "material launch"
+   ],
+   "themes": [],
+   "regions": [],
+   "next_action": "Request the Pocan BFN4135 datasheet and any comparative test data against the incumbent PBT, covering flammability rating, electrical properties and test conditions, before qualification.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 1,
+   "title": "PureCycle shifts PP sales to non-food, signs WM feedstock deal",
+   "url": "https://resource-recycling.com/plastics/2026/11/05/purecycle-shifts-focus-secures-feedstock/",
+   "score": 8.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-11-05",
+   "summary": "PureCycle is shifting polypropylene (PP) sales toward non-food rigid applications after New Jersey's three-year delay of its food-contact PCR (post-consumer recycled) mandate removed about 50 million lbs/yr from 2026, CEO Dustin Olson said on the Nov. 4 Q3 call. It also signed a three-year WM contract for up to 25 million lbs (11,340 metric tons) of post-consumer PP bales annually from November. Q3 revenue was $2.3M, down 49% QoQ, with adjusted EBITDA near -$28M.",
+   "tags": [
+    "polypropylene",
+    "recycled content",
+    "feedstock",
+    "california-SB54",
+    "chemical recycling"
+   ],
+   "themes": [
+    "Polymer: Polypropylene (PP)",
+    "Driver: Resin prices & feedstock",
+    "Driver: Recycled content & claims",
+    "Driver: Chemical & enzymatic recycling"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "next_action": "Ask suppliers for APR certification and physical chain-of-custody evidence, and track the CAA program plan before committing 2027 recycled-content volumes.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 2,
+   "title": "NexPoint to close Alabama PC plant, move output to Indiana",
+   "url": "https://resource-recycling.com/plastics/2026/11/04/nexpoint-materials-to-shutter-alabama-plastics-plant/",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Resource Recycling",
+   "published": "2026-11-04",
+   "summary": "NexPoint Materials will close its Alabama polycarbonate resin and compounding plant near the end of Q1 2027, moving that production to its Mount Vernon, Indiana site, citing slowing PC demand. The Houston-based company calls the move part of a broader restructuring and says most customers will be unaffected, with impacts varying by product; a spokesperson declined to state affected headcount or cost savings. Plant capacity, cost impact and the identity of affected customers are absent from the supplied material.",
+   "tags": [
+    "polycarbonate",
+    "engineering thermoplastics",
+    "plant closure",
+    "supply consolidation",
+    "alabama"
+   ],
+   "themes": [
+    "Polymer: Engineering & high-performance",
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [
+    "India & South Asia"
+   ],
+   "next_action": "Request written confirmation, per grade, of manufacturing site and the transition plan, including qualification samples and lead times, ahead of the Q1 2027 closure.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 3,
+   "title": "Matsui Acquires Moditec to Extend EMEA Auxiliary Equipment Reach",
+   "url": "https://www.plasticstoday.com/auxiliaries/deal-expands-matsui-s-reach-across-emea-market",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-11-03",
+   "summary": "Matsui Group has acquired Moditec, a French manufacturer of low-speed granulators, according to PlasticsToday reporting by David Hutton. The company frames the deal as strengthening its EMEA plastics-auxiliary equipment platform while retaining Moditec's brand, team, and customer relationships. Deal value, production capacity, integration timetable, and headcount are absent from the supplied material.",
+   "tags": [
+    "granulators",
+    "plastics processing",
+    "EMEA",
+    "M&A",
+    "Matsui Group"
+   ],
+   "themes": [
+    "Driver: Capacity moves & investment",
+    "Driver: M&A & partnerships",
+    "Driver: Mechanical recycling"
+   ],
+   "regions": [
+    "France"
+   ],
+   "next_action": "Request written confirmation from Matsui or Moditec of which legal entity will hold existing supply, warranty, and spare-parts agreements, and whether any specifications or lead times change.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 4,
+   "title": "Formosa Petrochemical Force Majeure Halts Some Ethylene, Propylene Output",
+   "url": "https://www.plasticstoday.com/resin-pricing/formosa-petrochemical-declares-force-majeure-amid-strait-crisis",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PlasticsToday",
+   "published": "2026-11-02",
+   "summary": "Plasticstoday reports that Formosa Petrochemical declared force majeure and halted parts of its ethylene and propylene output after tanker delays through the Strait of Hormuz. The supplied item does not specify the affected plant, capacity, duration, pricing impact or customer allocations.",
+   "tags": [
+    "force majeure",
+    "ethylene",
+    "propylene",
+    "Strait of Hormuz",
+    "feedstock supply"
+   ],
+   "themes": [
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment"
+   ],
+   "regions": [],
+   "next_action": "Ask suppliers for written confirmation of which ethylene or propylene grades and volumes are affected and the expected force-majeure duration, then compare that against contract allocation terms.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "supply-chain",
+   "pillar_name": "Supply Chain & Feedstock",
+   "rank": 5,
+   "title": "Morssinkhof-Rymoplast opens two Belgian recycling plants",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFVkV0pxOEh1YTQxS092MG80QjZNVGtVZ0o2LTBXT2tqdk5wV1RIczVnT3lPQmxSWE1DeEc2ZVZCVW9aeTlVYlhpNlE2R3hzZ1UtcUxJYnEtS25GUmZiUjE5ckM5YlJSOE1udzBacHJNX2pnX3p5NEd2aGRuakpLTVA5YW9ydl9JSmRwREZVQ054QkNjb2pUMHluZ1dacGdXVzRoRnpqOTM2WF8yandPS1JPeTd6Q3pJ?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-11-02",
+   "summary": "Morssinkhof-Rymoplast has reportedly opened two recycling plants in Belgium, according to Plastics News. A related Plasticker headline describes a new Belgian plant for PP and HDPE packaging, but the supplied material gives no capacity, tonnage, feedstock source, commissioning date or output grade for the facilities.",
+   "tags": [
+    "mechanical recycling",
+    "capacity",
+    "belgium",
+    "plastics recycling",
+    "recycled feedstock"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: Polypropylene (PP)",
+    "Driver: Resin prices & feedstock",
+    "Driver: Capacity moves & investment",
+    "Driver: Mechanical recycling"
+   ],
+   "regions": [
+    "Other Europe"
+   ],
+   "next_action": "Request plant specifications from Morssinkhof-Rymoplast — capacity, polymer grade, input feedstock, commissioning status and any food-contact certification — before considering the output for a qualified-supplier list.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 1,
+   "title": "CEN members approve four design-for-recycling specs for biodegradable packaging",
+   "url": "https://www.european-bioplastics.org/design-for-recycling-technical-specifications/",
+   "score": 7.0,
+   "channel": "rss",
+   "source": "European Bioplastics",
+   "published": "2026-11-03",
+   "summary": "CEN National Members, representing the national standardisation bodies of 34 European countries, approved four Technical Specifications on design for recycling of rigid and flexible packaging made of biodegradable plastics, European Bioplastics reported from Brussels on 3 November 2026. The documents — CEN/TS 18382 and 18383 (design guidelines) and CEN/TS 18395 and 18396 (recyclability evaluation processes) — address material recycling only, not organic recycling, and are intended to support Article 6 of the EU Packaging and Packaging Waste Regulation (PPWR), including Table 1 Category 19 of Annex II. Publication is expected in December 2026; the technical content was absent from the supplied material.",
+   "tags": [
+    "biodegradable plastics",
+    "packaging",
+    "design for recycling",
+    "PPWR",
+    "CEN standards"
+   ],
+   "themes": [
+    "Polymer: Bio-based & biodegradable",
+    "Driver: EPR & packaging law"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "When CEN publishes the four texts in December 2026, check whether the specific packaging format falls under Annex II Table 1 Category 19, and track the delegated act timetable.",
+   "action": "Other"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 2,
+   "title": "EU Member States Back Harmonized End-of-Waste Criteria for Recycled Plastics",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMjBHZ3htNnJxQ3hGcXY3bnRqM1dvbm9fLXAxSXM1N2tfVzFQdzVPQi1tUG04SmRNWV80aGx6d25MUmg2RnlId1hYOXlJUzNzTnMzbDc0dUx2bnBFM0pzNUxYSU0zWENER0k2dDdkTnB5TEwyOThleUlVbERhRFZXdUNYZ2Zycm9kMm5OcmNiWjFhSkhrWjlCdGZ3?oc=5",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "Recycling processes",
+   "published": "2026-11-06",
+   "summary": "Packaging Insights reported that EU countries back harmonized end-of-waste criteria for recycled plastics; a related Plastics News headline says member states approved them. The supplied material is headlines only — no date, legal instrument, vote outcome, criteria detail or material scope — so it is unclear whether this is political support, a formal Council position or adopted law.",
+   "tags": [
+    "recycled plastics",
+    "end of waste",
+    "EU",
+    "regulation",
+    "packaging"
+   ],
+   "themes": [],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Track the official Council or Commission record to confirm instrument type, adoption stage and application date before adjusting incoming-material specifications.",
+   "action": "Track"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 3,
+   "title": "EU Opens Safeguard Investigation Into PET Resin Imports",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdjBHTUQ2ZzVoMU95OEJYMU1UcERxOVV2YXFhUzM1dktxSFRuRnRwaXNMYzZmMEFiWmpHU2VQeVptZGFZdXBLaE1FUlhkMGNiRWh5bnBqcm1FcFNhZVA3em4tR0JoQ2E1RmVmbWFMbHhVRjdQemhVRXdnZ2RvbWZBSHZNYWh3Y1NBemF1Z1YtdWJTWEFaVUt6Tm5FOERsei1SZ09vRjRveG9xZGlDLUdTWlc1ZnFQbnVqdUdLMUFBQWt3blk?oc=5",
+   "score": 6.0,
+   "channel": "rss",
+   "source": "EU regulatory sources",
+   "published": "2026-11-06",
+   "summary": "The European Commission has initiated a safeguard investigation into imports of PET resin chemicals, according to a headline on policy.trade.ec.europa.eu. PET (polyethylene terephthalate) is the polymer named in the item. The supplied material contains no product scope, covered origins, investigation timetable, provisional measures or quantitative data.",
+   "tags": [
+    "PET",
+    "trade safeguard",
+    "EU",
+    "regulation",
+    "resin"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: PET / polyester",
+    "Driver: Trade, tariffs & duties"
+   ],
+   "regions": [
+    "European Union"
+   ],
+   "next_action": "Retrieve the official investigation notice and check product scope, covered origins, and the distinction between initiation, provisional measures and any final decision before adjusting supplier or specification planning.",
+   "action": "Request evidence"
+  },
+  {
+   "issue": "2026-11-08",
+   "pillar": "regulation-compliance",
+   "pillar_name": "Regulations & Compliance",
+   "rank": 4,
+   "title": "FSSAI draft rules would allow recycled PE and PP in food-contact packaging",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRTlpck9NTm5xYTdUeVhhUTdtVjBVZk5wY3BrZU1BNmtmVUJUVl9Fd3pjWS1BTmRZMmZmNzRSVjZQN1ZHbzBUSGFKcHMzaEFDVHZ5ZlJvMWtsLTlIam9uRENVTi1idEtaTTVSWmVFWnlDbzhuVVJnQkpnX05LYV9uYXdPS1VtTGxIa21hRWYtUjItb3dxcF94cHlickMtY0tUTFRtdEZ0Yw?oc=5",
+   "score": 5.0,
+   "channel": "rss",
+   "source": "PCR and renewable materials",
+   "published": "2026-11-04",
+   "summary": "FSSAI has reportedly proposed draft regulations — headlined \"Draft Regulations 2026\" — that would permit recycled polyethylene (PE) and polypropylene (PP) in food-contact packaging under a chemical recycling framework, per TaxCorp AI, with ThePrint and Zee Business covering the same proposal. The supplied material is headline-level only: permitted recycling processes, feedstock rules, migration limits, authorisation steps and application dates are absent. This is a proposal, not adopted or notified law.",
+   "tags": [
+    "recycled PE",
+    "recycled PP",
+    "food contact packaging",
+    "chemical recycling",
+    "FSSAI"
+   ],
+   "themes": [
+    "Polymer: Polyethylene (PE/HDPE/LDPE)",
+    "Polymer: Polypropylene (PP)",
+    "Driver: Resin prices & feedstock",
+    "Driver: Chemical & enzymatic recycling",
+    "Driver: AI & digital"
+   ],
+   "regions": [],
+   "next_action": "Obtain the full draft text from FSSAI and check permitted recycling routes, feedstock origin and testing requirements before altering any food-contact specification.",
+   "action": "Request evidence"
   }
  ]
 }
